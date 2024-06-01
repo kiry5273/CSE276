@@ -1,0 +1,752 @@
+[0.000000] (-) TimerEvent: {}
+[0.001802] (-) JobUnselected: {'identifier': 'champ'}
+[0.002440] (-) JobUnselected: {'identifier': 'champ_base'}
+[0.002549] (-) JobUnselected: {'identifier': 'champ_bringup'}
+[0.002643] (-) JobUnselected: {'identifier': 'champ_config'}
+[0.002734] (-) JobUnselected: {'identifier': 'champ_description'}
+[0.002829] (-) JobUnselected: {'identifier': 'champ_msgs'}
+[0.002919] (-) JobUnselected: {'identifier': 'champ_teleop'}
+[0.003006] (-) JobUnselected: {'identifier': 'go_pupper_srv'}
+[0.003092] (-) JobUnselected: {'identifier': 'ldlidar_stl_ros2'}
+[0.003179] (-) JobUnselected: {'identifier': 'mini_pupper_2_description'}
+[0.003265] (-) JobUnselected: {'identifier': 'mini_pupper_bringup'}
+[0.003351] (-) JobUnselected: {'identifier': 'mini_pupper_dance'}
+[0.003437] (-) JobUnselected: {'identifier': 'mini_pupper_description'}
+[0.003523] (-) JobUnselected: {'identifier': 'mini_pupper_driver'}
+[0.003607] (-) JobUnselected: {'identifier': 'mini_pupper_interfaces'}
+[0.003692] (-) JobUnselected: {'identifier': 'mini_pupper_music'}
+[0.003785] (pupper_interfaces) JobQueued: {'identifier': 'pupper_interfaces', 'dependencies': OrderedDict()}
+[0.003883] (pupper_interfaces) JobStarted: {'identifier': 'pupper_interfaces'}
+[0.098731] (-) TimerEvent: {}
+[0.105039] (pupper_interfaces) JobProgress: {'identifier': 'pupper_interfaces', 'progress': 'cmake'}
+[0.106118] (pupper_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/ros2_ws/src/pupper_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/pupper_interfaces'], 'cwd': '/home/ubuntu/ros2_ws/build/pupper_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/mini_pupper_interfaces/lib:/home/ubuntu/ros2_ws/install/champ_base/lib:/home/ubuntu/ros2_ws/install/champ_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1869'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('DESKTOP_AUTOSTART_ID', '108787dcdf92f23db0171538154078259200000018690016'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/ubuntu/ros2_ws/install/champ_base/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/minipupperv2:@/tmp/.ICE-unix/1869,unix/minipupperv2:/tmp/.ICE-unix/1869'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/99756a86_20ee_4f64_bef5_78131e56654b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_interfaces:/home/ubuntu/ros2_ws/install/mini_pupper_driver:/home/ubuntu/ros2_ws/install/mini_pupper_description:/home/ubuntu/ros2_ws/install/mini_pupper_bringup:/home/ubuntu/ros2_ws/install/mini_pupper_2_description:/home/ubuntu/ros2_ws/install/ldlidar_stl_ros2:/home/ubuntu/ros2_ws/install/champ_teleop:/home/ubuntu/ros2_ws/install/champ_bringup:/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ_description:/home/ubuntu/ros2_ws/install/champ_config:/home/ubuntu/ros2_ws/install/champ:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ros2_ws/build/pupper_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/build/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_music/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/build/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_dance/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/mini_pupper_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/build/mini_pupper_driver:/home/ubuntu/ros2_ws/install/mini_pupper_driver/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/champ_bringup/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/mini_pupper_interfaces:/home/ubuntu/ros2_ws/install/mini_pupper_description:/home/ubuntu/ros2_ws/install/mini_pupper_bringup:/home/ubuntu/ros2_ws/install/mini_pupper_2_description:/home/ubuntu/ros2_ws/install/ldlidar_stl_ros2:/home/ubuntu/ros2_ws/install/champ_teleop:/home/ubuntu/ros2_ws/install/champ_bringup:/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ_description:/home/ubuntu/ros2_ws/install/champ_config:/home/ubuntu/ros2_ws/install/champ:/home/ubuntu/ros2_ws/install/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_driver:/opt/ros/humble')]), 'shell': False}
+[0.198962] (-) TimerEvent: {}
+[0.299889] (-) TimerEvent: {}
+[0.406106] (-) TimerEvent: {}
+[0.512015] (-) TimerEvent: {}
+[0.614417] (-) TimerEvent: {}
+[0.715465] (-) TimerEvent: {}
+[0.816329] (-) TimerEvent: {}
+[0.917810] (-) TimerEvent: {}
+[1.020743] (-) TimerEvent: {}
+[1.122392] (-) TimerEvent: {}
+[1.226230] (-) TimerEvent: {}
+[1.329014] (-) TimerEvent: {}
+[1.432563] (-) TimerEvent: {}
+[1.533530] (-) TimerEvent: {}
+[1.617526] (pupper_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.633734] (-) TimerEvent: {}
+[1.734554] (-) TimerEvent: {}
+[1.835297] (-) TimerEvent: {}
+[1.936019] (-) TimerEvent: {}
+[2.036763] (-) TimerEvent: {}
+[2.137666] (-) TimerEvent: {}
+[2.238604] (-) TimerEvent: {}
+[2.339452] (-) TimerEvent: {}
+[2.440504] (-) TimerEvent: {}
+[2.462030] (pupper_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.524629] (pupper_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.540699] (-) TimerEvent: {}
+[2.641507] (-) TimerEvent: {}
+[2.742366] (-) TimerEvent: {}
+[2.843235] (-) TimerEvent: {}
+[2.944067] (-) TimerEvent: {}
+[3.015168] (pupper_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.044265] (-) TimerEvent: {}
+[3.051312] (pupper_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.053409] (pupper_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.056519] (pupper_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.072906] (pupper_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.144490] (-) TimerEvent: {}
+[3.245294] (-) TimerEvent: {}
+[3.346078] (-) TimerEvent: {}
+[3.446969] (-) TimerEvent: {}
+[3.548000] (-) TimerEvent: {}
+[3.551891] (pupper_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.583199] (pupper_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.598540] (pupper_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.599067] (pupper_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.648233] (-) TimerEvent: {}
+[3.685239] (pupper_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.748448] (-) TimerEvent: {}
+[3.849253] (-) TimerEvent: {}
+[3.950189] (-) TimerEvent: {}
+[4.051012] (-) TimerEvent: {}
+[4.151835] (-) TimerEvent: {}
+[4.252680] (-) TimerEvent: {}
+[4.353837] (-) TimerEvent: {}
+[4.455444] (-) TimerEvent: {}
+[4.556250] (-) TimerEvent: {}
+[4.657193] (-) TimerEvent: {}
+[4.758742] (-) TimerEvent: {}
+[4.859488] (-) TimerEvent: {}
+[4.960834] (-) TimerEvent: {}
+[5.061710] (-) TimerEvent: {}
+[5.162551] (-) TimerEvent: {}
+[5.229492] (pupper_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[5.262958] (-) TimerEvent: {}
+[5.368206] (-) TimerEvent: {}
+[5.468985] (-) TimerEvent: {}
+[5.569881] (-) TimerEvent: {}
+[5.670663] (-) TimerEvent: {}
+[5.771576] (-) TimerEvent: {}
+[5.873376] (-) TimerEvent: {}
+[5.974776] (-) TimerEvent: {}
+[6.076909] (-) TimerEvent: {}
+[6.178822] (-) TimerEvent: {}
+[6.281599] (-) TimerEvent: {}
+[6.384958] (-) TimerEvent: {}
+[6.486367] (-) TimerEvent: {}
+[6.587753] (-) TimerEvent: {}
+[6.684783] (pupper_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[6.688710] (-) TimerEvent: {}
+[6.783890] (pupper_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.788647] (-) TimerEvent: {}
+[6.889282] (-) TimerEvent: {}
+[6.938951] (pupper_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.989475] (-) TimerEvent: {}
+[7.091695] (-) TimerEvent: {}
+[7.195329] (-) TimerEvent: {}
+[7.296678] (-) TimerEvent: {}
+[7.398122] (-) TimerEvent: {}
+[7.499234] (-) TimerEvent: {}
+[7.601649] (-) TimerEvent: {}
+[7.705464] (-) TimerEvent: {}
+[7.727565] (pupper_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.805574] (-) TimerEvent: {}
+[7.906319] (-) TimerEvent: {}
+[8.007087] (-) TimerEvent: {}
+[8.107972] (-) TimerEvent: {}
+[8.209162] (-) TimerEvent: {}
+[8.210935] (pupper_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[8.309402] (-) TimerEvent: {}
+[8.410283] (-) TimerEvent: {}
+[8.511240] (-) TimerEvent: {}
+[8.612490] (-) TimerEvent: {}
+[8.729833] (-) TimerEvent: {}
+[8.830624] (-) TimerEvent: {}
+[8.931368] (-) TimerEvent: {}
+[9.032204] (-) TimerEvent: {}
+[9.133140] (-) TimerEvent: {}
+[9.233889] (-) TimerEvent: {}
+[9.335967] (-) TimerEvent: {}
+[9.436798] (-) TimerEvent: {}
+[9.538113] (-) TimerEvent: {}
+[9.639061] (-) TimerEvent: {}
+[9.739951] (-) TimerEvent: {}
+[9.840858] (-) TimerEvent: {}
+[9.942191] (-) TimerEvent: {}
+[10.043162] (-) TimerEvent: {}
+[10.144319] (-) TimerEvent: {}
+[10.245094] (-) TimerEvent: {}
+[10.345808] (-) TimerEvent: {}
+[10.447313] (-) TimerEvent: {}
+[10.550875] (-) TimerEvent: {}
+[10.651882] (-) TimerEvent: {}
+[10.752904] (-) TimerEvent: {}
+[10.853840] (-) TimerEvent: {}
+[10.954807] (-) TimerEvent: {}
+[11.055935] (-) TimerEvent: {}
+[11.157873] (-) TimerEvent: {}
+[11.259987] (-) TimerEvent: {}
+[11.293393] (pupper_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[11.360820] (-) TimerEvent: {}
+[11.463198] (-) TimerEvent: {}
+[11.565398] (-) TimerEvent: {}
+[11.666342] (-) TimerEvent: {}
+[11.767877] (-) TimerEvent: {}
+[11.869252] (-) TimerEvent: {}
+[11.970429] (-) TimerEvent: {}
+[12.071462] (-) TimerEvent: {}
+[12.172819] (-) TimerEvent: {}
+[12.274862] (-) TimerEvent: {}
+[12.375595] (-) TimerEvent: {}
+[12.476281] (-) TimerEvent: {}
+[12.576996] (-) TimerEvent: {}
+[12.678660] (-) TimerEvent: {}
+[12.782340] (-) TimerEvent: {}
+[12.883229] (-) TimerEvent: {}
+[12.984105] (-) TimerEvent: {}
+[13.085242] (-) TimerEvent: {}
+[13.186001] (-) TimerEvent: {}
+[13.287099] (-) TimerEvent: {}
+[13.388336] (-) TimerEvent: {}
+[13.489232] (-) TimerEvent: {}
+[13.584108] (pupper_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[13.589589] (-) TimerEvent: {}
+[13.690669] (-) TimerEvent: {}
+[13.791444] (-) TimerEvent: {}
+[13.892704] (-) TimerEvent: {}
+[13.993425] (-) TimerEvent: {}
+[14.094202] (-) TimerEvent: {}
+[14.195087] (-) TimerEvent: {}
+[14.295873] (-) TimerEvent: {}
+[14.396584] (-) TimerEvent: {}
+[14.497366] (-) TimerEvent: {}
+[14.598141] (-) TimerEvent: {}
+[14.698893] (-) TimerEvent: {}
+[14.799588] (-) TimerEvent: {}
+[14.900709] (-) TimerEvent: {}
+[15.002463] (-) TimerEvent: {}
+[15.103209] (-) TimerEvent: {}
+[15.203915] (-) TimerEvent: {}
+[15.304819] (-) TimerEvent: {}
+[15.406897] (-) TimerEvent: {}
+[15.507808] (-) TimerEvent: {}
+[15.609035] (-) TimerEvent: {}
+[15.710493] (-) TimerEvent: {}
+[15.811605] (-) TimerEvent: {}
+[15.869601] (pupper_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[15.911800] (-) TimerEvent: {}
+[16.012773] (-) TimerEvent: {}
+[16.033538] (pupper_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[16.079032] (pupper_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[16.112928] (-) TimerEvent: {}
+[16.213811] (-) TimerEvent: {}
+[16.282433] (pupper_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[16.283272] (pupper_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[16.283704] (pupper_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[16.284125] (pupper_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[16.313902] (-) TimerEvent: {}
+[16.414729] (-) TimerEvent: {}
+[16.434770] (pupper_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[16.514917] (-) TimerEvent: {}
+[16.615773] (-) TimerEvent: {}
+[16.716762] (-) TimerEvent: {}
+[16.817977] (-) TimerEvent: {}
+[16.918946] (-) TimerEvent: {}
+[16.943059] (pupper_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[17.019144] (-) TimerEvent: {}
+[17.119875] (-) TimerEvent: {}
+[17.220647] (-) TimerEvent: {}
+[17.321627] (-) TimerEvent: {}
+[17.336580] (pupper_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[17.355837] (pupper_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[17.391571] (pupper_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[17.421812] (-) TimerEvent: {}
+[17.522601] (-) TimerEvent: {}
+[17.623294] (-) TimerEvent: {}
+[17.678865] (pupper_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[17.697865] (pupper_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ros2_ws/build/pupper_interfaces\n'}
+[17.723613] (-) TimerEvent: {}
+[17.745729] (pupper_interfaces) CommandEnded: {'returncode': 0}
+[17.747964] (pupper_interfaces) JobProgress: {'identifier': 'pupper_interfaces', 'progress': 'build'}
+[17.750763] (pupper_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/pupper_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/pupper_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/mini_pupper_interfaces/lib:/home/ubuntu/ros2_ws/install/champ_base/lib:/home/ubuntu/ros2_ws/install/champ_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1869'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('DESKTOP_AUTOSTART_ID', '108787dcdf92f23db0171538154078259200000018690016'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/ubuntu/ros2_ws/install/champ_base/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/minipupperv2:@/tmp/.ICE-unix/1869,unix/minipupperv2:/tmp/.ICE-unix/1869'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/99756a86_20ee_4f64_bef5_78131e56654b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_interfaces:/home/ubuntu/ros2_ws/install/mini_pupper_driver:/home/ubuntu/ros2_ws/install/mini_pupper_description:/home/ubuntu/ros2_ws/install/mini_pupper_bringup:/home/ubuntu/ros2_ws/install/mini_pupper_2_description:/home/ubuntu/ros2_ws/install/ldlidar_stl_ros2:/home/ubuntu/ros2_ws/install/champ_teleop:/home/ubuntu/ros2_ws/install/champ_bringup:/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ_description:/home/ubuntu/ros2_ws/install/champ_config:/home/ubuntu/ros2_ws/install/champ:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ros2_ws/build/pupper_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/build/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_music/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/build/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_dance/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/mini_pupper_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/build/mini_pupper_driver:/home/ubuntu/ros2_ws/install/mini_pupper_driver/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/champ_bringup/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/mini_pupper_interfaces:/home/ubuntu/ros2_ws/install/mini_pupper_description:/home/ubuntu/ros2_ws/install/mini_pupper_bringup:/home/ubuntu/ros2_ws/install/mini_pupper_2_description:/home/ubuntu/ros2_ws/install/ldlidar_stl_ros2:/home/ubuntu/ros2_ws/install/champ_teleop:/home/ubuntu/ros2_ws/install/champ_bringup:/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ_description:/home/ubuntu/ros2_ws/install/champ_config:/home/ubuntu/ros2_ws/install/champ:/home/ubuntu/ros2_ws/install/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_driver:/opt/ros/humble')]), 'shell': False}
+[17.823822] (-) TimerEvent: {}
+[17.924575] (-) TimerEvent: {}
+[18.025510] (-) TimerEvent: {}
+[18.046752] (pupper_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[18.100589] (pupper_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[18.125905] (-) TimerEvent: {}
+[18.151561] (pupper_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_pupper_interfaces\n'}
+[18.226036] (-) TimerEvent: {}
+[18.327645] (-) TimerEvent: {}
+[18.429265] (-) TimerEvent: {}
+[18.530028] (-) TimerEvent: {}
+[18.631199] (-) TimerEvent: {}
+[18.734327] (-) TimerEvent: {}
+[18.835551] (-) TimerEvent: {}
+[18.936872] (-) TimerEvent: {}
+[19.039176] (-) TimerEvent: {}
+[19.140678] (-) TimerEvent: {}
+[19.241696] (-) TimerEvent: {}
+[19.342516] (-) TimerEvent: {}
+[19.443321] (-) TimerEvent: {}
+[19.544114] (-) TimerEvent: {}
+[19.644971] (-) TimerEvent: {}
+[19.745864] (-) TimerEvent: {}
+[19.846627] (-) TimerEvent: {}
+[19.947374] (-) TimerEvent: {}
+[20.048101] (-) TimerEvent: {}
+[20.148863] (-) TimerEvent: {}
+[20.249749] (-) TimerEvent: {}
+[20.350895] (-) TimerEvent: {}
+[20.451762] (-) TimerEvent: {}
+[20.553107] (-) TimerEvent: {}
+[20.661343] (-) TimerEvent: {}
+[20.754781] (pupper_interfaces) StdoutLine: {'line': b'[  5%] Built target pupper_interfaces__cpp\n'}
+[20.761581] (-) TimerEvent: {}
+[20.862575] (-) TimerEvent: {}
+[20.869903] (pupper_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[20.962786] (-) TimerEvent: {}
+[20.991547] (pupper_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[21.063040] (-) TimerEvent: {}
+[21.085324] (pupper_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/pupper_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pupper_interfaces/msg/detail/command__functions.c.o\x1b[0m\n'}
+[21.163304] (-) TimerEvent: {}
+[21.265078] (-) TimerEvent: {}
+[21.366381] (-) TimerEvent: {}
+[21.468291] (-) TimerEvent: {}
+[21.570529] (-) TimerEvent: {}
+[21.672169] (-) TimerEvent: {}
+[21.773632] (-) TimerEvent: {}
+[21.778176] (pupper_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[21.780786] (pupper_interfaces) StdoutLine: {'line': b'creating pupper_interfaces.egg-info\n'}
+[21.783302] (pupper_interfaces) StdoutLine: {'line': b'writing pupper_interfaces.egg-info/PKG-INFO\n'}
+[21.784557] (pupper_interfaces) StdoutLine: {'line': b'writing dependency_links to pupper_interfaces.egg-info/dependency_links.txt\n'}
+[21.786409] (pupper_interfaces) StdoutLine: {'line': b'writing top-level names to pupper_interfaces.egg-info/top_level.txt\n'}
+[21.788006] (pupper_interfaces) StdoutLine: {'line': b"writing manifest file 'pupper_interfaces.egg-info/SOURCES.txt'\n"}
+[21.828660] (pupper_interfaces) StdoutLine: {'line': b"reading manifest file 'pupper_interfaces.egg-info/SOURCES.txt'\n"}
+[21.837882] (pupper_interfaces) StdoutLine: {'line': b"writing manifest file 'pupper_interfaces.egg-info/SOURCES.txt'\n"}
+[21.873890] (-) TimerEvent: {}
+[21.975461] (-) TimerEvent: {}
+[21.983560] (pupper_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/pupper_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pupper_interfaces/srv/detail/go_pupper__functions.c.o\x1b[0m\n'}
+[22.075621] (-) TimerEvent: {}
+[22.126299] (pupper_interfaces) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_build_pupper_interfaces_egg\n'}
+[22.175814] (-) TimerEvent: {}
+[22.228817] (pupper_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[22.276254] (-) TimerEvent: {}
+[22.378287] (-) TimerEvent: {}
+[22.479138] (-) TimerEvent: {}
+[22.579922] (-) TimerEvent: {}
+[22.608842] (pupper_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libpupper_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[22.680125] (-) TimerEvent: {}
+[22.781328] (-) TimerEvent: {}
+[22.882855] (-) TimerEvent: {}
+[22.912385] (pupper_interfaces) StdoutLine: {'line': b'[ 20%] Built target pupper_interfaces__rosidl_generator_c\n'}
+[22.983187] (-) TimerEvent: {}
+[23.084008] (-) TimerEvent: {}
+[23.100072] (pupper_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[23.184239] (-) TimerEvent: {}
+[23.285259] (-) TimerEvent: {}
+[23.386991] (-) TimerEvent: {}
+[23.488344] (-) TimerEvent: {}
+[23.590611] (-) TimerEvent: {}
+[23.698589] (-) TimerEvent: {}
+[23.795482] (pupper_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/pupper_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pupper_interfaces/msg/command__type_support.cpp.o\x1b[0m\n'}
+[23.798763] (-) TimerEvent: {}
+[23.901427] (-) TimerEvent: {}
+[24.003623] (-) TimerEvent: {}
+[24.104611] (-) TimerEvent: {}
+[24.192576] (pupper_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/pupper_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pupper_interfaces/msg/detail/dds_fastrtps/command__type_support.cpp.o\x1b[0m\n'}
+[24.205250] (-) TimerEvent: {}
+[24.307252] (-) TimerEvent: {}
+[24.408701] (-) TimerEvent: {}
+[24.510427] (-) TimerEvent: {}
+[24.611853] (-) TimerEvent: {}
+[24.715490] (-) TimerEvent: {}
+[24.817726] (-) TimerEvent: {}
+[24.919522] (-) TimerEvent: {}
+[25.020664] (-) TimerEvent: {}
+[25.122236] (-) TimerEvent: {}
+[25.223356] (-) TimerEvent: {}
+[25.324794] (-) TimerEvent: {}
+[25.365672] (pupper_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/pupper_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pupper_interfaces/msg/detail/command__type_support.cpp.o\x1b[0m\n'}
+[25.425016] (-) TimerEvent: {}
+[25.526478] (-) TimerEvent: {}
+[25.627815] (-) TimerEvent: {}
+[25.729172] (-) TimerEvent: {}
+[25.831574] (-) TimerEvent: {}
+[25.934085] (-) TimerEvent: {}
+[26.035566] (-) TimerEvent: {}
+[26.136992] (-) TimerEvent: {}
+[26.239335] (-) TimerEvent: {}
+[26.269348] (pupper_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/pupper_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pupper_interfaces/msg/detail/command__type_support_c.cpp.o\x1b[0m\n'}
+[26.339602] (-) TimerEvent: {}
+[26.440830] (-) TimerEvent: {}
+[26.543716] (-) TimerEvent: {}
+[26.646842] (-) TimerEvent: {}
+[26.750670] (-) TimerEvent: {}
+[26.852460] (-) TimerEvent: {}
+[26.955903] (-) TimerEvent: {}
+[27.057448] (-) TimerEvent: {}
+[27.160646] (-) TimerEvent: {}
+[27.264407] (-) TimerEvent: {}
+[27.366220] (-) TimerEvent: {}
+[27.472584] (-) TimerEvent: {}
+[27.575635] (-) TimerEvent: {}
+[27.678948] (-) TimerEvent: {}
+[27.695350] (pupper_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/pupper_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pupper_interfaces/srv/go_pupper__type_support.cpp.o\x1b[0m\n'}
+[27.779168] (-) TimerEvent: {}
+[27.880122] (-) TimerEvent: {}
+[27.981224] (-) TimerEvent: {}
+[28.082266] (-) TimerEvent: {}
+[28.183367] (-) TimerEvent: {}
+[28.284426] (-) TimerEvent: {}
+[28.389267] (-) TimerEvent: {}
+[28.490293] (-) TimerEvent: {}
+[28.591443] (-) TimerEvent: {}
+[28.692465] (-) TimerEvent: {}
+[28.793562] (-) TimerEvent: {}
+[28.894638] (-) TimerEvent: {}
+[28.999281] (-) TimerEvent: {}
+[29.038326] (pupper_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/pupper_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pupper_interfaces/srv/detail/dds_fastrtps/go_pupper__type_support.cpp.o\x1b[0m\n'}
+[29.099960] (-) TimerEvent: {}
+[29.201159] (-) TimerEvent: {}
+[29.302429] (-) TimerEvent: {}
+[29.403642] (-) TimerEvent: {}
+[29.504871] (-) TimerEvent: {}
+[29.606654] (-) TimerEvent: {}
+[29.709139] (-) TimerEvent: {}
+[29.811029] (-) TimerEvent: {}
+[29.912387] (-) TimerEvent: {}
+[29.916504] (pupper_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/pupper_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pupper_interfaces/srv/detail/go_pupper__type_support.cpp.o\x1b[0m\n'}
+[30.012715] (-) TimerEvent: {}
+[30.114671] (-) TimerEvent: {}
+[30.216886] (-) TimerEvent: {}
+[30.318326] (-) TimerEvent: {}
+[30.389548] (pupper_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/pupper_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pupper_interfaces/srv/detail/go_pupper__type_support_c.cpp.o\x1b[0m\n'}
+[30.418619] (-) TimerEvent: {}
+[30.520121] (-) TimerEvent: {}
+[30.622837] (-) TimerEvent: {}
+[30.725552] (-) TimerEvent: {}
+[30.826897] (-) TimerEvent: {}
+[30.928051] (-) TimerEvent: {}
+[31.029422] (-) TimerEvent: {}
+[31.054988] (pupper_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libpupper_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[31.129727] (-) TimerEvent: {}
+[31.231266] (-) TimerEvent: {}
+[31.332438] (-) TimerEvent: {}
+[31.433879] (-) TimerEvent: {}
+[31.436995] (pupper_interfaces) StdoutLine: {'line': b'[ 46%] Built target pupper_interfaces__rosidl_typesupport_cpp\n'}
+[31.534253] (-) TimerEvent: {}
+[31.583290] (pupper_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[31.634582] (-) TimerEvent: {}
+[31.736393] (-) TimerEvent: {}
+[31.838066] (-) TimerEvent: {}
+[31.939734] (-) TimerEvent: {}
+[32.041105] (-) TimerEvent: {}
+[32.142614] (-) TimerEvent: {}
+[32.244399] (-) TimerEvent: {}
+[32.346032] (-) TimerEvent: {}
+[32.447823] (-) TimerEvent: {}
+[32.549626] (-) TimerEvent: {}
+[32.654309] (-) TimerEvent: {}
+[32.756424] (-) TimerEvent: {}
+[32.870385] (-) TimerEvent: {}
+[32.971842] (-) TimerEvent: {}
+[33.073387] (-) TimerEvent: {}
+[33.174924] (-) TimerEvent: {}
+[33.277693] (-) TimerEvent: {}
+[33.381236] (-) TimerEvent: {}
+[33.484477] (-) TimerEvent: {}
+[33.587487] (-) TimerEvent: {}
+[33.690284] (-) TimerEvent: {}
+[33.791677] (-) TimerEvent: {}
+[33.893587] (-) TimerEvent: {}
+[33.994798] (-) TimerEvent: {}
+[34.095932] (-) TimerEvent: {}
+[34.197114] (-) TimerEvent: {}
+[34.294490] (pupper_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libpupper_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[34.297332] (-) TimerEvent: {}
+[34.398428] (-) TimerEvent: {}
+[34.409715] (pupper_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libpupper_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[34.498794] (-) TimerEvent: {}
+[34.515368] (pupper_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libpupper_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[34.599061] (-) TimerEvent: {}
+[34.701008] (-) TimerEvent: {}
+[34.802807] (-) TimerEvent: {}
+[34.905250] (-) TimerEvent: {}
+[34.924991] (pupper_interfaces) StdoutLine: {'line': b'[ 56%] Built target pupper_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[35.005538] (-) TimerEvent: {}
+[35.023106] (pupper_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[35.105776] (-) TimerEvent: {}
+[35.207100] (-) TimerEvent: {}
+[35.241385] (pupper_interfaces) StdoutLine: {'line': b'[ 58%] Built target pupper_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[35.307304] (-) TimerEvent: {}
+[35.408369] (-) TimerEvent: {}
+[35.510443] (-) TimerEvent: {}
+[35.518010] (pupper_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/pupper_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pupper_interfaces/msg/detail/command__type_support.c.o\x1b[0m\n'}
+[35.537910] (pupper_interfaces) StdoutLine: {'line': b'[ 61%] Built target pupper_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[35.544671] (pupper_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/pupper_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pupper_interfaces/srv/detail/go_pupper__type_support.c.o\x1b[0m\n'}
+[35.610709] (-) TimerEvent: {}
+[35.712009] (-) TimerEvent: {}
+[35.813191] (-) TimerEvent: {}
+[35.909621] (pupper_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking C shared library libpupper_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[35.913399] (-) TimerEvent: {}
+[36.014623] (-) TimerEvent: {}
+[36.116377] (-) TimerEvent: {}
+[36.123153] (pupper_interfaces) StdoutLine: {'line': b'[ 66%] Built target pupper_interfaces__rosidl_typesupport_introspection_c\n'}
+[36.216530] (-) TimerEvent: {}
+[36.317313] (-) TimerEvent: {}
+[36.418054] (-) TimerEvent: {}
+[36.518782] (-) TimerEvent: {}
+[36.619515] (-) TimerEvent: {}
+[36.720589] (-) TimerEvent: {}
+[36.821682] (-) TimerEvent: {}
+[36.889193] (pupper_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/pupper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pupper_interfaces/msg/command__type_support.cpp.o\x1b[0m\n'}
+[36.903834] (pupper_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/pupper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pupper_interfaces/srv/go_pupper__type_support.cpp.o\x1b[0m\n'}
+[36.921917] (-) TimerEvent: {}
+[37.022815] (-) TimerEvent: {}
+[37.123772] (-) TimerEvent: {}
+[37.129434] (pupper_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libpupper_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[37.224038] (-) TimerEvent: {}
+[37.324931] (-) TimerEvent: {}
+[37.350862] (pupper_interfaces) StdoutLine: {'line': b'[ 74%] Built target pupper_interfaces__rosidl_typesupport_c\n'}
+[37.425260] (-) TimerEvent: {}
+[37.493689] (pupper_interfaces) StdoutLine: {'line': b'[ 74%] Built target pupper_interfaces\n'}
+[37.525491] (-) TimerEvent: {}
+[37.626312] (-) TimerEvent: {}
+[37.627221] (pupper_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[37.726522] (-) TimerEvent: {}
+[37.827428] (-) TimerEvent: {}
+[37.928597] (-) TimerEvent: {}
+[38.029586] (-) TimerEvent: {}
+[38.130376] (-) TimerEvent: {}
+[38.231509] (-) TimerEvent: {}
+[38.332332] (-) TimerEvent: {}
+[38.433183] (-) TimerEvent: {}
+[38.534334] (-) TimerEvent: {}
+[38.635871] (-) TimerEvent: {}
+[38.736776] (-) TimerEvent: {}
+[38.837687] (-) TimerEvent: {}
+[38.938511] (-) TimerEvent: {}
+[39.039387] (-) TimerEvent: {}
+[39.140160] (-) TimerEvent: {}
+[39.240999] (-) TimerEvent: {}
+[39.341866] (-) TimerEvent: {}
+[39.442909] (-) TimerEvent: {}
+[39.544234] (-) TimerEvent: {}
+[39.644948] (-) TimerEvent: {}
+[39.745679] (-) TimerEvent: {}
+[39.846553] (-) TimerEvent: {}
+[39.948230] (-) TimerEvent: {}
+[40.050082] (-) TimerEvent: {}
+[40.115815] (pupper_interfaces) StdoutLine: {'line': b'[ 76%] Built target pupper_interfaces__py\n'}
+[40.150441] (-) TimerEvent: {}
+[40.243187] (pupper_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/pupper_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pupper_interfaces/msg/_command_s.c.o\x1b[0m\n'}
+[40.246879] (pupper_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/pupper_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pupper_interfaces/srv/_go_pupper_s.c.o\x1b[0m\n'}
+[40.250627] (-) TimerEvent: {}
+[40.351920] (-) TimerEvent: {}
+[40.453227] (-) TimerEvent: {}
+[40.554617] (-) TimerEvent: {}
+[40.655507] (-) TimerEvent: {}
+[40.756222] (-) TimerEvent: {}
+[40.857023] (-) TimerEvent: {}
+[40.958290] (-) TimerEvent: {}
+[41.063073] (-) TimerEvent: {}
+[41.088867] (pupper_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pupper_interfaces/libpupper_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[41.163266] (-) TimerEvent: {}
+[41.264028] (-) TimerEvent: {}
+[41.364978] (-) TimerEvent: {}
+[41.366810] (pupper_interfaces) StdoutLine: {'line': b'[ 84%] Built target pupper_interfaces__rosidl_generator_py\n'}
+[41.465315] (-) TimerEvent: {}
+[41.507700] (pupper_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/pupper_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/pupper_interfaces/_pupper_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[41.513379] (pupper_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/pupper_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/pupper_interfaces/_pupper_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[41.565516] (-) TimerEvent: {}
+[41.666317] (-) TimerEvent: {}
+[41.767070] (-) TimerEvent: {}
+[41.868133] (-) TimerEvent: {}
+[41.969510] (-) TimerEvent: {}
+[42.070841] (-) TimerEvent: {}
+[42.171994] (-) TimerEvent: {}
+[42.231292] (pupper_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pupper_interfaces/pupper_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[42.272649] (-) TimerEvent: {}
+[42.376609] (-) TimerEvent: {}
+[42.477663] (-) TimerEvent: {}
+[42.508445] (pupper_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pupper_interfaces/pupper_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[42.577859] (-) TimerEvent: {}
+[42.585444] (pupper_interfaces) StdoutLine: {'line': b'[ 94%] Built target pupper_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[42.678239] (-) TimerEvent: {}
+[42.772645] (pupper_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/pupper_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/pupper_interfaces/_pupper_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[42.778432] (-) TimerEvent: {}
+[42.878601] (pupper_interfaces) StdoutLine: {'line': b'[ 97%] Built target pupper_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[42.880351] (-) TimerEvent: {}
+[42.982232] (-) TimerEvent: {}
+[43.083389] (-) TimerEvent: {}
+[43.184437] (-) TimerEvent: {}
+[43.285214] (-) TimerEvent: {}
+[43.386127] (-) TimerEvent: {}
+[43.487444] (-) TimerEvent: {}
+[43.524347] (pupper_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pupper_interfaces/pupper_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[43.587416] (-) TimerEvent: {}
+[43.688287] (-) TimerEvent: {}
+[43.789392] (-) TimerEvent: {}
+[43.811668] (pupper_interfaces) StdoutLine: {'line': b'[100%] Built target pupper_interfaces__rosidl_typesupport_c__pyext\n'}
+[43.875738] (pupper_interfaces) CommandEnded: {'returncode': 0}
+[43.889532] (-) TimerEvent: {}
+[43.990328] (-) TimerEvent: {}
+[44.091115] (-) TimerEvent: {}
+[44.191889] (-) TimerEvent: {}
+[44.292635] (-) TimerEvent: {}
+[44.393325] (-) TimerEvent: {}
+[44.494065] (-) TimerEvent: {}
+[44.595332] (-) TimerEvent: {}
+[44.597074] (pupper_interfaces) JobProgress: {'identifier': 'pupper_interfaces', 'progress': 'install'}
+[44.639205] (pupper_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_ws/build/pupper_interfaces'], 'cwd': '/home/ubuntu/ros2_ws/build/pupper_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/mini_pupper_interfaces/lib:/home/ubuntu/ros2_ws/install/champ_base/lib:/home/ubuntu/ros2_ws/install/champ_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1869'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('DESKTOP_AUTOSTART_ID', '108787dcdf92f23db0171538154078259200000018690016'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/ubuntu/ros2_ws/install/champ_base/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/minipupperv2:@/tmp/.ICE-unix/1869,unix/minipupperv2:/tmp/.ICE-unix/1869'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/99756a86_20ee_4f64_bef5_78131e56654b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_interfaces:/home/ubuntu/ros2_ws/install/mini_pupper_driver:/home/ubuntu/ros2_ws/install/mini_pupper_description:/home/ubuntu/ros2_ws/install/mini_pupper_bringup:/home/ubuntu/ros2_ws/install/mini_pupper_2_description:/home/ubuntu/ros2_ws/install/ldlidar_stl_ros2:/home/ubuntu/ros2_ws/install/champ_teleop:/home/ubuntu/ros2_ws/install/champ_bringup:/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ_description:/home/ubuntu/ros2_ws/install/champ_config:/home/ubuntu/ros2_ws/install/champ:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ros2_ws/build/pupper_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/build/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_music/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/build/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_dance/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/mini_pupper_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/build/mini_pupper_driver:/home/ubuntu/ros2_ws/install/mini_pupper_driver/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/champ_bringup/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/mini_pupper_interfaces:/home/ubuntu/ros2_ws/install/mini_pupper_description:/home/ubuntu/ros2_ws/install/mini_pupper_bringup:/home/ubuntu/ros2_ws/install/mini_pupper_2_description:/home/ubuntu/ros2_ws/install/ldlidar_stl_ros2:/home/ubuntu/ros2_ws/install/champ_teleop:/home/ubuntu/ros2_ws/install/champ_bringup:/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ_description:/home/ubuntu/ros2_ws/install/champ_config:/home/ubuntu/ros2_ws/install/champ:/home/ubuntu/ros2_ws/install/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_driver:/opt/ros/humble')]), 'shell': False}
+[44.695558] (-) TimerEvent: {}
+[44.698692] (pupper_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[44.699977] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/ament_index/resource_index/rosidl_interfaces/pupper_interfaces\n'}
+[44.702221] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces\n'}
+[44.703222] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv\n'}
+[44.704023] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/go_pupper.h\n'}
+[44.705831] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail\n'}
+[44.706562] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail/go_pupper__functions.h\n'}
+[44.708308] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail/go_pupper__functions.c\n'}
+[44.710540] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail/go_pupper__type_support.h\n'}
+[44.712446] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail/go_pupper__struct.h\n'}
+[44.713268] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg\n'}
+[44.714465] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/command.h\n'}
+[44.717170] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail\n'}
+[44.718271] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail/command__struct.h\n'}
+[44.718877] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail/command__functions.c\n'}
+[44.720593] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail/command__functions.h\n'}
+[44.722000] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail/command__type_support.h\n'}
+[44.724359] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[44.725708] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/environment/library_path.sh\n'}
+[44.728230] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/environment/library_path.dsv\n'}
+[44.730623] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/lib/libpupper_interfaces__rosidl_generator_c.so\n'}
+[44.735015] (pupper_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/pupper_interfaces/lib/libpupper_interfaces__rosidl_generator_c.so" to ""\n'}
+[44.736201] (pupper_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces\n'}
+[44.736971] (pupper_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv\n'}
+[44.737558] (pupper_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail\n'}
+[44.738250] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail/go_pupper__rosidl_typesupport_fastrtps_c.h\n'}
+[44.739580] (pupper_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg\n'}
+[44.740661] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[44.741463] (pupper_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail\n'}
+[44.742258] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail/command__rosidl_typesupport_fastrtps_c.h\n'}
+[44.745038] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/lib/libpupper_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[44.762723] (pupper_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/pupper_interfaces/lib/libpupper_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[44.765373] (pupper_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces\n'}
+[44.767291] (pupper_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv\n'}
+[44.770403] (pupper_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail\n'}
+[44.770927] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail/go_pupper__type_support.c\n'}
+[44.771366] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail/go_pupper__rosidl_typesupport_introspection_c.h\n'}
+[44.773889] (pupper_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg\n'}
+[44.780011] (pupper_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail\n'}
+[44.781740] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail/command__rosidl_typesupport_introspection_c.h\n'}
+[44.782771] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail/command__type_support.c\n'}
+[44.783235] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[44.783628] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/lib/libpupper_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[44.784020] (pupper_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/pupper_interfaces/lib/libpupper_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[44.784626] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/lib/libpupper_interfaces__rosidl_typesupport_c.so\n'}
+[44.785131] (pupper_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/pupper_interfaces/lib/libpupper_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[44.785546] (pupper_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces\n'}
+[44.785892] (pupper_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv\n'}
+[44.786244] (pupper_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail\n'}
+[44.786635] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail/go_pupper__builder.hpp\n'}
+[44.787173] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail/go_pupper__struct.hpp\n'}
+[44.787541] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail/go_pupper__traits.hpp\n'}
+[44.787911] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/go_pupper.hpp\n'}
+[44.788496] (pupper_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg\n'}
+[44.788869] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/command.hpp\n'}
+[44.789280] (pupper_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail\n'}
+[44.789639] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail/command__builder.hpp\n'}
+[44.790003] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail/command__struct.hpp\n'}
+[44.790954] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail/command__traits.hpp\n'}
+[44.791659] (pupper_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces\n'}
+[44.792048] (pupper_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv\n'}
+[44.792649] (pupper_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail\n'}
+[44.793034] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail/dds_fastrtps\n'}
+[44.793454] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail/go_pupper__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[44.794544] (pupper_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg\n'}
+[44.795235] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[44.795621] (-) TimerEvent: {}
+[44.796536] (pupper_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail\n'}
+[44.797270] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail/command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[44.799090] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail/dds_fastrtps\n'}
+[44.800258] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/lib/libpupper_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[44.803598] (pupper_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/pupper_interfaces/lib/libpupper_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[44.804484] (pupper_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces\n'}
+[44.805109] (pupper_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv\n'}
+[44.805627] (pupper_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail\n'}
+[44.806007] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail/go_pupper__type_support.cpp\n'}
+[44.806959] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail/go_pupper__rosidl_typesupport_introspection_cpp.hpp\n'}
+[44.809286] (pupper_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg\n'}
+[44.809905] (pupper_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail\n'}
+[44.810353] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail/command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[44.812280] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail/command__type_support.cpp\n'}
+[44.814514] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/lib/libpupper_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[44.817638] (pupper_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/pupper_interfaces/lib/libpupper_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[44.818317] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/lib/libpupper_interfaces__rosidl_typesupport_cpp.so\n'}
+[44.820944] (pupper_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/pupper_interfaces/lib/libpupper_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[44.821584] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/environment/pythonpath.sh\n'}
+[44.823517] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/environment/pythonpath.dsv\n'}
+[44.825631] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces-0.0.0-py3.10.egg-info\n'}
+[44.830373] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[44.832709] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[44.835468] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[44.838400] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[44.840530] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces\n'}
+[44.844948] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/__init__.py\n'}
+[44.857530] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/_pupper_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[44.858048] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/_pupper_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[44.858717] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/_pupper_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[44.859179] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/libpupper_interfaces__rosidl_generator_py.so\n'}
+[44.859581] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/pupper_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[44.864260] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/srv\n'}
+[44.865293] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/srv/__init__.py\n'}
+[44.865957] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/srv/_go_pupper.py\n'}
+[44.868079] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/srv/_go_pupper_s.c\n'}
+[44.869459] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/pupper_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[44.870245] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/pupper_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[44.871671] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/msg\n'}
+[44.872296] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/msg/__init__.py\n'}
+[44.873343] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/msg/_command.py\n'}
+[44.874787] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/msg/_command_s.c\n'}
+[44.895858] (-) TimerEvent: {}
+[44.996610] (-) TimerEvent: {}
+[45.097353] (-) TimerEvent: {}
+[45.120469] (pupper_interfaces) StdoutLine: {'line': b"Listing '/home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces'...\n"}
+[45.121932] (pupper_interfaces) StdoutLine: {'line': b"Compiling '/home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/__init__.py'...\n"}
+[45.122949] (pupper_interfaces) StdoutLine: {'line': b"Listing '/home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/msg'...\n"}
+[45.123967] (pupper_interfaces) StdoutLine: {'line': b"Compiling '/home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/msg/__init__.py'...\n"}
+[45.125356] (pupper_interfaces) StdoutLine: {'line': b"Compiling '/home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/msg/_command.py'...\n"}
+[45.127630] (pupper_interfaces) StdoutLine: {'line': b"Listing '/home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/srv'...\n"}
+[45.128749] (pupper_interfaces) StdoutLine: {'line': b"Compiling '/home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/srv/__init__.py'...\n"}
+[45.130440] (pupper_interfaces) StdoutLine: {'line': b"Compiling '/home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/srv/_go_pupper.py'...\n"}
+[45.168181] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/pupper_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[45.168896] (pupper_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/pupper_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[45.169685] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/pupper_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[45.174935] (pupper_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/pupper_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[45.181191] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/pupper_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[45.185416] (pupper_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/pupper_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[45.186152] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/lib/libpupper_interfaces__rosidl_generator_py.so\n'}
+[45.188930] (pupper_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/pupper_interfaces/lib/libpupper_interfaces__rosidl_generator_py.so" to ""\n'}
+[45.189760] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/msg/Command.idl\n'}
+[45.191524] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/srv/GoPupper.idl\n'}
+[45.192803] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/msg/Command.msg\n'}
+[45.194148] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/srv/GoPupper.srv\n'}
+[45.195354] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/srv/GoPupper_Request.msg\n'}
+[45.197393] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/srv/GoPupper_Response.msg\n'}
+[45.198046] (-) TimerEvent: {}
+[45.199803] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/ament_index/resource_index/package_run_dependencies/pupper_interfaces\n'}
+[45.202264] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/ament_index/resource_index/parent_prefix_path/pupper_interfaces\n'}
+[45.204315] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/environment/ament_prefix_path.sh\n'}
+[45.206332] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/environment/ament_prefix_path.dsv\n'}
+[45.208188] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/environment/path.sh\n'}
+[45.210382] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/environment/path.dsv\n'}
+[45.212266] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/local_setup.bash\n'}
+[45.214213] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/local_setup.sh\n'}
+[45.216157] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/local_setup.zsh\n'}
+[45.218080] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/local_setup.dsv\n'}
+[45.219913] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/package.dsv\n'}
+[45.222149] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/ament_index/resource_index/packages/pupper_interfaces\n'}
+[45.224062] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/export_pupper_interfaces__rosidl_generator_cExport.cmake\n'}
+[45.226834] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/export_pupper_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[45.229298] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/export_pupper_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[45.231703] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/export_pupper_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[45.234428] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/pupper_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[45.237199] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/pupper_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[45.240769] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/pupper_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[45.242983] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/pupper_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[45.247052] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/export_pupper_interfaces__rosidl_generator_cppExport.cmake\n'}
+[45.252783] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/export_pupper_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[45.255150] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/export_pupper_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[45.257712] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/pupper_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[45.260204] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/pupper_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[45.262652] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/pupper_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[45.265174] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/pupper_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[45.267570] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/export_pupper_interfaces__rosidl_generator_pyExport.cmake\n'}
+[45.270030] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/export_pupper_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[45.272372] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[45.274288] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[45.277406] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[45.280312] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[45.283321] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[45.288017] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[45.290022] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[45.292416] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/pupper_interfacesConfig.cmake\n'}
+[45.293951] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/pupper_interfacesConfig-version.cmake\n'}
+[45.295964] (pupper_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/package.xml\n'}
+[45.298255] (-) TimerEvent: {}
+[45.305040] (pupper_interfaces) CommandEnded: {'returncode': 0}
+[45.399415] (-) TimerEvent: {}
+[45.500135] (-) TimerEvent: {}
+[45.600812] (-) TimerEvent: {}
+[45.701556] (-) TimerEvent: {}
+[45.802220] (-) TimerEvent: {}
+[45.902931] (-) TimerEvent: {}
+[46.003656] (-) TimerEvent: {}
+[46.104315] (-) TimerEvent: {}
+[46.131236] (pupper_interfaces) JobEnded: {'identifier': 'pupper_interfaces', 'rc': 0}
+[46.134906] (-) EventReactorShutdown: {}

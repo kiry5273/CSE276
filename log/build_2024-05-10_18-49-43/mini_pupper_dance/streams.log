@@ -1,0 +1,23 @@
+[7.622s] Invoking command in '/home/ubuntu/ros2_ws/src/mini_pupper_ros/mini_pupper_dance': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/mini_pupper_interfaces:/home/ubuntu/ros2_ws/install/pupper_interfaces:/home/ubuntu/ros2_ws/install/mini_pupper_description:/home/ubuntu/ros2_ws/install/mini_pupper_bringup:/home/ubuntu/ros2_ws/install/mini_pupper_2_description:/home/ubuntu/ros2_ws/install/ldlidar_stl_ros2:/home/ubuntu/ros2_ws/install/champ_teleop:/home/ubuntu/ros2_ws/install/champ_bringup:/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ_description:/home/ubuntu/ros2_ws/install/champ_config:/home/ubuntu/ros2_ws/install/champ LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/mini_pupper_interfaces/lib:/home/ubuntu/ros2_ws/install/pupper_interfaces/lib:/home/ubuntu/ros2_ws/install/champ_base/lib:/home/ubuntu/ros2_ws/install/champ_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ubuntu/ros2_ws/build/mini_pupper_dance/prefix_override:/home/ubuntu/ros2_ws/install/mini_pupper_dance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/mini_pupper_dance build --build-base /home/ubuntu/ros2_ws/build/mini_pupper_dance/build install --record /home/ubuntu/ros2_ws/build/mini_pupper_dance/install.log --single-version-externally-managed install_data
+[10.575s] running egg_info
+[10.579s] writing ../../../build/mini_pupper_dance/mini_pupper_dance.egg-info/PKG-INFO
+[10.580s] writing dependency_links to ../../../build/mini_pupper_dance/mini_pupper_dance.egg-info/dependency_links.txt
+[10.583s] writing entry points to ../../../build/mini_pupper_dance/mini_pupper_dance.egg-info/entry_points.txt
+[10.584s] writing requirements to ../../../build/mini_pupper_dance/mini_pupper_dance.egg-info/requires.txt
+[10.585s] writing top-level names to ../../../build/mini_pupper_dance/mini_pupper_dance.egg-info/top_level.txt
+[10.596s] reading manifest file '../../../build/mini_pupper_dance/mini_pupper_dance.egg-info/SOURCES.txt'
+[10.602s] writing manifest file '../../../build/mini_pupper_dance/mini_pupper_dance.egg-info/SOURCES.txt'
+[10.603s] running build
+[10.604s] running build_py
+[10.607s] running install
+[10.609s] running install_lib
+[10.619s] running install_data
+[10.620s] running install_egg_info
+[10.630s] removing '/home/ubuntu/ros2_ws/install/mini_pupper_dance/lib/python3.10/site-packages/mini_pupper_dance-0.0.0-py3.10.egg-info' (and everything under it)
+[10.633s] Copying ../../../build/mini_pupper_dance/mini_pupper_dance.egg-info to /home/ubuntu/ros2_ws/install/mini_pupper_dance/lib/python3.10/site-packages/mini_pupper_dance-0.0.0-py3.10.egg-info
+[10.650s] running install_scripts
+[10.776s] Installing client script to /home/ubuntu/ros2_ws/install/mini_pupper_dance/lib/mini_pupper_dance
+[10.777s] Installing pose_controller script to /home/ubuntu/ros2_ws/install/mini_pupper_dance/lib/mini_pupper_dance
+[10.779s] Installing service script to /home/ubuntu/ros2_ws/install/mini_pupper_dance/lib/mini_pupper_dance
+[10.781s] writing list of installed files to '/home/ubuntu/ros2_ws/build/mini_pupper_dance/install.log'
+[10.973s] Invoked command in '/home/ubuntu/ros2_ws/src/mini_pupper_ros/mini_pupper_dance' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/mini_pupper_interfaces:/home/ubuntu/ros2_ws/install/pupper_interfaces:/home/ubuntu/ros2_ws/install/mini_pupper_description:/home/ubuntu/ros2_ws/install/mini_pupper_bringup:/home/ubuntu/ros2_ws/install/mini_pupper_2_description:/home/ubuntu/ros2_ws/install/ldlidar_stl_ros2:/home/ubuntu/ros2_ws/install/champ_teleop:/home/ubuntu/ros2_ws/install/champ_bringup:/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ_description:/home/ubuntu/ros2_ws/install/champ_config:/home/ubuntu/ros2_ws/install/champ LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/mini_pupper_interfaces/lib:/home/ubuntu/ros2_ws/install/pupper_interfaces/lib:/home/ubuntu/ros2_ws/install/champ_base/lib:/home/ubuntu/ros2_ws/install/champ_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ubuntu/ros2_ws/build/mini_pupper_dance/prefix_override:/home/ubuntu/ros2_ws/install/mini_pupper_dance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/mini_pupper_dance build --build-base /home/ubuntu/ros2_ws/build/mini_pupper_dance/build install --record /home/ubuntu/ros2_ws/build/mini_pupper_dance/install.log --single-version-externally-managed install_data

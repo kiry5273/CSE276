@@ -1,0 +1,246 @@
+[0.225s] Invoking command in '/home/ubuntu/ros2_ws/build/champ_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/go_pupper_srv:/home/ubuntu/ros2_ws/install/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/champ_msgs -- -j4 -l4
+[0.803s] [  1%] Built target champ_msgs__cpp
+[0.994s] [  1%] Built target ament_cmake_python_symlink_champ_msgs
+[1.031s] [ 12%] Built target champ_msgs__rosidl_generator_c
+[1.195s] [ 24%] Built target champ_msgs__rosidl_typesupport_cpp
+[1.305s] [ 35%] Built target champ_msgs__rosidl_typesupport_fastrtps_cpp
+[1.551s] [ 47%] Built target champ_msgs__rosidl_typesupport_introspection_cpp
+[1.949s] [ 58%] Built target champ_msgs__rosidl_typesupport_introspection_c
+[2.016s] [ 70%] Built target champ_msgs__rosidl_typesupport_fastrtps_c
+[2.091s] [ 82%] Built target champ_msgs__rosidl_typesupport_c
+[2.456s] [ 82%] Built target champ_msgs
+[2.854s] [ 83%] Built target champ_msgs__py
+[3.310s] [ 93%] Built target champ_msgs__rosidl_generator_py
+[3.865s] [ 95%] Built target champ_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.876s] [ 97%] Built target champ_msgs__rosidl_typesupport_introspection_c__pyext
+[4.038s] [100%] Built target champ_msgs__rosidl_typesupport_c__pyext
+[7.156s] running egg_info
+[7.157s] writing champ_msgs.egg-info/PKG-INFO
+[7.187s] writing dependency_links to champ_msgs.egg-info/dependency_links.txt
+[7.189s] writing top-level names to champ_msgs.egg-info/top_level.txt
+[7.191s] reading manifest file 'champ_msgs.egg-info/SOURCES.txt'
+[7.192s] writing manifest file 'champ_msgs.egg-info/SOURCES.txt'
+[7.496s] [100%] Built target ament_cmake_python_build_champ_msgs_egg
+[7.595s] Invoked command in '/home/ubuntu/ros2_ws/build/champ_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/go_pupper_srv:/home/ubuntu/ros2_ws/install/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/champ_msgs -- -j4 -l4
+[11.602s] Invoking command in '/home/ubuntu/ros2_ws/build/champ_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/go_pupper_srv:/home/ubuntu/ros2_ws/install/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/champ_msgs
+[11.693s] -- Install configuration: ""
+[11.694s] -- Execute custom install script
+[11.701s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/ament_index/resource_index/rosidl_interfaces/champ_msgs
+[11.702s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/contacts.h
+[11.702s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/contacts_stamped.h
+[11.703s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__functions.h
+[11.703s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__struct.h
+[11.703s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__type_support.h
+[11.704s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__functions.h
+[11.704s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__struct.h
+[11.705s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__type_support.h
+[11.705s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__functions.h
+[11.706s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__struct.h
+[11.713s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__type_support.h
+[11.714s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__functions.h
+[11.714s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__struct.h
+[11.714s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__type_support.h
+[11.715s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__functions.h
+[11.715s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__struct.h
+[11.716s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__type_support.h
+[11.716s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__functions.h
+[11.718s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__struct.h
+[11.718s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__type_support.h
+[11.719s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__functions.h
+[11.719s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__struct.h
+[11.721s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__type_support.h
+[11.722s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__functions.h
+[11.722s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__struct.h
+[11.722s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__type_support.h
+[11.729s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__functions.h
+[11.730s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__struct.h
+[11.731s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__type_support.h
+[11.731s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/imu.h
+[11.731s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/joints.h
+[11.732s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/pid.h
+[11.741s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/point.h
+[11.745s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/point_array.h
+[11.746s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/pose.h
+[11.747s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/rosidl_generator_c__visibility_control.h
+[11.750s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/velocities.h
+[11.753s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/environment/library_path.sh
+[11.757s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/environment/library_path.dsv
+[11.773s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__rosidl_typesupport_fastrtps_c.h
+[11.786s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__rosidl_typesupport_fastrtps_c.h
+[11.788s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_c.h
+[11.789s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__rosidl_typesupport_fastrtps_c.h
+[11.790s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__rosidl_typesupport_fastrtps_c.h
+[11.793s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__rosidl_typesupport_fastrtps_c.h
+[11.796s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__rosidl_typesupport_fastrtps_c.h
+[11.799s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+[11.802s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__rosidl_typesupport_fastrtps_c.h
+[11.810s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.821s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__rosidl_typesupport_introspection_c.h
+[11.826s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__rosidl_typesupport_introspection_c.h
+[11.829s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__rosidl_typesupport_introspection_c.h
+[11.834s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__rosidl_typesupport_introspection_c.h
+[11.837s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__rosidl_typesupport_introspection_c.h
+[11.839s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h
+[11.847s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__rosidl_typesupport_introspection_c.h
+[11.850s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__rosidl_typesupport_introspection_c.h
+[11.860s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__rosidl_typesupport_introspection_c.h
+[11.861s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.879s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/contacts.hpp
+[11.881s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/contacts_stamped.hpp
+[11.882s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__builder.hpp
+[11.884s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__struct.hpp
+[11.889s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__traits.hpp
+[11.896s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__builder.hpp
+[11.907s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__struct.hpp
+[11.908s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__traits.hpp
+[11.908s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__builder.hpp
+[11.911s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__struct.hpp
+[11.914s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__traits.hpp
+[11.916s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__builder.hpp
+[11.921s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__struct.hpp
+[11.927s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__traits.hpp
+[11.933s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__builder.hpp
+[11.936s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__struct.hpp
+[11.944s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__traits.hpp
+[11.948s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__builder.hpp
+[11.948s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__struct.hpp
+[11.950s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__traits.hpp
+[11.954s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__builder.hpp
+[11.964s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__struct.hpp
+[11.965s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__traits.hpp
+[11.966s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__builder.hpp
+[11.967s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__struct.hpp
+[11.969s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__traits.hpp
+[11.973s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__builder.hpp
+[11.976s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__struct.hpp
+[11.979s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__traits.hpp
+[11.981s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/imu.hpp
+[11.985s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/joints.hpp
+[11.988s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/pid.hpp
+[11.990s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/point.hpp
+[11.992s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/point_array.hpp
+[11.995s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/pose.hpp
+[11.998s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/velocities.hpp
+[12.016s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__rosidl_typesupport_fastrtps_cpp.hpp
+[12.019s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[12.026s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_cpp.hpp
+[12.046s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__rosidl_typesupport_fastrtps_cpp.hpp
+[12.050s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__rosidl_typesupport_fastrtps_cpp.hpp
+[12.050s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__rosidl_typesupport_fastrtps_cpp.hpp
+[12.051s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__rosidl_typesupport_fastrtps_cpp.hpp
+[12.051s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+[12.052s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__rosidl_typesupport_fastrtps_cpp.hpp
+[12.052s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.058s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__rosidl_typesupport_introspection_cpp.hpp
+[12.060s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__rosidl_typesupport_introspection_cpp.hpp
+[12.063s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__rosidl_typesupport_introspection_cpp.hpp
+[12.066s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__rosidl_typesupport_introspection_cpp.hpp
+[12.072s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__rosidl_typesupport_introspection_cpp.hpp
+[12.073s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__rosidl_typesupport_introspection_cpp.hpp
+[12.076s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__rosidl_typesupport_introspection_cpp.hpp
+[12.079s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+[12.086s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__rosidl_typesupport_introspection_cpp.hpp
+[12.089s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/environment/pythonpath.sh
+[12.092s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/environment/pythonpath.dsv
+[12.098s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs-0.1.0-py3.10.egg-info/PKG-INFO
+[12.101s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs-0.1.0-py3.10.egg-info/SOURCES.txt
+[12.104s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs-0.1.0-py3.10.egg-info/dependency_links.txt
+[12.108s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs-0.1.0-py3.10.egg-info/top_level.txt
+[12.128s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/__init__.py
+[12.132s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_c.c
+[12.134s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.142s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[12.142s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[12.153s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[12.154s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[12.155s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/libchamp_msgs__rosidl_generator_py.so
+[12.156s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/__init__.py
+[12.156s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_contacts.py
+[12.166s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_contacts_s.c
+[12.166s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_contacts_stamped.py
+[12.167s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_contacts_stamped_s.c
+[12.174s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_imu.py
+[12.176s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_imu_s.c
+[12.179s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_joints.py
+[12.183s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_joints_s.c
+[12.185s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_pid.py
+[12.188s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_pid_s.c
+[12.191s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_point.py
+[12.193s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_point_array.py
+[12.196s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_point_array_s.c
+[12.199s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_point_s.c
+[12.202s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_pose.py
+[12.205s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_pose_s.c
+[12.207s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_velocities.py
+[12.210s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_velocities_s.c
+[12.216s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[12.226s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[12.240s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[12.246s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/msg/Velocities.idl
+[12.253s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/msg/PID.idl
+[12.260s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/msg/Imu.idl
+[12.268s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/msg/Point.idl
+[12.273s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/msg/PointArray.idl
+[12.280s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/msg/Joints.idl
+[12.284s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/msg/Contacts.idl
+[12.285s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/msg/ContactsStamped.idl
+[12.286s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/msg/Pose.idl
+[12.291s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/msg/Velocities.msg
+[12.303s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/msg/PID.msg
+[12.306s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/msg/Imu.msg
+[12.308s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/msg/Point.msg
+[12.309s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/msg/PointArray.msg
+[12.309s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/msg/Joints.msg
+[12.311s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/msg/Contacts.msg
+[12.314s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/msg/ContactsStamped.msg
+[12.317s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/msg/Pose.msg
+[12.326s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/ament_index/resource_index/package_run_dependencies/champ_msgs
+[12.327s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/ament_index/resource_index/parent_prefix_path/champ_msgs
+[12.329s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/environment/ament_prefix_path.sh
+[12.332s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/environment/ament_prefix_path.dsv
+[12.349s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/environment/path.sh
+[12.351s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/environment/path.dsv
+[12.369s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/local_setup.bash
+[12.382s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/local_setup.sh
+[12.383s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/local_setup.zsh
+[12.405s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/local_setup.dsv
+[12.406s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/package.dsv
+[12.491s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/ament_index/resource_index/packages/champ_msgs
+[12.504s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/cmake/rosidl_cmake-extras.cmake
+[12.504s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.505s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.509s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[12.514s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[12.517s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.520s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.524s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/cmake/champ_msgsConfig.cmake
+[12.526s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/cmake/champ_msgsConfig-version.cmake
+[12.531s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/package.xml
+[12.535s] -- Up-to-date: /home/ubuntu/ros2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_generator_c.so
+[12.548s] -- Up-to-date: /home/ubuntu/ros2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_fastrtps_c.so
+[12.550s] -- Up-to-date: /home/ubuntu/ros2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_introspection_c.so
+[12.551s] -- Up-to-date: /home/ubuntu/ros2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_c.so
+[12.554s] -- Up-to-date: /home/ubuntu/ros2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_fastrtps_cpp.so
+[12.558s] -- Up-to-date: /home/ubuntu/ros2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_introspection_cpp.so
+[12.560s] -- Up-to-date: /home/ubuntu/ros2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_cpp.so
+[12.936s] Listing '/home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs'...
+[12.938s] Listing '/home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg'...
+[12.975s] -- Up-to-date: /home/ubuntu/ros2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_generator_py.so
+[12.977s] -- Up-to-date: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_generator_cExport.cmake
+[12.978s] -- Up-to-date: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_generator_cExport-noconfig.cmake
+[12.979s] -- Up-to-date: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[12.980s] -- Up-to-date: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[12.988s] -- Up-to-date: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_introspection_cExport.cmake
+[12.989s] -- Up-to-date: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.991s] -- Up-to-date: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_cExport.cmake
+[12.992s] -- Up-to-date: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[12.992s] -- Up-to-date: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_generator_cppExport.cmake
+[12.993s] -- Up-to-date: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[12.994s] -- Up-to-date: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[12.994s] -- Up-to-date: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[12.995s] -- Up-to-date: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.996s] -- Up-to-date: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_cppExport.cmake
+[12.996s] -- Up-to-date: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[12.999s] -- Up-to-date: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_generator_pyExport.cmake
+[13.000s] -- Up-to-date: /home/ubuntu/ros2_ws/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_generator_pyExport-noconfig.cmake
+[13.034s] Invoked command in '/home/ubuntu/ros2_ws/build/champ_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/go_pupper_srv:/home/ubuntu/ros2_ws/install/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/champ_msgs

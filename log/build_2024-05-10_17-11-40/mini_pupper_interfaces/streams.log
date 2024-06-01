@@ -1,0 +1,156 @@
+[0.255s] Invoking command in '/home/ubuntu/ros2_ws/build/mini_pupper_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/go_pupper_srv:/home/ubuntu/ros2_ws/install/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/mini_pupper_interfaces -- -j4 -l4
+[0.926s] [  2%] Built target mini_pupper_interfaces__cpp
+[1.104s] [ 12%] Built target mini_pupper_interfaces__rosidl_generator_c
+[1.183s] [ 12%] Built target ament_cmake_python_symlink_mini_pupper_interfaces
+[1.381s] [ 23%] Built target mini_pupper_interfaces__rosidl_typesupport_cpp
+[1.541s] [ 34%] Built target mini_pupper_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.802s] [ 44%] Built target mini_pupper_interfaces__rosidl_typesupport_fastrtps_c
+[1.835s] [ 55%] Built target mini_pupper_interfaces__rosidl_typesupport_introspection_c
+[1.914s] [ 65%] Built target mini_pupper_interfaces__rosidl_typesupport_introspection_cpp
+[2.123s] [ 76%] Built target mini_pupper_interfaces__rosidl_typesupport_c
+[2.506s] [ 76%] Built target mini_pupper_interfaces
+[2.796s] [ 78%] Built target mini_pupper_interfaces__py
+[3.379s] [ 87%] Built target mini_pupper_interfaces__rosidl_generator_py
+[3.837s] [ 91%] Built target mini_pupper_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.008s] [ 95%] Built target mini_pupper_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.012s] [100%] Built target mini_pupper_interfaces__rosidl_typesupport_c__pyext
+[7.225s] running egg_info
+[7.229s] writing mini_pupper_interfaces.egg-info/PKG-INFO
+[7.234s] writing dependency_links to mini_pupper_interfaces.egg-info/dependency_links.txt
+[7.245s] writing top-level names to mini_pupper_interfaces.egg-info/top_level.txt
+[7.259s] reading manifest file 'mini_pupper_interfaces.egg-info/SOURCES.txt'
+[7.264s] writing manifest file 'mini_pupper_interfaces.egg-info/SOURCES.txt'
+[7.651s] [100%] Built target ament_cmake_python_build_mini_pupper_interfaces_egg
+[7.842s] Invoked command in '/home/ubuntu/ros2_ws/build/mini_pupper_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/go_pupper_srv:/home/ubuntu/ros2_ws/install/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/mini_pupper_interfaces -- -j4 -l4
+[9.531s] Invoking command in '/home/ubuntu/ros2_ws/build/mini_pupper_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/go_pupper_srv:/home/ubuntu/ros2_ws/install/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/mini_pupper_interfaces
+[9.648s] -- Install configuration: ""
+[9.653s] -- Execute custom install script
+[9.657s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/ament_index/resource_index/rosidl_interfaces/mini_pupper_interfaces
+[9.669s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/msg/rosidl_generator_c__visibility_control.h
+[9.671s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/srv/dance_command.h
+[9.675s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/srv/detail/dance_command__functions.h
+[9.678s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/srv/detail/dance_command__struct.h
+[9.681s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/srv/detail/dance_command__type_support.h
+[9.685s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/srv/detail/play_music__functions.h
+[9.690s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/srv/detail/play_music__struct.h
+[9.704s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/srv/detail/play_music__type_support.h
+[9.704s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/srv/detail/stop_music__functions.h
+[9.705s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/srv/detail/stop_music__struct.h
+[9.707s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/srv/detail/stop_music__type_support.h
+[9.710s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/srv/play_music.h
+[9.713s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/srv/stop_music.h
+[9.717s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/environment/library_path.sh
+[9.719s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/environment/library_path.dsv
+[9.734s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.737s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/srv/detail/dance_command__rosidl_typesupport_fastrtps_c.h
+[9.739s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/srv/detail/play_music__rosidl_typesupport_fastrtps_c.h
+[9.742s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/srv/detail/stop_music__rosidl_typesupport_fastrtps_c.h
+[9.750s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/srv/dance_command.hpp
+[9.753s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/srv/detail/dance_command__builder.hpp
+[9.756s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/srv/detail/dance_command__struct.hpp
+[9.759s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/srv/detail/dance_command__traits.hpp
+[9.762s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/srv/detail/play_music__builder.hpp
+[9.766s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/srv/detail/play_music__struct.hpp
+[9.769s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/srv/detail/play_music__traits.hpp
+[9.772s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/srv/detail/stop_music__builder.hpp
+[9.774s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/srv/detail/stop_music__struct.hpp
+[9.778s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/srv/detail/stop_music__traits.hpp
+[9.781s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/srv/play_music.hpp
+[9.786s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/srv/stop_music.hpp
+[9.804s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.807s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/srv/detail/dance_command__rosidl_typesupport_fastrtps_cpp.hpp
+[9.810s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/srv/detail/play_music__rosidl_typesupport_fastrtps_cpp.hpp
+[9.813s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/srv/detail/stop_music__rosidl_typesupport_fastrtps_cpp.hpp
+[9.825s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.828s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/srv/detail/dance_command__rosidl_typesupport_introspection_c.h
+[9.832s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/srv/detail/play_music__rosidl_typesupport_introspection_c.h
+[9.836s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/srv/detail/stop_music__rosidl_typesupport_introspection_c.h
+[9.842s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/srv/detail/dance_command__rosidl_typesupport_introspection_cpp.hpp
+[9.846s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/srv/detail/play_music__rosidl_typesupport_introspection_cpp.hpp
+[9.851s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/include/mini_pupper_interfaces/mini_pupper_interfaces/srv/detail/stop_music__rosidl_typesupport_introspection_cpp.hpp
+[9.854s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/environment/pythonpath.sh
+[9.857s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/environment/pythonpath.dsv
+[9.863s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/local/lib/python3.10/dist-packages/mini_pupper_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[9.867s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/local/lib/python3.10/dist-packages/mini_pupper_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[9.870s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/local/lib/python3.10/dist-packages/mini_pupper_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[9.873s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/local/lib/python3.10/dist-packages/mini_pupper_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[9.889s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/local/lib/python3.10/dist-packages/mini_pupper_interfaces/__init__.py
+[9.892s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/local/lib/python3.10/dist-packages/mini_pupper_interfaces/_mini_pupper_interfaces_s.ep.rosidl_typesupport_c.c
+[9.896s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/local/lib/python3.10/dist-packages/mini_pupper_interfaces/_mini_pupper_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.901s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/local/lib/python3.10/dist-packages/mini_pupper_interfaces/_mini_pupper_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[9.907s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/local/lib/python3.10/dist-packages/mini_pupper_interfaces/libmini_pupper_interfaces__rosidl_generator_py.so
+[9.909s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/local/lib/python3.10/dist-packages/mini_pupper_interfaces/mini_pupper_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[9.910s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/local/lib/python3.10/dist-packages/mini_pupper_interfaces/mini_pupper_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[9.912s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/local/lib/python3.10/dist-packages/mini_pupper_interfaces/mini_pupper_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[9.913s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/local/lib/python3.10/dist-packages/mini_pupper_interfaces/srv/__init__.py
+[9.915s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/local/lib/python3.10/dist-packages/mini_pupper_interfaces/srv/_dance_command.py
+[9.916s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/local/lib/python3.10/dist-packages/mini_pupper_interfaces/srv/_dance_command_s.c
+[9.918s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/local/lib/python3.10/dist-packages/mini_pupper_interfaces/srv/_play_music.py
+[9.919s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/local/lib/python3.10/dist-packages/mini_pupper_interfaces/srv/_play_music_s.c
+[9.921s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/local/lib/python3.10/dist-packages/mini_pupper_interfaces/srv/_stop_music.py
+[9.923s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/local/lib/python3.10/dist-packages/mini_pupper_interfaces/srv/_stop_music_s.c
+[9.934s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/local/lib/python3.10/dist-packages/mini_pupper_interfaces/mini_pupper_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[9.942s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/local/lib/python3.10/dist-packages/mini_pupper_interfaces/mini_pupper_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[9.946s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/local/lib/python3.10/dist-packages/mini_pupper_interfaces/mini_pupper_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[9.950s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/srv/DanceCommand.idl
+[9.954s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/srv/PlayMusic.idl
+[9.957s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/srv/StopMusic.idl
+[9.961s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/srv/DanceCommand.srv
+[9.964s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/srv/DanceCommand_Request.msg
+[9.968s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/srv/DanceCommand_Response.msg
+[9.971s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/srv/PlayMusic.srv
+[9.974s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/srv/PlayMusic_Request.msg
+[9.977s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/srv/PlayMusic_Response.msg
+[9.981s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/srv/StopMusic.srv
+[9.984s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/srv/StopMusic_Request.msg
+[9.989s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/srv/StopMusic_Response.msg
+[9.997s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/ament_index/resource_index/package_run_dependencies/mini_pupper_interfaces
+[10.001s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/ament_index/resource_index/parent_prefix_path/mini_pupper_interfaces
+[10.004s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/environment/ament_prefix_path.sh
+[10.007s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/environment/ament_prefix_path.dsv
+[10.010s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/environment/path.sh
+[10.013s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/environment/path.dsv
+[10.016s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/local_setup.bash
+[10.019s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/local_setup.sh
+[10.022s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/local_setup.zsh
+[10.027s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/local_setup.dsv
+[10.031s] -- Symlinking: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/package.dsv
+[10.090s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/ament_index/resource_index/packages/mini_pupper_interfaces
+[10.096s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/cmake/rosidl_cmake-extras.cmake
+[10.099s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.102s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.106s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[10.109s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[10.120s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.132s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.133s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/cmake/mini_pupper_interfacesConfig.cmake
+[10.136s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/cmake/mini_pupper_interfacesConfig-version.cmake
+[10.137s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/package.xml
+[10.141s] -- Up-to-date: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/lib/libmini_pupper_interfaces__rosidl_generator_c.so
+[10.142s] -- Up-to-date: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/lib/libmini_pupper_interfaces__rosidl_typesupport_fastrtps_c.so
+[10.150s] -- Up-to-date: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/lib/libmini_pupper_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[10.156s] -- Up-to-date: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/lib/libmini_pupper_interfaces__rosidl_typesupport_introspection_c.so
+[10.161s] -- Up-to-date: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/lib/libmini_pupper_interfaces__rosidl_typesupport_c.so
+[10.168s] -- Up-to-date: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/lib/libmini_pupper_interfaces__rosidl_typesupport_introspection_cpp.so
+[10.175s] -- Up-to-date: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/lib/libmini_pupper_interfaces__rosidl_typesupport_cpp.so
+[10.569s] Listing '/home/ubuntu/ros2_ws/install/mini_pupper_interfaces/local/lib/python3.10/dist-packages/mini_pupper_interfaces'...
+[10.578s] Listing '/home/ubuntu/ros2_ws/install/mini_pupper_interfaces/local/lib/python3.10/dist-packages/mini_pupper_interfaces/srv'...
+[10.676s] -- Up-to-date: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/lib/libmini_pupper_interfaces__rosidl_generator_py.so
+[10.677s] -- Up-to-date: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/cmake/export_mini_pupper_interfaces__rosidl_generator_cExport.cmake
+[10.678s] -- Up-to-date: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/cmake/export_mini_pupper_interfaces__rosidl_generator_cExport-noconfig.cmake
+[10.680s] -- Up-to-date: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/cmake/export_mini_pupper_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[10.681s] -- Up-to-date: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/cmake/export_mini_pupper_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.683s] -- Up-to-date: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/cmake/export_mini_pupper_interfaces__rosidl_generator_cppExport.cmake
+[10.685s] -- Up-to-date: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/cmake/export_mini_pupper_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.686s] -- Up-to-date: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/cmake/export_mini_pupper_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.687s] -- Up-to-date: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/cmake/mini_pupper_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[10.688s] -- Up-to-date: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/cmake/mini_pupper_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.689s] -- Up-to-date: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/cmake/mini_pupper_interfaces__rosidl_typesupport_cExport.cmake
+[10.707s] -- Up-to-date: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/cmake/mini_pupper_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[10.708s] -- Up-to-date: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/cmake/mini_pupper_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[10.709s] -- Up-to-date: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/cmake/mini_pupper_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.722s] -- Up-to-date: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/cmake/mini_pupper_interfaces__rosidl_typesupport_cppExport.cmake
+[10.723s] -- Up-to-date: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/cmake/mini_pupper_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[10.724s] -- Up-to-date: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/cmake/export_mini_pupper_interfaces__rosidl_generator_pyExport.cmake
+[10.724s] -- Up-to-date: /home/ubuntu/ros2_ws/install/mini_pupper_interfaces/share/mini_pupper_interfaces/cmake/export_mini_pupper_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[10.726s] Invoked command in '/home/ubuntu/ros2_ws/build/mini_pupper_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/go_pupper_srv:/home/ubuntu/ros2_ws/install/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/mini_pupper_interfaces

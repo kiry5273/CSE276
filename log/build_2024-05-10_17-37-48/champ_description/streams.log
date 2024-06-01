@@ -1,0 +1,49 @@
+[0.306s] Invoking command in '/home/ubuntu/ros2_ws/build/champ_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/go_pupper_srv:/home/ubuntu/ros2_ws/install/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/champ_description -- -j4 -l4
+[0.702s] Invoked command in '/home/ubuntu/ros2_ws/build/champ_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/go_pupper_srv:/home/ubuntu/ros2_ws/install/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/champ_description -- -j4 -l4
+[1.430s] Invoking command in '/home/ubuntu/ros2_ws/build/champ_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/go_pupper_srv:/home/ubuntu/ros2_ws/install/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/champ_description
+[1.629s] -- Install configuration: ""
+[1.648s] -- Execute custom install script
+[1.669s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/launch/description.launch
+[1.671s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/launch/description.launch.py
+[1.675s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/launch/view_urdf.launch
+[1.679s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/rviz/urdf_viewer.rviz
+[1.685s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/meshes/arm/base.stl
+[1.695s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/meshes/arm/lower_arm.stl
+[1.702s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/meshes/arm/upper_arm.stl
+[1.709s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/meshes/arm/wrist1.stl
+[1.719s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/meshes/arm/wrist2.stl
+[1.727s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/meshes/asus_camera_simple.dae
+[1.747s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/meshes/base.stl
+[1.773s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/meshes/base_simple.stl
+[1.824s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/meshes/hip.stl
+[1.829s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/meshes/hokuyo_utm_30lx.dae
+[1.836s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/meshes/lower_leg.stl
+[1.840s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/meshes/lower_leg_simple.stl
+[1.847s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/meshes/upper_leg.stl
+[1.858s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/meshes/upper_leg_simple.stl
+[1.894s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/urdf/accessories.urdf.xacro
+[1.940s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/urdf/asus_camera.urdf.xacro
+[1.941s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/urdf/champ.urdf
+[1.941s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/urdf/champ.urdf.xacro
+[1.942s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/urdf/champ_arm.urdf
+[1.985s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/urdf/champ_velodyne.urdf
+[1.986s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/urdf/gen_urdf
+[1.988s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/urdf/hokuyo_utm30lx.urdf.xacro
+[1.990s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/urdf/leg.urdf.xacro
+[1.991s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/urdf/properties.urdf.xacro
+[1.992s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/ament_index/resource_index/package_run_dependencies/champ_description
+[1.993s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/ament_index/resource_index/parent_prefix_path/champ_description
+[1.994s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/environment/ament_prefix_path.sh
+[1.994s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/environment/ament_prefix_path.dsv
+[1.995s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/environment/path.sh
+[1.996s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/environment/path.dsv
+[2.013s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/local_setup.bash
+[2.017s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/local_setup.sh
+[2.019s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/local_setup.zsh
+[2.020s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/local_setup.dsv
+[2.024s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/package.dsv
+[2.197s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/ament_index/resource_index/packages/champ_description
+[2.199s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/cmake/champ_descriptionConfig.cmake
+[2.201s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/cmake/champ_descriptionConfig-version.cmake
+[2.203s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_description/share/champ_description/package.xml
+[2.459s] Invoked command in '/home/ubuntu/ros2_ws/build/champ_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/go_pupper_srv:/home/ubuntu/ros2_ws/install/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/champ_description

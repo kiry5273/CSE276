@@ -1,0 +1,21 @@
+[7.045s] Invoking command in '/home/ubuntu/ros2_ws/src/mini_pupper_ros/mini_pupper_music': PYTHONPATH=/home/ubuntu/ros2_ws/build/mini_pupper_music/prefix_override:/home/ubuntu/ros2_ws/install/mini_pupper_music/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/mini_pupper_music build --build-base /home/ubuntu/ros2_ws/build/mini_pupper_music/build install --record /home/ubuntu/ros2_ws/build/mini_pupper_music/install.log --single-version-externally-managed install_data
+[10.975s] running egg_info
+[10.980s] writing ../../../build/mini_pupper_music/mini_pupper_music.egg-info/PKG-INFO
+[10.981s] writing dependency_links to ../../../build/mini_pupper_music/mini_pupper_music.egg-info/dependency_links.txt
+[10.984s] writing entry points to ../../../build/mini_pupper_music/mini_pupper_music.egg-info/entry_points.txt
+[10.986s] writing requirements to ../../../build/mini_pupper_music/mini_pupper_music.egg-info/requires.txt
+[10.986s] writing top-level names to ../../../build/mini_pupper_music/mini_pupper_music.egg-info/top_level.txt
+[10.999s] reading manifest file '../../../build/mini_pupper_music/mini_pupper_music.egg-info/SOURCES.txt'
+[11.004s] writing manifest file '../../../build/mini_pupper_music/mini_pupper_music.egg-info/SOURCES.txt'
+[11.005s] running build
+[11.006s] running build_py
+[11.009s] running install
+[11.010s] running install_lib
+[11.021s] running install_data
+[11.022s] running install_egg_info
+[11.032s] removing '/home/ubuntu/ros2_ws/install/mini_pupper_music/lib/python3.10/site-packages/mini_pupper_music-1.0.0-py3.10.egg-info' (and everything under it)
+[11.034s] Copying ../../../build/mini_pupper_music/mini_pupper_music.egg-info to /home/ubuntu/ros2_ws/install/mini_pupper_music/lib/python3.10/site-packages/mini_pupper_music-1.0.0-py3.10.egg-info
+[11.047s] running install_scripts
+[11.204s] Installing service script to /home/ubuntu/ros2_ws/install/mini_pupper_music/lib/mini_pupper_music
+[11.207s] writing list of installed files to '/home/ubuntu/ros2_ws/build/mini_pupper_music/install.log'
+[12.978s] Invoked command in '/home/ubuntu/ros2_ws/src/mini_pupper_ros/mini_pupper_music' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/mini_pupper_music/prefix_override:/home/ubuntu/ros2_ws/install/mini_pupper_music/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/mini_pupper_music build --build-base /home/ubuntu/ros2_ws/build/mini_pupper_music/build install --record /home/ubuntu/ros2_ws/build/mini_pupper_music/install.log --single-version-externally-managed install_data
