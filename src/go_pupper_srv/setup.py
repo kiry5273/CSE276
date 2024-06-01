@@ -22,6 +22,8 @@ setup(
         'console_scripts': ['service = go_pupper_srv.service_go_pupper:main',
                             'client = go_pupper_srv.client_go_pupper:main',
                             'salsa = go_pupper_srv.sample_controller:main',
+                            'audio = go_pupper_srv.audio: main',
+                            'task2 = go_pupper_srv.task2: main',
         ],
     },
 )
