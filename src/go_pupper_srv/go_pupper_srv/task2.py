@@ -143,7 +143,6 @@ def main(args=None):
         print(display_sting)
         if len(sequence)>16:
         	break
-        print("hello")
         time.sleep(0.8)
         
     print("The sequence is: ")
