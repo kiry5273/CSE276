@@ -1,0 +1,49 @@
+[13.579s] Invoking command in '/home/ubuntu/ros2_ws/src/mini_pupper_ros/mini_pupper_driver': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/mini_pupper_driver/prefix_override:/home/ubuntu/ros2_ws/src/install/mini_pupper_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mini_pupper_driver build --build-base /home/ubuntu/ros2_ws/src/build/mini_pupper_driver/build install --record /home/ubuntu/ros2_ws/src/build/mini_pupper_driver/install.log --single-version-externally-managed install_data
+[17.056s] running egg_info
+[17.065s] creating ../../build/mini_pupper_driver/mini_pupper_driver.egg-info
+[17.068s] writing ../../build/mini_pupper_driver/mini_pupper_driver.egg-info/PKG-INFO
+[17.073s] writing dependency_links to ../../build/mini_pupper_driver/mini_pupper_driver.egg-info/dependency_links.txt
+[17.077s] writing entry points to ../../build/mini_pupper_driver/mini_pupper_driver.egg-info/entry_points.txt
+[17.078s] writing requirements to ../../build/mini_pupper_driver/mini_pupper_driver.egg-info/requires.txt
+[17.079s] writing top-level names to ../../build/mini_pupper_driver/mini_pupper_driver.egg-info/top_level.txt
+[17.081s] writing manifest file '../../build/mini_pupper_driver/mini_pupper_driver.egg-info/SOURCES.txt'
+[17.109s] reading manifest file '../../build/mini_pupper_driver/mini_pupper_driver.egg-info/SOURCES.txt'
+[17.128s] writing manifest file '../../build/mini_pupper_driver/mini_pupper_driver.egg-info/SOURCES.txt'
+[17.144s] running build
+[17.145s] running build_py
+[17.146s] creating /home/ubuntu/ros2_ws/src/build/mini_pupper_driver/build
+[17.146s] creating /home/ubuntu/ros2_ws/src/build/mini_pupper_driver/build/lib
+[17.147s] creating /home/ubuntu/ros2_ws/src/build/mini_pupper_driver/build/lib/mini_pupper_driver
+[17.148s] copying mini_pupper_driver/__init__.py -> /home/ubuntu/ros2_ws/src/build/mini_pupper_driver/build/lib/mini_pupper_driver
+[17.149s] copying mini_pupper_driver/imu_interface.py -> /home/ubuntu/ros2_ws/src/build/mini_pupper_driver/build/lib/mini_pupper_driver
+[17.151s] copying mini_pupper_driver/display_interface.py -> /home/ubuntu/ros2_ws/src/build/mini_pupper_driver/build/lib/mini_pupper_driver
+[17.153s] copying mini_pupper_driver/servo_interface.py -> /home/ubuntu/ros2_ws/src/build/mini_pupper_driver/build/lib/mini_pupper_driver
+[17.157s] running install
+[17.166s] running install_lib
+[17.180s] creating /home/ubuntu/ros2_ws/src/install/mini_pupper_driver/lib/python3.10/site-packages/mini_pupper_driver
+[17.182s] copying /home/ubuntu/ros2_ws/src/build/mini_pupper_driver/build/lib/mini_pupper_driver/__init__.py -> /home/ubuntu/ros2_ws/src/install/mini_pupper_driver/lib/python3.10/site-packages/mini_pupper_driver
+[17.184s] copying /home/ubuntu/ros2_ws/src/build/mini_pupper_driver/build/lib/mini_pupper_driver/imu_interface.py -> /home/ubuntu/ros2_ws/src/install/mini_pupper_driver/lib/python3.10/site-packages/mini_pupper_driver
+[17.189s] copying /home/ubuntu/ros2_ws/src/build/mini_pupper_driver/build/lib/mini_pupper_driver/display_interface.py -> /home/ubuntu/ros2_ws/src/install/mini_pupper_driver/lib/python3.10/site-packages/mini_pupper_driver
+[17.194s] copying /home/ubuntu/ros2_ws/src/build/mini_pupper_driver/build/lib/mini_pupper_driver/servo_interface.py -> /home/ubuntu/ros2_ws/src/install/mini_pupper_driver/lib/python3.10/site-packages/mini_pupper_driver
+[17.209s] byte-compiling /home/ubuntu/ros2_ws/src/install/mini_pupper_driver/lib/python3.10/site-packages/mini_pupper_driver/__init__.py to __init__.cpython-310.pyc
+[17.220s] byte-compiling /home/ubuntu/ros2_ws/src/install/mini_pupper_driver/lib/python3.10/site-packages/mini_pupper_driver/imu_interface.py to imu_interface.cpython-310.pyc
+[17.247s] byte-compiling /home/ubuntu/ros2_ws/src/install/mini_pupper_driver/lib/python3.10/site-packages/mini_pupper_driver/display_interface.py to display_interface.cpython-310.pyc
+[17.252s] byte-compiling /home/ubuntu/ros2_ws/src/install/mini_pupper_driver/lib/python3.10/site-packages/mini_pupper_driver/servo_interface.py to servo_interface.cpython-310.pyc
+[17.256s] running install_data
+[17.258s] creating /home/ubuntu/ros2_ws/src/install/mini_pupper_driver/share/ament_index
+[17.259s] creating /home/ubuntu/ros2_ws/src/install/mini_pupper_driver/share/ament_index/resource_index
+[17.261s] creating /home/ubuntu/ros2_ws/src/install/mini_pupper_driver/share/ament_index/resource_index/packages
+[17.263s] copying resource/mini_pupper_driver -> /home/ubuntu/ros2_ws/src/install/mini_pupper_driver/share/ament_index/resource_index/packages
+[17.265s] copying package.xml -> /home/ubuntu/ros2_ws/src/install/mini_pupper_driver/share/mini_pupper_driver
+[17.276s] creating /home/ubuntu/ros2_ws/src/install/mini_pupper_driver/share/mini_pupper_driver/launch
+[17.277s] copying launch/imu_interface.launch.py -> /home/ubuntu/ros2_ws/src/install/mini_pupper_driver/share/mini_pupper_driver/launch
+[17.279s] copying launch/display_interface.launch.py -> /home/ubuntu/ros2_ws/src/install/mini_pupper_driver/share/mini_pupper_driver/launch
+[17.293s] copying launch/servo_interface.launch.py -> /home/ubuntu/ros2_ws/src/install/mini_pupper_driver/share/mini_pupper_driver/launch
+[17.295s] running install_egg_info
+[17.313s] Copying ../../build/mini_pupper_driver/mini_pupper_driver.egg-info to /home/ubuntu/ros2_ws/src/install/mini_pupper_driver/lib/python3.10/site-packages/mini_pupper_driver-0.0.1-py3.10.egg-info
+[17.364s] running install_scripts
+[17.576s] Installing display_interface script to /home/ubuntu/ros2_ws/src/install/mini_pupper_driver/lib/mini_pupper_driver
+[17.577s] Installing imu_interface script to /home/ubuntu/ros2_ws/src/install/mini_pupper_driver/lib/mini_pupper_driver
+[17.578s] Installing servo_interface script to /home/ubuntu/ros2_ws/src/install/mini_pupper_driver/lib/mini_pupper_driver
+[17.581s] writing list of installed files to '/home/ubuntu/ros2_ws/src/build/mini_pupper_driver/install.log'
+[17.888s] Invoked command in '/home/ubuntu/ros2_ws/src/mini_pupper_ros/mini_pupper_driver' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/mini_pupper_driver/prefix_override:/home/ubuntu/ros2_ws/src/install/mini_pupper_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mini_pupper_driver build --build-base /home/ubuntu/ros2_ws/src/build/mini_pupper_driver/build install --record /home/ubuntu/ros2_ws/src/build/mini_pupper_driver/install.log --single-version-externally-managed install_data

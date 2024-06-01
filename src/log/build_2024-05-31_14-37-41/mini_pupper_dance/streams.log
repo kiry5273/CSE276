@@ -1,0 +1,52 @@
+[10.087s] Invoking command in '/home/ubuntu/ros2_ws/src/mini_pupper_ros/mini_pupper_dance': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/src/install/mini_pupper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/src/install/mini_pupper_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/src/install/mini_pupper_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/src/build/mini_pupper_dance/prefix_override:/home/ubuntu/ros2_ws/src/install/mini_pupper_dance/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/install/mini_pupper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mini_pupper_dance build --build-base /home/ubuntu/ros2_ws/src/build/mini_pupper_dance/build install --record /home/ubuntu/ros2_ws/src/build/mini_pupper_dance/install.log --single-version-externally-managed install_data
+[12.842s] running egg_info
+[12.847s] creating ../../build/mini_pupper_dance/mini_pupper_dance.egg-info
+[12.849s] writing ../../build/mini_pupper_dance/mini_pupper_dance.egg-info/PKG-INFO
+[12.850s] writing dependency_links to ../../build/mini_pupper_dance/mini_pupper_dance.egg-info/dependency_links.txt
+[12.853s] writing entry points to ../../build/mini_pupper_dance/mini_pupper_dance.egg-info/entry_points.txt
+[12.854s] writing requirements to ../../build/mini_pupper_dance/mini_pupper_dance.egg-info/requires.txt
+[12.856s] writing top-level names to ../../build/mini_pupper_dance/mini_pupper_dance.egg-info/top_level.txt
+[12.857s] writing manifest file '../../build/mini_pupper_dance/mini_pupper_dance.egg-info/SOURCES.txt'
+[12.868s] reading manifest file '../../build/mini_pupper_dance/mini_pupper_dance.egg-info/SOURCES.txt'
+[12.879s] writing manifest file '../../build/mini_pupper_dance/mini_pupper_dance.egg-info/SOURCES.txt'
+[12.882s] running build
+[12.883s] running build_py
+[12.884s] creating /home/ubuntu/ros2_ws/src/build/mini_pupper_dance/build
+[12.885s] creating /home/ubuntu/ros2_ws/src/build/mini_pupper_dance/build/lib
+[12.887s] creating /home/ubuntu/ros2_ws/src/build/mini_pupper_dance/build/lib/mini_pupper_dance
+[12.890s] copying mini_pupper_dance/__init__.py -> /home/ubuntu/ros2_ws/src/build/mini_pupper_dance/build/lib/mini_pupper_dance
+[12.891s] copying mini_pupper_dance/dance_client.py -> /home/ubuntu/ros2_ws/src/build/mini_pupper_dance/build/lib/mini_pupper_dance
+[12.896s] copying mini_pupper_dance/math_operations.py -> /home/ubuntu/ros2_ws/src/build/mini_pupper_dance/build/lib/mini_pupper_dance
+[12.897s] copying mini_pupper_dance/dance_server.py -> /home/ubuntu/ros2_ws/src/build/mini_pupper_dance/build/lib/mini_pupper_dance
+[12.909s] copying mini_pupper_dance/pose_controller.py -> /home/ubuntu/ros2_ws/src/build/mini_pupper_dance/build/lib/mini_pupper_dance
+[12.909s] copying mini_pupper_dance/episode.py -> /home/ubuntu/ros2_ws/src/build/mini_pupper_dance/build/lib/mini_pupper_dance
+[12.910s] running install
+[12.910s] running install_lib
+[12.911s] creating /home/ubuntu/ros2_ws/src/install/mini_pupper_dance/lib/python3.10/site-packages/mini_pupper_dance
+[12.911s] copying /home/ubuntu/ros2_ws/src/build/mini_pupper_dance/build/lib/mini_pupper_dance/__init__.py -> /home/ubuntu/ros2_ws/src/install/mini_pupper_dance/lib/python3.10/site-packages/mini_pupper_dance
+[12.912s] copying /home/ubuntu/ros2_ws/src/build/mini_pupper_dance/build/lib/mini_pupper_dance/dance_client.py -> /home/ubuntu/ros2_ws/src/install/mini_pupper_dance/lib/python3.10/site-packages/mini_pupper_dance
+[12.915s] copying /home/ubuntu/ros2_ws/src/build/mini_pupper_dance/build/lib/mini_pupper_dance/math_operations.py -> /home/ubuntu/ros2_ws/src/install/mini_pupper_dance/lib/python3.10/site-packages/mini_pupper_dance
+[12.917s] copying /home/ubuntu/ros2_ws/src/build/mini_pupper_dance/build/lib/mini_pupper_dance/dance_server.py -> /home/ubuntu/ros2_ws/src/install/mini_pupper_dance/lib/python3.10/site-packages/mini_pupper_dance
+[12.919s] copying /home/ubuntu/ros2_ws/src/build/mini_pupper_dance/build/lib/mini_pupper_dance/pose_controller.py -> /home/ubuntu/ros2_ws/src/install/mini_pupper_dance/lib/python3.10/site-packages/mini_pupper_dance
+[12.922s] copying /home/ubuntu/ros2_ws/src/build/mini_pupper_dance/build/lib/mini_pupper_dance/episode.py -> /home/ubuntu/ros2_ws/src/install/mini_pupper_dance/lib/python3.10/site-packages/mini_pupper_dance
+[12.931s] byte-compiling /home/ubuntu/ros2_ws/src/install/mini_pupper_dance/lib/python3.10/site-packages/mini_pupper_dance/__init__.py to __init__.cpython-310.pyc
+[12.934s] byte-compiling /home/ubuntu/ros2_ws/src/install/mini_pupper_dance/lib/python3.10/site-packages/mini_pupper_dance/dance_client.py to dance_client.cpython-310.pyc
+[12.939s] byte-compiling /home/ubuntu/ros2_ws/src/install/mini_pupper_dance/lib/python3.10/site-packages/mini_pupper_dance/math_operations.py to math_operations.cpython-310.pyc
+[12.944s] byte-compiling /home/ubuntu/ros2_ws/src/install/mini_pupper_dance/lib/python3.10/site-packages/mini_pupper_dance/dance_server.py to dance_server.cpython-310.pyc
+[12.950s] byte-compiling /home/ubuntu/ros2_ws/src/install/mini_pupper_dance/lib/python3.10/site-packages/mini_pupper_dance/pose_controller.py to pose_controller.cpython-310.pyc
+[12.954s] byte-compiling /home/ubuntu/ros2_ws/src/install/mini_pupper_dance/lib/python3.10/site-packages/mini_pupper_dance/episode.py to episode.cpython-310.pyc
+[12.956s] running install_data
+[12.958s] creating /home/ubuntu/ros2_ws/src/install/mini_pupper_dance/share/ament_index
+[12.959s] creating /home/ubuntu/ros2_ws/src/install/mini_pupper_dance/share/ament_index/resource_index
+[12.960s] creating /home/ubuntu/ros2_ws/src/install/mini_pupper_dance/share/ament_index/resource_index/packages
+[12.960s] copying resource/mini_pupper_dance -> /home/ubuntu/ros2_ws/src/install/mini_pupper_dance/share/ament_index/resource_index/packages
+[12.961s] copying package.xml -> /home/ubuntu/ros2_ws/src/install/mini_pupper_dance/share/mini_pupper_dance
+[12.962s] copying launch/dance.launch.py -> /home/ubuntu/ros2_ws/src/install/mini_pupper_dance/share/mini_pupper_dance
+[12.963s] running install_egg_info
+[12.974s] Copying ../../build/mini_pupper_dance/mini_pupper_dance.egg-info to /home/ubuntu/ros2_ws/src/install/mini_pupper_dance/lib/python3.10/site-packages/mini_pupper_dance-0.0.0-py3.10.egg-info
+[13.008s] running install_scripts
+[13.115s] Installing client script to /home/ubuntu/ros2_ws/src/install/mini_pupper_dance/lib/mini_pupper_dance
+[13.117s] Installing pose_controller script to /home/ubuntu/ros2_ws/src/install/mini_pupper_dance/lib/mini_pupper_dance
+[13.121s] Installing service script to /home/ubuntu/ros2_ws/src/install/mini_pupper_dance/lib/mini_pupper_dance
+[13.124s] writing list of installed files to '/home/ubuntu/ros2_ws/src/build/mini_pupper_dance/install.log'
+[13.315s] Invoked command in '/home/ubuntu/ros2_ws/src/mini_pupper_ros/mini_pupper_dance' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/src/install/mini_pupper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/src/install/mini_pupper_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/src/install/mini_pupper_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/src/build/mini_pupper_dance/prefix_override:/home/ubuntu/ros2_ws/src/install/mini_pupper_dance/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/install/mini_pupper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mini_pupper_dance build --build-base /home/ubuntu/ros2_ws/src/build/mini_pupper_dance/build install --record /home/ubuntu/ros2_ws/src/build/mini_pupper_dance/install.log --single-version-externally-managed install_data

@@ -1,5 +1,7 @@
 [console_scripts]
+audio = go_pupper_srv.audio:main
 client = go_pupper_srv.client_go_pupper:main
 salsa = go_pupper_srv.sample_controller:main
 service = go_pupper_srv.service_go_pupper:main
+task2 = go_pupper_srv.task2:main
 

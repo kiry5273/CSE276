@@ -1,0 +1,19 @@
+[0.000000] (-) TimerEvent: {}
+[0.000535] (-) JobUnselected: {'identifier': 'champ'}
+[0.001340] (-) JobUnselected: {'identifier': 'champ_base'}
+[0.001916] (-) JobUnselected: {'identifier': 'champ_bringup'}
+[0.002018] (-) JobUnselected: {'identifier': 'champ_config'}
+[0.002107] (-) JobUnselected: {'identifier': 'champ_description'}
+[0.002198] (-) JobUnselected: {'identifier': 'champ_msgs'}
+[0.002286] (-) JobUnselected: {'identifier': 'champ_teleop'}
+[0.002373] (-) JobUnselected: {'identifier': 'go_pupper_srv'}
+[0.002461] (-) JobUnselected: {'identifier': 'ldlidar_stl_ros2'}
+[0.002587] (-) JobUnselected: {'identifier': 'mini_pupper_2_description'}
+[0.002873] (-) JobUnselected: {'identifier': 'mini_pupper_bringup'}
+[0.003018] (-) JobUnselected: {'identifier': 'mini_pupper_dance'}
+[0.003109] (-) JobUnselected: {'identifier': 'mini_pupper_description'}
+[0.003199] (-) JobUnselected: {'identifier': 'mini_pupper_driver'}
+[0.003286] (-) JobUnselected: {'identifier': 'mini_pupper_interfaces'}
+[0.003455] (-) JobUnselected: {'identifier': 'mini_pupper_music'}
+[0.003802] (-) JobUnselected: {'identifier': 'pupper_interfaces'}
+[0.004454] (-) EventReactorShutdown: {}

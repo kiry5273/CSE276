@@ -1,0 +1,331 @@
+[0.000000] (-) TimerEvent: {}
+[0.000899] (-) JobUnselected: {'identifier': 'champ'}
+[0.001134] (-) JobUnselected: {'identifier': 'champ_base'}
+[0.001265] (-) JobUnselected: {'identifier': 'champ_bringup'}
+[0.001405] (-) JobUnselected: {'identifier': 'champ_config'}
+[0.001530] (-) JobUnselected: {'identifier': 'champ_description'}
+[0.001651] (-) JobUnselected: {'identifier': 'champ_msgs'}
+[0.001840] (-) JobUnselected: {'identifier': 'champ_teleop'}
+[0.001992] (-) JobUnselected: {'identifier': 'ldlidar_stl_ros2'}
+[0.002121] (-) JobUnselected: {'identifier': 'mini_pupper_2_description'}
+[0.002258] (-) JobUnselected: {'identifier': 'mini_pupper_bringup'}
+[0.002398] (-) JobUnselected: {'identifier': 'mini_pupper_dance'}
+[0.002537] (-) JobUnselected: {'identifier': 'mini_pupper_description'}
+[0.002657] (-) JobUnselected: {'identifier': 'mini_pupper_driver'}
+[0.002771] (-) JobUnselected: {'identifier': 'mini_pupper_interfaces'}
+[0.002887] (-) JobUnselected: {'identifier': 'mini_pupper_music'}
+[0.003011] (-) JobUnselected: {'identifier': 'pupper_interfaces'}
+[0.003177] (go_pupper_srv) JobQueued: {'identifier': 'go_pupper_srv', 'dependencies': OrderedDict([('pupper_interfaces', '/home/ubuntu/ros2_ws/install/pupper_interfaces')])}
+[0.008880] (go_pupper_srv) JobStarted: {'identifier': 'go_pupper_srv'}
+[0.094742] (-) TimerEvent: {}
+[0.196150] (-) TimerEvent: {}
+[0.297249] (-) TimerEvent: {}
+[0.409230] (-) TimerEvent: {}
+[0.510150] (-) TimerEvent: {}
+[0.613145] (-) TimerEvent: {}
+[0.714805] (-) TimerEvent: {}
+[0.815688] (-) TimerEvent: {}
+[0.916659] (-) TimerEvent: {}
+[1.017940] (-) TimerEvent: {}
+[1.120815] (-) TimerEvent: {}
+[1.223615] (-) TimerEvent: {}
+[1.324506] (-) TimerEvent: {}
+[1.425347] (-) TimerEvent: {}
+[1.526309] (-) TimerEvent: {}
+[1.628112] (-) TimerEvent: {}
+[1.729359] (-) TimerEvent: {}
+[1.830597] (-) TimerEvent: {}
+[1.931613] (-) TimerEvent: {}
+[2.032583] (-) TimerEvent: {}
+[2.133463] (-) TimerEvent: {}
+[2.234431] (-) TimerEvent: {}
+[2.335333] (-) TimerEvent: {}
+[2.436289] (-) TimerEvent: {}
+[2.537293] (-) TimerEvent: {}
+[2.639043] (-) TimerEvent: {}
+[2.740750] (-) TimerEvent: {}
+[2.842874] (-) TimerEvent: {}
+[2.945460] (-) TimerEvent: {}
+[3.046363] (-) TimerEvent: {}
+[3.147433] (-) TimerEvent: {}
+[3.248369] (-) TimerEvent: {}
+[3.349267] (-) TimerEvent: {}
+[3.453391] (-) TimerEvent: {}
+[3.554278] (-) TimerEvent: {}
+[3.655166] (-) TimerEvent: {}
+[3.755974] (-) TimerEvent: {}
+[3.857613] (-) TimerEvent: {}
+[3.959831] (-) TimerEvent: {}
+[4.060611] (-) TimerEvent: {}
+[4.161455] (-) TimerEvent: {}
+[4.262555] (-) TimerEvent: {}
+[4.364558] (-) TimerEvent: {}
+[4.465456] (-) TimerEvent: {}
+[4.566431] (-) TimerEvent: {}
+[4.667758] (-) TimerEvent: {}
+[4.769527] (-) TimerEvent: {}
+[4.870463] (-) TimerEvent: {}
+[4.971260] (-) TimerEvent: {}
+[5.072446] (-) TimerEvent: {}
+[5.174586] (-) TimerEvent: {}
+[5.281046] (-) TimerEvent: {}
+[5.382003] (-) TimerEvent: {}
+[5.482810] (-) TimerEvent: {}
+[5.583634] (-) TimerEvent: {}
+[5.684612] (-) TimerEvent: {}
+[5.785485] (-) TimerEvent: {}
+[5.886332] (-) TimerEvent: {}
+[5.989885] (-) TimerEvent: {}
+[6.090830] (-) TimerEvent: {}
+[6.191751] (-) TimerEvent: {}
+[6.293053] (-) TimerEvent: {}
+[6.394347] (-) TimerEvent: {}
+[6.495235] (-) TimerEvent: {}
+[6.596194] (-) TimerEvent: {}
+[6.697116] (-) TimerEvent: {}
+[6.798043] (-) TimerEvent: {}
+[6.899030] (-) TimerEvent: {}
+[7.000031] (-) TimerEvent: {}
+[7.101274] (-) TimerEvent: {}
+[7.203211] (-) TimerEvent: {}
+[7.304201] (-) TimerEvent: {}
+[7.405301] (-) TimerEvent: {}
+[7.506221] (-) TimerEvent: {}
+[7.607825] (-) TimerEvent: {}
+[7.708796] (-) TimerEvent: {}
+[7.809809] (-) TimerEvent: {}
+[7.911148] (-) TimerEvent: {}
+[8.012040] (-) TimerEvent: {}
+[8.112985] (-) TimerEvent: {}
+[8.213965] (-) TimerEvent: {}
+[8.314838] (-) TimerEvent: {}
+[8.415766] (-) TimerEvent: {}
+[8.520220] (-) TimerEvent: {}
+[8.621955] (-) TimerEvent: {}
+[8.724026] (-) TimerEvent: {}
+[8.825420] (-) TimerEvent: {}
+[8.926515] (-) TimerEvent: {}
+[9.027407] (-) TimerEvent: {}
+[9.128736] (-) TimerEvent: {}
+[9.229716] (-) TimerEvent: {}
+[9.330656] (-) TimerEvent: {}
+[9.431662] (-) TimerEvent: {}
+[9.532840] (-) TimerEvent: {}
+[9.633810] (-) TimerEvent: {}
+[9.734742] (-) TimerEvent: {}
+[9.835882] (-) TimerEvent: {}
+[9.937453] (-) TimerEvent: {}
+[10.038455] (-) TimerEvent: {}
+[10.142394] (-) TimerEvent: {}
+[10.243764] (-) TimerEvent: {}
+[10.346583] (-) TimerEvent: {}
+[10.448018] (-) TimerEvent: {}
+[10.548923] (-) TimerEvent: {}
+[10.649844] (-) TimerEvent: {}
+[10.750786] (-) TimerEvent: {}
+[10.851757] (-) TimerEvent: {}
+[10.952800] (-) TimerEvent: {}
+[11.053841] (-) TimerEvent: {}
+[11.154919] (-) TimerEvent: {}
+[11.255839] (-) TimerEvent: {}
+[11.356751] (-) TimerEvent: {}
+[11.457727] (-) TimerEvent: {}
+[11.558775] (-) TimerEvent: {}
+[11.659785] (-) TimerEvent: {}
+[11.760779] (-) TimerEvent: {}
+[11.861758] (-) TimerEvent: {}
+[11.962772] (-) TimerEvent: {}
+[12.063789] (-) TimerEvent: {}
+[12.164685] (-) TimerEvent: {}
+[12.265644] (-) TimerEvent: {}
+[12.366633] (-) TimerEvent: {}
+[12.467514] (-) TimerEvent: {}
+[12.568425] (-) TimerEvent: {}
+[12.669395] (-) TimerEvent: {}
+[12.770520] (-) TimerEvent: {}
+[12.871400] (-) TimerEvent: {}
+[12.972147] (-) TimerEvent: {}
+[13.073008] (-) TimerEvent: {}
+[13.173860] (-) TimerEvent: {}
+[13.274704] (-) TimerEvent: {}
+[13.375794] (-) TimerEvent: {}
+[13.476781] (-) TimerEvent: {}
+[13.586677] (-) TimerEvent: {}
+[13.688329] (-) TimerEvent: {}
+[13.789830] (-) TimerEvent: {}
+[13.891570] (-) TimerEvent: {}
+[13.992532] (-) TimerEvent: {}
+[14.093410] (-) TimerEvent: {}
+[14.194513] (-) TimerEvent: {}
+[14.295531] (-) TimerEvent: {}
+[14.396567] (-) TimerEvent: {}
+[14.501191] (-) TimerEvent: {}
+[14.602229] (-) TimerEvent: {}
+[14.703257] (-) TimerEvent: {}
+[14.804201] (-) TimerEvent: {}
+[14.905077] (-) TimerEvent: {}
+[15.005979] (-) TimerEvent: {}
+[15.107165] (-) TimerEvent: {}
+[15.208368] (-) TimerEvent: {}
+[15.309257] (-) TimerEvent: {}
+[15.413260] (-) TimerEvent: {}
+[15.514266] (-) TimerEvent: {}
+[15.615172] (-) TimerEvent: {}
+[15.716110] (-) TimerEvent: {}
+[15.817039] (-) TimerEvent: {}
+[15.918727] (-) TimerEvent: {}
+[16.019665] (-) TimerEvent: {}
+[16.120547] (-) TimerEvent: {}
+[16.227197] (-) TimerEvent: {}
+[16.328151] (-) TimerEvent: {}
+[16.429049] (-) TimerEvent: {}
+[16.533889] (-) TimerEvent: {}
+[16.635095] (-) TimerEvent: {}
+[16.737224] (-) TimerEvent: {}
+[16.838146] (-) TimerEvent: {}
+[16.939118] (-) TimerEvent: {}
+[17.039942] (-) TimerEvent: {}
+[17.140725] (-) TimerEvent: {}
+[17.241882] (-) TimerEvent: {}
+[17.344955] (-) TimerEvent: {}
+[17.449467] (-) TimerEvent: {}
+[17.550397] (-) TimerEvent: {}
+[17.652457] (-) TimerEvent: {}
+[17.753372] (-) TimerEvent: {}
+[17.854463] (-) TimerEvent: {}
+[17.955409] (-) TimerEvent: {}
+[18.057402] (-) TimerEvent: {}
+[18.158379] (-) TimerEvent: {}
+[18.259284] (-) TimerEvent: {}
+[18.360143] (-) TimerEvent: {}
+[18.461234] (-) TimerEvent: {}
+[18.562969] (-) TimerEvent: {}
+[18.664065] (-) TimerEvent: {}
+[18.766152] (-) TimerEvent: {}
+[18.868552] (-) TimerEvent: {}
+[18.970415] (-) TimerEvent: {}
+[19.071572] (-) TimerEvent: {}
+[19.173086] (-) TimerEvent: {}
+[19.274407] (-) TimerEvent: {}
+[19.375671] (-) TimerEvent: {}
+[19.458951] (go_pupper_srv) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/go_pupper_srv', 'build', '--build-base', '/home/ubuntu/ros2_ws/build/go_pupper_srv/build', 'install', '--record', '/home/ubuntu/ros2_ws/build/go_pupper_srv/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/ros2_ws/src/go_pupper_srv', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/ros2_ws/install/pupper_interfaces/lib:/home/ubuntu/ros2_ws/install/mini_pupper_interfaces/lib:/home/ubuntu/ros2_ws/install/champ_base/lib:/home/ubuntu/ros2_ws/install/champ_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2215', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'WINDOWPATH': '2', 'PATH': '/home/ubuntu/ros2_ws/install/champ_base/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/minipupperv2:@/tmp/.ICE-unix/1873,unix/minipupperv2:/tmp/.ICE-unix/1873', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/35963a83_4d75_4512_a91d_3f36fc5aa4bc', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.78', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/go_pupper_srv:/home/ubuntu/ros2_ws/install/pupper_interfaces:/home/ubuntu/ros2_ws/install/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_interfaces:/home/ubuntu/ros2_ws/install/mini_pupper_driver:/home/ubuntu/ros2_ws/install/mini_pupper_description:/home/ubuntu/ros2_ws/install/mini_pupper_bringup:/home/ubuntu/ros2_ws/install/mini_pupper_2_description:/home/ubuntu/ros2_ws/install/ldlidar_stl_ros2:/home/ubuntu/ros2_ws/install/champ_teleop:/home/ubuntu/ros2_ws/install/champ_bringup:/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ_description:/home/ubuntu/ros2_ws/install/champ_config:/home/ubuntu/ros2_ws/install/champ:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/ros2_ws/build/go_pupper_srv', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_ws/build/go_pupper_srv/prefix_override:/home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/mini_pupper_music/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/mini_pupper_dance/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/mini_pupper_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/mini_pupper_driver/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/champ_bringup/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/pupper_interfaces:/home/ubuntu/ros2_ws/install/mini_pupper_interfaces:/home/ubuntu/ros2_ws/install/mini_pupper_description:/home/ubuntu/ros2_ws/install/mini_pupper_bringup:/home/ubuntu/ros2_ws/install/mini_pupper_2_description:/home/ubuntu/ros2_ws/install/ldlidar_stl_ros2:/home/ubuntu/ros2_ws/install/champ_teleop:/home/ubuntu/ros2_ws/install/champ_bringup:/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ_description:/home/ubuntu/ros2_ws/install/champ_config:/home/ubuntu/ros2_ws/install/champ'}, 'shell': False}
+[19.487872] (-) TimerEvent: {}
+[19.588768] (-) TimerEvent: {}
+[19.689794] (-) TimerEvent: {}
+[19.790945] (-) TimerEvent: {}
+[19.892597] (-) TimerEvent: {}
+[19.994119] (-) TimerEvent: {}
+[20.098132] (-) TimerEvent: {}
+[20.199072] (-) TimerEvent: {}
+[20.299930] (-) TimerEvent: {}
+[20.402062] (-) TimerEvent: {}
+[20.503001] (-) TimerEvent: {}
+[20.603976] (-) TimerEvent: {}
+[20.704836] (-) TimerEvent: {}
+[20.806136] (-) TimerEvent: {}
+[20.907251] (-) TimerEvent: {}
+[21.008202] (-) TimerEvent: {}
+[21.109094] (-) TimerEvent: {}
+[21.210236] (-) TimerEvent: {}
+[21.312106] (-) TimerEvent: {}
+[21.412988] (-) TimerEvent: {}
+[21.514006] (-) TimerEvent: {}
+[21.615086] (-) TimerEvent: {}
+[21.716234] (-) TimerEvent: {}
+[21.817314] (-) TimerEvent: {}
+[21.918516] (-) TimerEvent: {}
+[22.019372] (-) TimerEvent: {}
+[22.120245] (-) TimerEvent: {}
+[22.223973] (-) TimerEvent: {}
+[22.326082] (-) TimerEvent: {}
+[22.428754] (-) TimerEvent: {}
+[22.529704] (-) TimerEvent: {}
+[22.630623] (-) TimerEvent: {}
+[22.732503] (-) TimerEvent: {}
+[22.833471] (-) TimerEvent: {}
+[22.934406] (-) TimerEvent: {}
+[23.035257] (-) TimerEvent: {}
+[23.137190] (-) TimerEvent: {}
+[23.238332] (-) TimerEvent: {}
+[23.339370] (-) TimerEvent: {}
+[23.440355] (-) TimerEvent: {}
+[23.541428] (-) TimerEvent: {}
+[23.642712] (-) TimerEvent: {}
+[23.743638] (-) TimerEvent: {}
+[23.848151] (-) TimerEvent: {}
+[23.949497] (-) TimerEvent: {}
+[24.050728] (-) TimerEvent: {}
+[24.151775] (-) TimerEvent: {}
+[24.252871] (-) TimerEvent: {}
+[24.353946] (-) TimerEvent: {}
+[24.454803] (-) TimerEvent: {}
+[24.555790] (-) TimerEvent: {}
+[24.656919] (-) TimerEvent: {}
+[24.757916] (-) TimerEvent: {}
+[24.858903] (-) TimerEvent: {}
+[24.960421] (-) TimerEvent: {}
+[25.061367] (-) TimerEvent: {}
+[25.162536] (-) TimerEvent: {}
+[25.263974] (-) TimerEvent: {}
+[25.365183] (-) TimerEvent: {}
+[25.466099] (-) TimerEvent: {}
+[25.567004] (-) TimerEvent: {}
+[25.667963] (-) TimerEvent: {}
+[25.769494] (-) TimerEvent: {}
+[25.870783] (-) TimerEvent: {}
+[25.971921] (-) TimerEvent: {}
+[26.072936] (-) TimerEvent: {}
+[26.174164] (-) TimerEvent: {}
+[26.275574] (-) TimerEvent: {}
+[26.376625] (-) TimerEvent: {}
+[26.479172] (-) TimerEvent: {}
+[26.580082] (-) TimerEvent: {}
+[26.681301] (-) TimerEvent: {}
+[26.783192] (-) TimerEvent: {}
+[26.884825] (-) TimerEvent: {}
+[26.985883] (-) TimerEvent: {}
+[27.086923] (-) TimerEvent: {}
+[27.188140] (-) TimerEvent: {}
+[27.289644] (-) TimerEvent: {}
+[27.330553] (go_pupper_srv) StdoutLine: {'line': b'running egg_info\n'}
+[27.390099] (-) TimerEvent: {}
+[27.392013] (go_pupper_srv) StdoutLine: {'line': b'writing ../../build/go_pupper_srv/go_pupper_srv.egg-info/PKG-INFO\n'}
+[27.403134] (go_pupper_srv) StdoutLine: {'line': b'writing dependency_links to ../../build/go_pupper_srv/go_pupper_srv.egg-info/dependency_links.txt\n'}
+[27.411160] (go_pupper_srv) StdoutLine: {'line': b'writing entry points to ../../build/go_pupper_srv/go_pupper_srv.egg-info/entry_points.txt\n'}
+[27.419145] (go_pupper_srv) StdoutLine: {'line': b'writing requirements to ../../build/go_pupper_srv/go_pupper_srv.egg-info/requires.txt\n'}
+[27.424101] (go_pupper_srv) StdoutLine: {'line': b'writing top-level names to ../../build/go_pupper_srv/go_pupper_srv.egg-info/top_level.txt\n'}
+[27.476878] (go_pupper_srv) StdoutLine: {'line': b"reading manifest file '../../build/go_pupper_srv/go_pupper_srv.egg-info/SOURCES.txt'\n"}
+[27.488139] (go_pupper_srv) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[27.490604] (-) TimerEvent: {}
+[27.503039] (go_pupper_srv) StdoutLine: {'line': b"writing manifest file '../../build/go_pupper_srv/go_pupper_srv.egg-info/SOURCES.txt'\n"}
+[27.510154] (go_pupper_srv) StdoutLine: {'line': b'running build\n'}
+[27.515967] (go_pupper_srv) StdoutLine: {'line': b'running build_py\n'}
+[27.519605] (go_pupper_srv) StdoutLine: {'line': b'copying go_pupper_srv/task2.py -> /home/ubuntu/ros2_ws/build/go_pupper_srv/build/lib/go_pupper_srv\n'}
+[27.529600] (go_pupper_srv) StdoutLine: {'line': b'running install\n'}
+[27.534674] (go_pupper_srv) StdoutLine: {'line': b'running install_lib\n'}
+[27.541963] (go_pupper_srv) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/go_pupper_srv/build/lib/go_pupper_srv/task2.py -> /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv\n'}
+[27.550243] (go_pupper_srv) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv/task2.py to task2.cpython-310.pyc\n'}
+[27.562643] (go_pupper_srv) StdoutLine: {'line': b'running install_data\n'}
+[27.566235] (go_pupper_srv) StdoutLine: {'line': b'running install_egg_info\n'}
+[27.590018] (go_pupper_srv) StdoutLine: {'line': b"removing '/home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[27.591226] (-) TimerEvent: {}
+[27.603617] (go_pupper_srv) StdoutLine: {'line': b'Copying ../../build/go_pupper_srv/go_pupper_srv.egg-info to /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv-0.0.0-py3.10.egg-info\n'}
+[27.619075] (go_pupper_srv) StdoutLine: {'line': b'running install_scripts\n'}
+[27.691694] (-) TimerEvent: {}
+[27.795790] (-) TimerEvent: {}
+[27.897570] (-) TimerEvent: {}
+[27.920599] (go_pupper_srv) StdoutLine: {'line': b'Installing audio script to /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/go_pupper_srv\n'}
+[27.925971] (go_pupper_srv) StdoutLine: {'line': b'Installing client script to /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/go_pupper_srv\n'}
+[27.929287] (go_pupper_srv) StdoutLine: {'line': b'Installing salsa script to /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/go_pupper_srv\n'}
+[27.933412] (go_pupper_srv) StdoutLine: {'line': b'Installing service script to /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/go_pupper_srv\n'}
+[27.938129] (go_pupper_srv) StdoutLine: {'line': b'Installing task2 script to /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/go_pupper_srv\n'}
+[27.948514] (go_pupper_srv) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/build/go_pupper_srv/install.log'\n"}
+[27.998134] (-) TimerEvent: {}
+[28.099133] (-) TimerEvent: {}
+[28.200210] (-) TimerEvent: {}
+[28.301444] (-) TimerEvent: {}
+[28.361841] (go_pupper_srv) CommandEnded: {'returncode': 0}
+[28.402112] (-) TimerEvent: {}
+[28.508459] (-) TimerEvent: {}
+[28.514044] (go_pupper_srv) JobEnded: {'identifier': 'go_pupper_srv', 'rc': 0}
+[28.532518] (-) EventReactorShutdown: {}
