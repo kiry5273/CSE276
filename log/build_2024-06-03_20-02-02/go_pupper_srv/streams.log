@@ -1,0 +1,36 @@
+[26.438s] Invoking command in '/home/ubuntu/ros2_ws/src/go_pupper_srv': PYTHONPATH=/home/ubuntu/ros2_ws/build/go_pupper_srv/prefix_override:/home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/go_pupper_srv build --build-base /home/ubuntu/ros2_ws/build/go_pupper_srv/build install --record /home/ubuntu/ros2_ws/build/go_pupper_srv/install.log --single-version-externally-managed install_data
+[34.216s] running egg_info
+[34.978s] writing ../../build/go_pupper_srv/go_pupper_srv.egg-info/PKG-INFO
+[34.999s] writing dependency_links to ../../build/go_pupper_srv/go_pupper_srv.egg-info/dependency_links.txt
+[35.010s] writing entry points to ../../build/go_pupper_srv/go_pupper_srv.egg-info/entry_points.txt
+[35.017s] writing requirements to ../../build/go_pupper_srv/go_pupper_srv.egg-info/requires.txt
+[35.027s] writing top-level names to ../../build/go_pupper_srv/go_pupper_srv.egg-info/top_level.txt
+[36.442s] reading manifest file '../../build/go_pupper_srv/go_pupper_srv.egg-info/SOURCES.txt'
+[36.446s] adding license file 'LICENSE'
+[36.454s] writing manifest file '../../build/go_pupper_srv/go_pupper_srv.egg-info/SOURCES.txt'
+[36.458s] running build
+[36.459s] running build_py
+[36.462s] copying go_pupper_srv/task2.py -> /home/ubuntu/ros2_ws/build/go_pupper_srv/build/lib/go_pupper_srv
+[36.467s] copying go_pupper_srv/task3.py -> /home/ubuntu/ros2_ws/build/go_pupper_srv/build/lib/go_pupper_srv
+[36.469s] copying go_pupper_srv/task1.py -> /home/ubuntu/ros2_ws/build/go_pupper_srv/build/lib/go_pupper_srv
+[36.480s] copying go_pupper_srv/audio.py -> /home/ubuntu/ros2_ws/build/go_pupper_srv/build/lib/go_pupper_srv
+[36.485s] copying go_pupper_srv/client_go_pupper.py -> /home/ubuntu/ros2_ws/build/go_pupper_srv/build/lib/go_pupper_srv
+[36.489s] copying go_pupper_srv/energy1.py -> /home/ubuntu/ros2_ws/build/go_pupper_srv/build/lib/go_pupper_srv
+[36.496s] running install
+[36.543s] running install_lib
+[37.105s] copying /home/ubuntu/ros2_ws/build/go_pupper_srv/build/lib/go_pupper_srv/task2.py -> /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv
+[37.169s] byte-compiling /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv/task2.py to task2.cpython-310.pyc
+[37.208s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (task2.py, line 179)
+[37.216s] running install_data
+[37.222s] running install_egg_info
+[37.937s] removing '/home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv-0.0.0-py3.10.egg-info' (and everything under it)
+[37.941s] Copying ../../build/go_pupper_srv/go_pupper_srv.egg-info to /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv-0.0.0-py3.10.egg-info
+[37.953s] running install_scripts
+[43.308s] Installing audio script to /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/go_pupper_srv
+[43.324s] Installing client script to /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/go_pupper_srv
+[43.325s] Installing salsa script to /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/go_pupper_srv
+[43.343s] Installing service script to /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/go_pupper_srv
+[43.345s] Installing task1 script to /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/go_pupper_srv
+[43.347s] Installing task2 script to /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/go_pupper_srv
+[43.380s] writing list of installed files to '/home/ubuntu/ros2_ws/build/go_pupper_srv/install.log'
+[43.607s] Invoked command in '/home/ubuntu/ros2_ws/src/go_pupper_srv' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/go_pupper_srv/prefix_override:/home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/go_pupper_srv build --build-base /home/ubuntu/ros2_ws/build/go_pupper_srv/build install --record /home/ubuntu/ros2_ws/build/go_pupper_srv/install.log --single-version-externally-managed install_data

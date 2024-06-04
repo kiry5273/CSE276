@@ -25,6 +25,7 @@ setup(
                             'audio = go_pupper_srv.audio: main',
                             'task2 = go_pupper_srv.task2: main',
                             'task1 = go_pupper_srv.task1: main',
+                            'task3 = go_pupper_srv.energy1:main',
         ],
     },
 )

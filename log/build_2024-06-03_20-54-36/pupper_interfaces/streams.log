@@ -1,0 +1,179 @@
+[0.196s] Invoking command in '/home/ubuntu/ros2_ws/build/pupper_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/go_pupper_srv:/home/ubuntu/ros2_ws/install/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/pupper_interfaces -- -j4 -l4
+[1.339s] [  7%] Built target pupper_interfaces__cpp
+[1.341s] [ 12%] Built target pupper_interfaces__rosidl_generator_c
+[1.419s] [ 12%] Built target ament_cmake_python_copy_pupper_interfaces
+[1.723s] [ 23%] Built target pupper_interfaces__rosidl_typesupport_c
+[1.729s] [ 33%] Built target pupper_interfaces__rosidl_typesupport_introspection_c
+[1.808s] [ 43%] Built target pupper_interfaces__rosidl_typesupport_fastrtps_c
+[1.833s] [ 53%] Built target pupper_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.153s] [ 64%] Built target pupper_interfaces__rosidl_typesupport_introspection_cpp
+[2.190s] [ 74%] Built target pupper_interfaces__rosidl_typesupport_cpp
+[2.504s] [ 74%] Built target pupper_interfaces
+[2.766s] [ 76%] Built target pupper_interfaces__py
+[3.163s] [ 84%] Built target pupper_interfaces__rosidl_generator_py
+[3.550s] [ 89%] Built target pupper_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.579s] [ 94%] Built target pupper_interfaces__rosidl_typesupport_c__pyext
+[3.613s] [100%] Built target pupper_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.952s] running egg_info
+[5.108s] writing pupper_interfaces.egg-info/PKG-INFO
+[5.111s] writing dependency_links to pupper_interfaces.egg-info/dependency_links.txt
+[5.113s] writing top-level names to pupper_interfaces.egg-info/top_level.txt
+[5.567s] reading manifest file 'pupper_interfaces.egg-info/SOURCES.txt'
+[5.599s] writing manifest file 'pupper_interfaces.egg-info/SOURCES.txt'
+[5.917s] [100%] Built target ament_cmake_python_build_pupper_interfaces_egg
+[6.002s] Invoked command in '/home/ubuntu/ros2_ws/build/pupper_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/go_pupper_srv:/home/ubuntu/ros2_ws/install/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/pupper_interfaces -- -j4 -l4
+[6.977s] Invoking command in '/home/ubuntu/ros2_ws/build/pupper_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/go_pupper_srv:/home/ubuntu/ros2_ws/install/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/pupper_interfaces
+[7.061s] -- Install configuration: ""
+[7.063s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/ament_index/resource_index/rosidl_interfaces/pupper_interfaces
+[7.071s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces
+[7.072s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv
+[7.073s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/go_pupper.h
+[7.073s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail
+[7.076s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail/go_pupper__functions.h
+[7.080s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail/go_pupper__functions.c
+[7.087s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail/go_pupper__type_support.h
+[7.090s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail/go_pupper__struct.h
+[7.095s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg
+[7.096s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/command.h
+[7.097s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail
+[7.103s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail/command__struct.h
+[7.104s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail/command__functions.c
+[7.105s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail/command__functions.h
+[7.109s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail/command__type_support.h
+[7.112s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/rosidl_generator_c__visibility_control.h
+[7.114s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/environment/library_path.sh
+[7.118s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/environment/library_path.dsv
+[7.126s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/lib/libpupper_interfaces__rosidl_generator_c.so
+[7.130s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces
+[7.132s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv
+[7.139s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail
+[7.142s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail/go_pupper__rosidl_typesupport_fastrtps_c.h
+[7.150s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg
+[7.152s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.154s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail
+[7.161s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail/command__rosidl_typesupport_fastrtps_c.h
+[7.165s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/lib/libpupper_interfaces__rosidl_typesupport_fastrtps_c.so
+[7.169s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces
+[7.173s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv
+[7.177s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail
+[7.179s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail/go_pupper__type_support.c
+[7.186s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail/go_pupper__rosidl_typesupport_introspection_c.h
+[7.190s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg
+[7.194s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail
+[7.197s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail/command__rosidl_typesupport_introspection_c.h
+[7.198s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail/command__type_support.c
+[7.206s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.208s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/lib/libpupper_interfaces__rosidl_typesupport_introspection_c.so
+[7.212s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/lib/libpupper_interfaces__rosidl_typesupport_c.so
+[7.213s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces
+[7.215s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv
+[7.217s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail
+[7.233s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail/go_pupper__builder.hpp
+[7.235s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail/go_pupper__struct.hpp
+[7.235s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail/go_pupper__traits.hpp
+[7.236s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/go_pupper.hpp
+[7.237s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg
+[7.243s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/command.hpp
+[7.243s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail
+[7.245s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail/command__builder.hpp
+[7.246s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail/command__struct.hpp
+[7.250s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail/command__traits.hpp
+[7.254s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces
+[7.255s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv
+[7.256s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail
+[7.261s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail/dds_fastrtps
+[7.263s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail/go_pupper__rosidl_typesupport_fastrtps_cpp.hpp
+[7.264s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg
+[7.266s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.267s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail
+[7.268s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail/command__rosidl_typesupport_fastrtps_cpp.hpp
+[7.273s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail/dds_fastrtps
+[7.301s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/lib/libpupper_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[7.309s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces
+[7.314s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv
+[7.315s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail
+[7.318s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail/go_pupper__type_support.cpp
+[7.321s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/srv/detail/go_pupper__rosidl_typesupport_introspection_cpp.hpp
+[7.322s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg
+[7.323s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail
+[7.326s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail/command__rosidl_typesupport_introspection_cpp.hpp
+[7.331s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/include/pupper_interfaces/pupper_interfaces/msg/detail/command__type_support.cpp
+[7.343s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/lib/libpupper_interfaces__rosidl_typesupport_introspection_cpp.so
+[7.347s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/lib/libpupper_interfaces__rosidl_typesupport_cpp.so
+[7.350s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/environment/pythonpath.sh
+[7.352s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/environment/pythonpath.dsv
+[7.353s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces-0.0.0-py3.10.egg-info
+[7.356s] -- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.357s] -- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.358s] -- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[7.360s] -- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[7.360s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces
+[7.362s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/__init__.py
+[7.362s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/_pupper_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.364s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/_pupper_interfaces_s.ep.rosidl_typesupport_c.c
+[7.364s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/_pupper_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[7.365s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/libpupper_interfaces__rosidl_generator_py.so
+[7.366s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/pupper_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[7.367s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/srv
+[7.368s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/srv/__init__.py
+[7.369s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/srv/_go_pupper.py
+[7.369s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/srv/_go_pupper_s.c
+[7.370s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/pupper_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[7.371s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/pupper_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[7.372s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/msg
+[7.373s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/msg/__init__.py
+[7.373s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/msg/_command.py
+[7.373s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/msg/_command_s.c
+[7.563s] Listing '/home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces'...
+[7.564s] Listing '/home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/msg'...
+[7.566s] Listing '/home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/srv'...
+[7.609s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/pupper_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[7.616s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/pupper_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[7.622s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages/pupper_interfaces/pupper_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[7.624s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/lib/libpupper_interfaces__rosidl_generator_py.so
+[7.627s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/msg/Command.idl
+[7.629s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/srv/GoPupper.idl
+[7.637s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/msg/Command.msg
+[7.638s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/srv/GoPupper.srv
+[7.650s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/srv/GoPupper_Request.msg
+[7.652s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/srv/GoPupper_Response.msg
+[7.653s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/ament_index/resource_index/package_run_dependencies/pupper_interfaces
+[7.654s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/ament_index/resource_index/parent_prefix_path/pupper_interfaces
+[7.655s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/environment/ament_prefix_path.sh
+[7.656s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/environment/ament_prefix_path.dsv
+[7.657s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/environment/path.sh
+[7.658s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/environment/path.dsv
+[7.664s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/local_setup.bash
+[7.670s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/local_setup.sh
+[7.671s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/local_setup.zsh
+[7.675s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/local_setup.dsv
+[7.676s] -- Installing: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/package.dsv
+[7.682s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/ament_index/resource_index/packages/pupper_interfaces
+[7.683s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/export_pupper_interfaces__rosidl_generator_cExport.cmake
+[7.683s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/export_pupper_interfaces__rosidl_generator_cExport-noconfig.cmake
+[7.687s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/export_pupper_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[7.690s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/export_pupper_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.692s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/pupper_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[7.693s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/pupper_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.694s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/pupper_interfaces__rosidl_typesupport_cExport.cmake
+[7.702s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/pupper_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[7.703s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/export_pupper_interfaces__rosidl_generator_cppExport.cmake
+[7.703s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/export_pupper_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.704s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/export_pupper_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.704s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/pupper_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[7.705s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/pupper_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.709s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/pupper_interfaces__rosidl_typesupport_cppExport.cmake
+[7.711s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/pupper_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[7.714s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/export_pupper_interfaces__rosidl_generator_pyExport.cmake
+[7.715s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/export_pupper_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[7.717s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/rosidl_cmake-extras.cmake
+[7.718s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.722s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.723s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[7.724s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[7.726s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.727s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.730s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/pupper_interfacesConfig.cmake
+[7.732s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/cmake/pupper_interfacesConfig-version.cmake
+[7.732s] -- Up-to-date: /home/ubuntu/ros2_ws/install/pupper_interfaces/share/pupper_interfaces/package.xml
+[7.807s] Invoked command in '/home/ubuntu/ros2_ws/build/pupper_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/go_pupper_srv:/home/ubuntu/ros2_ws/install/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/pupper_interfaces

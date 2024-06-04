@@ -1,0 +1,36 @@
+[24.308s] Invoking command in '/home/ubuntu/ros2_ws/src/go_pupper_srv': PYTHONPATH=/home/ubuntu/ros2_ws/build/go_pupper_srv/prefix_override:/home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/go_pupper_srv build --build-base /home/ubuntu/ros2_ws/build/go_pupper_srv/build install --record /home/ubuntu/ros2_ws/build/go_pupper_srv/install.log --single-version-externally-managed install_data
+[31.191s] running egg_info
+[31.714s] writing ../../build/go_pupper_srv/go_pupper_srv.egg-info/PKG-INFO
+[31.726s] writing dependency_links to ../../build/go_pupper_srv/go_pupper_srv.egg-info/dependency_links.txt
+[31.735s] writing entry points to ../../build/go_pupper_srv/go_pupper_srv.egg-info/entry_points.txt
+[31.748s] writing requirements to ../../build/go_pupper_srv/go_pupper_srv.egg-info/requires.txt
+[31.755s] writing top-level names to ../../build/go_pupper_srv/go_pupper_srv.egg-info/top_level.txt
+[32.831s] reading manifest file '../../build/go_pupper_srv/go_pupper_srv.egg-info/SOURCES.txt'
+[32.849s] adding license file 'LICENSE'
+[32.883s] writing manifest file '../../build/go_pupper_srv/go_pupper_srv.egg-info/SOURCES.txt'
+[32.895s] running build
+[32.896s] running build_py
+[32.901s] copying go_pupper_srv/task2.py -> /home/ubuntu/ros2_ws/build/go_pupper_srv/build/lib/go_pupper_srv
+[32.912s] copying go_pupper_srv/task3.py -> /home/ubuntu/ros2_ws/build/go_pupper_srv/build/lib/go_pupper_srv
+[32.935s] copying go_pupper_srv/task1.py -> /home/ubuntu/ros2_ws/build/go_pupper_srv/build/lib/go_pupper_srv
+[32.947s] copying go_pupper_srv/audio.py -> /home/ubuntu/ros2_ws/build/go_pupper_srv/build/lib/go_pupper_srv
+[32.963s] copying go_pupper_srv/client_go_pupper.py -> /home/ubuntu/ros2_ws/build/go_pupper_srv/build/lib/go_pupper_srv
+[32.977s] copying go_pupper_srv/energy1.py -> /home/ubuntu/ros2_ws/build/go_pupper_srv/build/lib/go_pupper_srv
+[32.978s] copying go_pupper_srv/service_go_pupper.py -> /home/ubuntu/ros2_ws/build/go_pupper_srv/build/lib/go_pupper_srv
+[33.000s] running install
+[33.119s] running install_lib
+[33.804s] copying /home/ubuntu/ros2_ws/build/go_pupper_srv/build/lib/go_pupper_srv/service_go_pupper.py -> /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv
+[33.828s] byte-compiling /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv/service_go_pupper.py to service_go_pupper.cpython-310.pyc
+[33.849s] running install_data
+[33.856s] running install_egg_info
+[34.630s] removing '/home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv-0.0.0-py3.10.egg-info' (and everything under it)
+[34.637s] Copying ../../build/go_pupper_srv/go_pupper_srv.egg-info to /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv-0.0.0-py3.10.egg-info
+[34.695s] running install_scripts
+[39.586s] Installing audio script to /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/go_pupper_srv
+[39.587s] Installing client script to /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/go_pupper_srv
+[39.589s] Installing salsa script to /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/go_pupper_srv
+[39.591s] Installing service script to /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/go_pupper_srv
+[39.593s] Installing task1 script to /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/go_pupper_srv
+[39.595s] Installing task2 script to /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/go_pupper_srv
+[39.607s] writing list of installed files to '/home/ubuntu/ros2_ws/build/go_pupper_srv/install.log'
+[40.029s] Invoked command in '/home/ubuntu/ros2_ws/src/go_pupper_srv' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/go_pupper_srv/prefix_override:/home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/go_pupper_srv build --build-base /home/ubuntu/ros2_ws/build/go_pupper_srv/build install --record /home/ubuntu/ros2_ws/build/go_pupper_srv/install.log --single-version-externally-managed install_data

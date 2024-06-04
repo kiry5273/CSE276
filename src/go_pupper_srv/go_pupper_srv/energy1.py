@@ -80,7 +80,7 @@ def classify_beat(segment):
 def main(args=None):
     rclpy.init(args=args)
     minimal_client = MinimalClientAsync()
-    audio_path = 'file_example_WAV_1MG.wav'
+    audio_path = '/home/ubuntu/ros2_ws/sound/example.wav'
     y, sr = librosa.load(audio_path,sr=22050)
     frame_rate=100
 
@@ -165,8 +165,8 @@ def main(args=None):
     for movement in sequence:
     	if movement == 'move_forward':
     	    disp.show_image(frontEyeLoc)
-            data,rate=sf.read(frontSound)
-            sd.play(data,rate)
+    	    data,rate=sf.read(frontSound)
+    	    sd.play(data,rate)
     	elif movement == 'move_backward':
     	    disp.show_image(backEyeLoc)
     	    data,rate=sf.read(backSound)

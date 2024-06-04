@@ -1,0 +1,54 @@
+[0.228s] Invoking command in '/home/ubuntu/ros2_ws/build/champ_bringup': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ_description:/home/ubuntu/ros2_ws/install/champ:/home/ubuntu/ros2_ws/install/pupper_interfaces:/home/ubuntu/ros2_ws/install/mini_pupper_interfaces:/home/ubuntu/ros2_ws/install/mini_pupper_description:/home/ubuntu/ros2_ws/install/mini_pupper_bringup:/home/ubuntu/ros2_ws/install/mini_pupper_2_description:/home/ubuntu/ros2_ws/install/ldlidar_stl_ros2:/home/ubuntu/ros2_ws/install/champ_teleop:/home/ubuntu/ros2_ws/install/champ_bringup:/home/ubuntu/ros2_ws/install/champ_config:/home/ubuntu/ros2_ws/install/go_pupper_srv:/home/ubuntu/ros2_ws/install/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/champ_base/lib:/home/ubuntu/ros2_ws/install/champ_msgs/lib:/home/ubuntu/ros2_ws/install/pupper_interfaces/lib:/home/ubuntu/ros2_ws/install/mini_pupper_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/champ_bringup -- -j4 -l4
+[0.740s] Built target ament_cmake_python_symlink_champ_bringup
+[3.175s] running egg_info
+[3.348s] writing champ_bringup.egg-info/PKG-INFO
+[3.352s] writing dependency_links to champ_bringup.egg-info/dependency_links.txt
+[3.363s] writing top-level names to champ_bringup.egg-info/top_level.txt
+[4.116s] reading manifest file 'champ_bringup.egg-info/SOURCES.txt'
+[4.121s] writing manifest file 'champ_bringup.egg-info/SOURCES.txt'
+[4.306s] Built target ament_cmake_python_build_champ_bringup_egg
+[4.365s] Invoked command in '/home/ubuntu/ros2_ws/build/champ_bringup' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ_description:/home/ubuntu/ros2_ws/install/champ:/home/ubuntu/ros2_ws/install/pupper_interfaces:/home/ubuntu/ros2_ws/install/mini_pupper_interfaces:/home/ubuntu/ros2_ws/install/mini_pupper_description:/home/ubuntu/ros2_ws/install/mini_pupper_bringup:/home/ubuntu/ros2_ws/install/mini_pupper_2_description:/home/ubuntu/ros2_ws/install/ldlidar_stl_ros2:/home/ubuntu/ros2_ws/install/champ_teleop:/home/ubuntu/ros2_ws/install/champ_bringup:/home/ubuntu/ros2_ws/install/champ_config:/home/ubuntu/ros2_ws/install/go_pupper_srv:/home/ubuntu/ros2_ws/install/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/champ_base/lib:/home/ubuntu/ros2_ws/install/champ_msgs/lib:/home/ubuntu/ros2_ws/install/pupper_interfaces/lib:/home/ubuntu/ros2_ws/install/mini_pupper_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/champ_bringup -- -j4 -l4
+[4.560s] Invoking command in '/home/ubuntu/ros2_ws/build/champ_bringup': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ_description:/home/ubuntu/ros2_ws/install/champ:/home/ubuntu/ros2_ws/install/pupper_interfaces:/home/ubuntu/ros2_ws/install/mini_pupper_interfaces:/home/ubuntu/ros2_ws/install/mini_pupper_description:/home/ubuntu/ros2_ws/install/mini_pupper_bringup:/home/ubuntu/ros2_ws/install/mini_pupper_2_description:/home/ubuntu/ros2_ws/install/ldlidar_stl_ros2:/home/ubuntu/ros2_ws/install/champ_teleop:/home/ubuntu/ros2_ws/install/champ_bringup:/home/ubuntu/ros2_ws/install/champ_config:/home/ubuntu/ros2_ws/install/go_pupper_srv:/home/ubuntu/ros2_ws/install/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/champ_base/lib:/home/ubuntu/ros2_ws/install/champ_msgs/lib:/home/ubuntu/ros2_ws/install/pupper_interfaces/lib:/home/ubuntu/ros2_ws/install/mini_pupper_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/champ_bringup
+[4.598s] -- Install configuration: ""
+[4.602s] -- Execute custom install script
+[4.609s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/launch/bringup.launch
+[4.621s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/launch/bringup.launch.py
+[4.622s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/launch/include/laser/d435.launch
+[4.623s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/launch/include/laser/hokuyo.launch
+[4.627s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/launch/include/laser/kinect.launch
+[4.627s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/launch/include/laser/lms1xx.launch
+[4.628s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/launch/include/laser/realsense.launch
+[4.630s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/launch/include/laser/rplidar.launch
+[4.632s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/launch/include/laser/sim.launch
+[4.635s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/launch/include/laser/sweep.launch
+[4.637s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/launch/include/laser/xv11.launch
+[4.639s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/launch/include/laser/ydlidar.launch
+[4.641s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/launch/include/velocity_smoother.launch
+[4.642s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/launch/joints_gui.launch
+[4.644s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/launch/joints_gui.launch.py
+[4.646s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/environment/pythonpath.sh
+[4.649s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/environment/pythonpath.dsv
+[4.651s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup-0.1.0-py3.10.egg-info/PKG-INFO
+[4.653s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup-0.1.0-py3.10.egg-info/SOURCES.txt
+[4.655s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup-0.1.0-py3.10.egg-info/dependency_links.txt
+[4.657s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup-0.1.0-py3.10.egg-info/top_level.txt
+[4.662s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup/__init__.py
+[4.664s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup/joint_calibrator_relay.py
+[4.667s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/lib/champ_bringup/joint_calibrator_relay.py
+[4.669s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/share/ament_index/resource_index/package_run_dependencies/champ_bringup
+[4.672s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/share/ament_index/resource_index/parent_prefix_path/champ_bringup
+[4.674s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/environment/ament_prefix_path.sh
+[4.676s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/environment/ament_prefix_path.dsv
+[4.678s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/environment/path.sh
+[4.680s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/environment/path.dsv
+[4.682s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/local_setup.bash
+[4.684s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/local_setup.sh
+[4.686s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/local_setup.zsh
+[4.688s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/local_setup.dsv
+[4.689s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/package.dsv
+[4.741s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/share/ament_index/resource_index/packages/champ_bringup
+[4.744s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/cmake/champ_bringupConfig.cmake
+[4.746s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/cmake/champ_bringupConfig-version.cmake
+[4.748s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/package.xml
+[4.964s] Listing '/home/ubuntu/ros2_ws/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup'...
+[5.005s] Invoked command in '/home/ubuntu/ros2_ws/build/champ_bringup' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ_description:/home/ubuntu/ros2_ws/install/champ:/home/ubuntu/ros2_ws/install/pupper_interfaces:/home/ubuntu/ros2_ws/install/mini_pupper_interfaces:/home/ubuntu/ros2_ws/install/mini_pupper_description:/home/ubuntu/ros2_ws/install/mini_pupper_bringup:/home/ubuntu/ros2_ws/install/mini_pupper_2_description:/home/ubuntu/ros2_ws/install/ldlidar_stl_ros2:/home/ubuntu/ros2_ws/install/champ_teleop:/home/ubuntu/ros2_ws/install/champ_bringup:/home/ubuntu/ros2_ws/install/champ_config:/home/ubuntu/ros2_ws/install/go_pupper_srv:/home/ubuntu/ros2_ws/install/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/champ_base/lib:/home/ubuntu/ros2_ws/install/champ_msgs/lib:/home/ubuntu/ros2_ws/install/pupper_interfaces/lib:/home/ubuntu/ros2_ws/install/mini_pupper_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/champ_bringup

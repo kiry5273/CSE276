@@ -1,0 +1,37 @@
+[0.137s] Invoking command in '/home/ubuntu/ros2_ws/build/champ_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/go_pupper_srv:/home/ubuntu/ros2_ws/install/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/champ_config -- -j4 -l4
+[0.873s] Invoked command in '/home/ubuntu/ros2_ws/build/champ_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/go_pupper_srv:/home/ubuntu/ros2_ws/install/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/champ_config -- -j4 -l4
+[1.476s] Invoking command in '/home/ubuntu/ros2_ws/build/champ_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/go_pupper_srv:/home/ubuntu/ros2_ws/install/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/champ_config
+[1.561s] -- Install configuration: ""
+[1.565s] -- Execute custom install script
+[1.571s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_config/share/champ_config/launch/bringup.launch.py
+[1.574s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_config/share/champ_config/launch/gazebo.launch.py
+[1.576s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_config/share/champ_config/launch/navigate.launch.py
+[1.579s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_config/share/champ_config/launch/slam.launch.py
+[1.599s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_config/share/champ_config/config/autonomy/navigation.yaml
+[1.602s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_config/share/champ_config/config/autonomy/slam.yaml
+[1.605s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_config/share/champ_config/config/gait/gait.yaml
+[1.608s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_config/share/champ_config/config/joints/joints.yaml
+[1.611s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_config/share/champ_config/config/links/links.yaml
+[1.628s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_config/share/champ_config/maps/map.pgm
+[1.629s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_config/share/champ_config/maps/map.yaml
+[1.632s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_config/share/champ_config/maps/playground.pgm
+[1.633s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_config/share/champ_config/maps/playground.yaml
+[1.638s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_config/share/champ_config/worlds/default.world
+[1.641s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_config/share/champ_config/worlds/outdoor.world
+[1.644s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_config/share/champ_config/worlds/playground.world
+[1.646s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_config/share/ament_index/resource_index/package_run_dependencies/champ_config
+[1.650s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_config/share/ament_index/resource_index/parent_prefix_path/champ_config
+[1.653s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_config/share/champ_config/environment/ament_prefix_path.sh
+[1.655s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_config/share/champ_config/environment/ament_prefix_path.dsv
+[1.658s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_config/share/champ_config/environment/path.sh
+[1.660s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_config/share/champ_config/environment/path.dsv
+[1.662s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_config/share/champ_config/local_setup.bash
+[1.665s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_config/share/champ_config/local_setup.sh
+[1.669s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_config/share/champ_config/local_setup.zsh
+[1.671s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_config/share/champ_config/local_setup.dsv
+[1.673s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_config/share/champ_config/package.dsv
+[1.743s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_config/share/ament_index/resource_index/packages/champ_config
+[1.748s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_config/share/champ_config/cmake/champ_configConfig.cmake
+[1.749s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_config/share/champ_config/cmake/champ_configConfig-version.cmake
+[1.753s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_config/share/champ_config/package.xml
+[1.766s] Invoked command in '/home/ubuntu/ros2_ws/build/champ_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/go_pupper_srv:/home/ubuntu/ros2_ws/install/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/champ_config

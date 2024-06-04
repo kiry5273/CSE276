@@ -1,0 +1,41 @@
+[6.273s] Invoking command in '/home/ubuntu/ros2_ws/src/go_pupper_srv': PYTHONPATH=/home/ubuntu/ros2_ws/build/go_pupper_srv/prefix_override:/home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/go_pupper_srv build --build-base /home/ubuntu/ros2_ws/build/go_pupper_srv/build install --record /home/ubuntu/ros2_ws/build/go_pupper_srv/install.log --single-version-externally-managed install_data
+[7.950s] running egg_info
+[8.054s] writing ../../build/go_pupper_srv/go_pupper_srv.egg-info/PKG-INFO
+[8.057s] writing dependency_links to ../../build/go_pupper_srv/go_pupper_srv.egg-info/dependency_links.txt
+[8.058s] writing entry points to ../../build/go_pupper_srv/go_pupper_srv.egg-info/entry_points.txt
+[8.060s] writing requirements to ../../build/go_pupper_srv/go_pupper_srv.egg-info/requires.txt
+[8.061s] writing top-level names to ../../build/go_pupper_srv/go_pupper_srv.egg-info/top_level.txt
+[8.282s] reading manifest file '../../build/go_pupper_srv/go_pupper_srv.egg-info/SOURCES.txt'
+[8.284s] adding license file 'LICENSE'
+[8.288s] writing manifest file '../../build/go_pupper_srv/go_pupper_srv.egg-info/SOURCES.txt'
+[8.290s] running build
+[8.290s] running build_py
+[8.293s] copying go_pupper_srv/task2.py -> /home/ubuntu/ros2_ws/build/go_pupper_srv/build/lib/go_pupper_srv
+[8.294s] copying go_pupper_srv/task3.py -> /home/ubuntu/ros2_ws/build/go_pupper_srv/build/lib/go_pupper_srv
+[8.295s] copying go_pupper_srv/task1.py -> /home/ubuntu/ros2_ws/build/go_pupper_srv/build/lib/go_pupper_srv
+[8.296s] copying go_pupper_srv/audio.py -> /home/ubuntu/ros2_ws/build/go_pupper_srv/build/lib/go_pupper_srv
+[8.298s] copying go_pupper_srv/client_go_pupper.py -> /home/ubuntu/ros2_ws/build/go_pupper_srv/build/lib/go_pupper_srv
+[8.299s] copying go_pupper_srv/energy1.py -> /home/ubuntu/ros2_ws/build/go_pupper_srv/build/lib/go_pupper_srv
+[8.301s] copying go_pupper_srv/service_go_pupper.py -> /home/ubuntu/ros2_ws/build/go_pupper_srv/build/lib/go_pupper_srv
+[8.306s] running install
+[8.341s] running install_lib
+[8.449s] copying /home/ubuntu/ros2_ws/build/go_pupper_srv/build/lib/go_pupper_srv/task1.py -> /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv
+[8.450s] copying /home/ubuntu/ros2_ws/build/go_pupper_srv/build/lib/go_pupper_srv/audio.py -> /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv
+[8.452s] copying /home/ubuntu/ros2_ws/build/go_pupper_srv/build/lib/go_pupper_srv/energy1.py -> /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv
+[8.457s] byte-compiling /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv/task1.py to task1.cpython-310.pyc
+[8.463s] byte-compiling /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv/audio.py to audio.cpython-310.pyc
+[8.467s] byte-compiling /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv/energy1.py to energy1.cpython-310.pyc
+[8.470s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (energy1.py, line 168)
+[8.471s] running install_data
+[8.472s] running install_egg_info
+[8.582s] removing '/home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv-0.0.0-py3.10.egg-info' (and everything under it)
+[8.584s] Copying ../../build/go_pupper_srv/go_pupper_srv.egg-info to /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv-0.0.0-py3.10.egg-info
+[8.592s] running install_scripts
+[9.638s] Installing audio script to /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/go_pupper_srv
+[9.639s] Installing client script to /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/go_pupper_srv
+[9.640s] Installing salsa script to /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/go_pupper_srv
+[9.642s] Installing service script to /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/go_pupper_srv
+[9.643s] Installing task1 script to /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/go_pupper_srv
+[9.644s] Installing task2 script to /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/go_pupper_srv
+[9.647s] writing list of installed files to '/home/ubuntu/ros2_ws/build/go_pupper_srv/install.log'
+[9.833s] Invoked command in '/home/ubuntu/ros2_ws/src/go_pupper_srv' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/go_pupper_srv/prefix_override:/home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/go_pupper_srv build --build-base /home/ubuntu/ros2_ws/build/go_pupper_srv/build install --record /home/ubuntu/ros2_ws/build/go_pupper_srv/install.log --single-version-externally-managed install_data

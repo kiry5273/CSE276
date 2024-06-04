@@ -55,7 +55,7 @@ class MinimalService(Node):
         self.vel_publisher_ = self.create_publisher(Twist, 'cmd_vel', 10)
 
         # timer interval (need to wait between messages)
-        self.interval = 0.5  # .5 seconds
+        self.interval = 1.0  # .5 seconds
 
 
     #####
@@ -73,25 +73,25 @@ class MinimalService(Node):
         ## Here is a set of conditionals - move forward, move_backward, etc, and they send their
         # respective linear velocity commands accordingly. See Lab 0 / Lab 1 to learn more about this. 
         if (request.command == 'move_forward'):
-            velocity_cmd.linear.x = 0.5    # .5 in the linear X direction moves us forward
+            velocity_cmd.linear.x = 1.0    # .5 in the linear X direction moves us forward
             self.vel_publisher_.publish(velocity_cmd)   # publish the command
             self.get_logger().info('Publishing: "%s"' % request.command)  # Log what happened
             time.sleep(self.interval)  # Wait and make sure the robot moved
 
         elif (request.command == 'move_backward'):
-            velocity_cmd.linear.x = -0.5
+            velocity_cmd.linear.x = -1.0
             self.vel_publisher_.publish(velocity_cmd)
             self.get_logger().info('Publishing: "%s"' % request.command)
             time.sleep(self.interval)   
 
         elif (request.command == 'move_left'):
-            velocity_cmd.linear.y = 0.5
+            velocity_cmd.linear.y = 1.0
             self.vel_publisher_.publish(velocity_cmd)
             self.get_logger().info('Publishing: "%s"' % request.command)
             time.sleep(self.interval)   
 
         elif (request.command == 'move_right'):
-            velocity_cmd.linear.y = -0.5
+            velocity_cmd.linear.y = -1.0
             self.vel_publisher_.publish(velocity_cmd)
             self.get_logger().info('Publishing: "%s"' % request.command)
             time.sleep(self.interval)   

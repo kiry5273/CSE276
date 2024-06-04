@@ -1,0 +1,23 @@
+[0.146s] Invoking command in '/home/ubuntu/ros2_ws/build/champ_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/go_pupper_srv:/home/ubuntu/ros2_ws/install/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/champ_teleop -- -j4 -l4
+[0.716s] Invoked command in '/home/ubuntu/ros2_ws/build/champ_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/go_pupper_srv:/home/ubuntu/ros2_ws/install/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/champ_teleop -- -j4 -l4
+[1.213s] Invoking command in '/home/ubuntu/ros2_ws/build/champ_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/go_pupper_srv:/home/ubuntu/ros2_ws/install/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/champ_teleop
+[1.264s] -- Install configuration: ""
+[1.269s] -- Execute custom install script
+[1.275s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_teleop/share/champ_teleop/launch/teleop.launch.py
+[1.279s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_teleop/lib/champ_teleop/champ_teleop.py
+[1.282s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_teleop/share/ament_index/resource_index/package_run_dependencies/champ_teleop
+[1.287s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_teleop/share/ament_index/resource_index/parent_prefix_path/champ_teleop
+[1.291s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_teleop/share/champ_teleop/environment/ament_prefix_path.sh
+[1.294s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_teleop/share/champ_teleop/environment/ament_prefix_path.dsv
+[1.297s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_teleop/share/champ_teleop/environment/path.sh
+[1.300s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_teleop/share/champ_teleop/environment/path.dsv
+[1.303s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_teleop/share/champ_teleop/local_setup.bash
+[1.306s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_teleop/share/champ_teleop/local_setup.sh
+[1.310s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_teleop/share/champ_teleop/local_setup.zsh
+[1.313s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_teleop/share/champ_teleop/local_setup.dsv
+[1.315s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_teleop/share/champ_teleop/package.dsv
+[1.373s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_teleop/share/ament_index/resource_index/packages/champ_teleop
+[1.378s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_teleop/share/champ_teleop/cmake/champ_teleopConfig.cmake
+[1.384s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_teleop/share/champ_teleop/cmake/champ_teleopConfig-version.cmake
+[1.387s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/champ_teleop/share/champ_teleop/package.xml
+[1.400s] Invoked command in '/home/ubuntu/ros2_ws/build/champ_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/go_pupper_srv:/home/ubuntu/ros2_ws/install/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/champ_teleop

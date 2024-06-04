@@ -1,0 +1,29 @@
+[9.832s] Invoking command in '/home/ubuntu/ros2_ws/src/mini_pupper_ros/mini_pupper_music': PYTHONPATH=/home/ubuntu/ros2_ws/build/mini_pupper_music/prefix_override:/home/ubuntu/ros2_ws/install/mini_pupper_music/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/mini_pupper_music build --build-base /home/ubuntu/ros2_ws/build/mini_pupper_music/build install --record /home/ubuntu/ros2_ws/build/mini_pupper_music/install.log --single-version-externally-managed install_data
+[12.826s] running egg_info
+[13.084s] writing ../../../build/mini_pupper_music/mini_pupper_music.egg-info/PKG-INFO
+[13.090s] writing dependency_links to ../../../build/mini_pupper_music/mini_pupper_music.egg-info/dependency_links.txt
+[13.093s] writing entry points to ../../../build/mini_pupper_music/mini_pupper_music.egg-info/entry_points.txt
+[13.097s] writing requirements to ../../../build/mini_pupper_music/mini_pupper_music.egg-info/requires.txt
+[13.099s] writing top-level names to ../../../build/mini_pupper_music/mini_pupper_music.egg-info/top_level.txt
+[13.579s] reading manifest file '../../../build/mini_pupper_music/mini_pupper_music.egg-info/SOURCES.txt'
+[13.588s] writing manifest file '../../../build/mini_pupper_music/mini_pupper_music.egg-info/SOURCES.txt'
+[13.590s] running build
+[13.591s] running build_py
+[13.595s] copying mini_pupper_music/__init__.py -> /home/ubuntu/ros2_ws/build/mini_pupper_music/build/lib/mini_pupper_music
+[13.597s] copying mini_pupper_music/music_player.py -> /home/ubuntu/ros2_ws/build/mini_pupper_music/build/lib/mini_pupper_music
+[13.600s] copying mini_pupper_music/music_server.py -> /home/ubuntu/ros2_ws/build/mini_pupper_music/build/lib/mini_pupper_music
+[13.604s] running install
+[13.641s] running install_lib
+[13.861s] running install_data
+[13.865s] copying package.xml -> /home/ubuntu/ros2_ws/install/mini_pupper_music/share/mini_pupper_music
+[13.869s] copying resource/mini_pupper_music -> /home/ubuntu/ros2_ws/install/mini_pupper_music/share/mini_pupper_music/resource
+[13.872s] copying resource/robot1.wav -> /home/ubuntu/ros2_ws/install/mini_pupper_music/share/mini_pupper_music/resource
+[13.997s] copying resource/robot1.mp3 -> /home/ubuntu/ros2_ws/install/mini_pupper_music/share/mini_pupper_music/resource
+[14.018s] copying launch/music.launch.py -> /home/ubuntu/ros2_ws/install/mini_pupper_music/share/mini_pupper_music
+[14.022s] running install_egg_info
+[14.197s] removing '/home/ubuntu/ros2_ws/install/mini_pupper_music/lib/python3.10/site-packages/mini_pupper_music-1.0.0-py3.10.egg-info' (and everything under it)
+[14.201s] Copying ../../../build/mini_pupper_music/mini_pupper_music.egg-info to /home/ubuntu/ros2_ws/install/mini_pupper_music/lib/python3.10/site-packages/mini_pupper_music-1.0.0-py3.10.egg-info
+[14.214s] running install_scripts
+[16.393s] Installing service script to /home/ubuntu/ros2_ws/install/mini_pupper_music/lib/mini_pupper_music
+[16.399s] writing list of installed files to '/home/ubuntu/ros2_ws/build/mini_pupper_music/install.log'
+[16.772s] Invoked command in '/home/ubuntu/ros2_ws/src/mini_pupper_ros/mini_pupper_music' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/mini_pupper_music/prefix_override:/home/ubuntu/ros2_ws/install/mini_pupper_music/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/mini_pupper_music build --build-base /home/ubuntu/ros2_ws/build/mini_pupper_music/build install --record /home/ubuntu/ros2_ws/build/mini_pupper_music/install.log --single-version-externally-managed install_data

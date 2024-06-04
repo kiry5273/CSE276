@@ -7,7 +7,7 @@ CHANNELS = 1  # Number of audio channels (1 for mono, 2 for stereo)
 RATE = 44100  # Sampling rate (samples per second)
 CHUNK = 1024  # Number of frames per buffer
 RECORD_SECONDS = 5  # Duration of recording in seconds
-OUTPUT_FILENAME = "output.wav"  # Name of the output file
+OUTPUT_FILENAME = "output12.wav"  # Name of the output file
 
 def record_audio():
     # Initialize PyAudio
