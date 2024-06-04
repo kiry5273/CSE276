@@ -31,7 +31,7 @@ import RPi.GPIO as GPIO
 import sounddevice as sd
 import soundfile as sf
 import random
-import pyttsx3
+# import pyttsx3
 
 
 from MangDang.mini_pupper.display import Display, BehaviorState
@@ -105,7 +105,7 @@ def generate_sequence():
     return sequence
 
 def move_pupper(move):
-    minimal_client = MinimalClientAsync()
+    # minimal_client = MinimalClientAsync()
     
     disp = Display()
     leftEyeLoc = "/home/ubuntu/ros2_ws/img/leftRZ.png"
@@ -134,7 +134,7 @@ def move_pupper(move):
         disp.show_image(rightEyeLoc)
         data,rate=sf.read(rightSound)
         sd.play(data,rate)
-    minimal_client.send_move_request(move)
+    # minimal_client.send_move_request(move)
     print(move)
 
 
@@ -151,51 +151,55 @@ def main(args=None):
     idleEyeLoc = "/home/ubuntu/ros2_ws/img/idleRZ.png"
 
     sequence = generate_sequence()
-    engine = pyttsx3.init()
+    # engine = pyttsx3.init()
 
     
     text = "follow me for the first four moves."
-    engine.say(text)
-    engine.runAndWait()
+    print(text)
+    # engine.say(text)
+    # engine.runAndWait()
     # show the first 4 moves
     for i in range(0, 4):
         move_pupper(sequence[i])
+        minimal_client.send_move_request(sequence[i])
         time.sleep(0.8)
     
     # show the second 4 moves
     for i in range(4, 8):
         move_pupper(sequence[i])
+        minimal_client.send_move_request(sequence[i])
         time.sleep(0.8)
 
     # show the first 8 moves
     for i in range(0, 8):
         move_pupper(sequence[i])
+        minimal_client.send_move_request(sequence[i])
         time.sleep(0.8)
 
     # show the third 4 moves
     for i in range(8, 12):
         move_pupper(sequence[i])
+        minimal_client.send_move_request(sequence[i])
         time.sleep(0.8)
 
     # show the fourth 4 moves
     for i in range(12, 16):
         move_pupper(sequence[i])
+        minimal_client.send_move_request(sequence[i])
         time.sleep(0.8)
     
     # show the second 8 moves
     for i in range(8, 16):
         move_pupper(sequence[i])
+        minimal_client.send_move_request(sequence[i])
         time.sleep(0.8)
 
     # show all 16 moves
     for i in range(16):
         move_pupper(sequence[i])
+        minimal_client.send_move_request(sequence[i])
         time.sleep(0.8)
 
-    
-
-
-   
 
     # This spins up a client node, checks if it's done, throws an exception of there's an issue
     # (Probably a bit redundant with other code and can be simplified. But right now it works, so ¯\_(ツ)_/¯)
