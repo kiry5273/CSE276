@@ -176,6 +176,7 @@ def main(args=None):
     	    disp.show_image(rightEyeLoc)
     	    data,rate=sf.read(rightSound)
     	    sd.play(data,rate)
+        time.sleep(0.5)
     	minimal_client.send_move_request(movement)
     	print(movement)
     	time.sleep(1.2)
