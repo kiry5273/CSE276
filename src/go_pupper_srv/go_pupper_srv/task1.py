@@ -31,7 +31,7 @@ import RPi.GPIO as GPIO
 import sounddevice as sd
 import soundfile as sf
 import random
-# import pyttsx3
+import pyttsx3
 
 
 from MangDang.mini_pupper.display import Display, BehaviorState
@@ -98,9 +98,10 @@ class MinimalClientAsync(Node):
 #####
 def generate_sequence():
     moves = ["move_left", "move_right", "move_forward", "move_backward"]
-    random_int = random.choice([0, 1, 2, 3])
+    
     sequence = []
     for i in range(16):
+        random_int = random.choice([0, 1, 2, 3])
         sequence.append(moves[random_int])
     return sequence
 
@@ -151,13 +152,13 @@ def main(args=None):
     idleEyeLoc = "/home/ubuntu/ros2_ws/img/idleRZ.png"
 
     sequence = generate_sequence()
-    # engine = pyttsx3.init()
+    engine = pyttsx3.init()
 
     
     text = "follow me for the first four moves."
     print(text)
-    # engine.say(text)
-    # engine.runAndWait()
+    engine.say(text)
+    engine.runAndWait()
     # show the first 4 moves
     for i in range(0, 4):
         move_pupper(sequence[i])
