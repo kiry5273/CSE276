@@ -24,6 +24,7 @@ setup(
                             'salsa = go_pupper_srv.sample_controller:main',
                             'audio = go_pupper_srv.audio: main',
                             'task2 = go_pupper_srv.task2: main',
+                            'task1 = go_pupper_srv.task1: main',
         ],
     },
 )
