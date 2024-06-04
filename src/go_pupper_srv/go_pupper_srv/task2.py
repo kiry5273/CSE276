@@ -127,15 +127,27 @@ def main(args=None):
         if not touchValue_Front:
             display_sting += 'move_forward'
             sequence.append('move_forward')
+            disp.show_image(frontEyeLoc)
+            data,rate=sf.read(frontSound)
+            sd.play(data,rate)
         if not touchValue_Back:
             display_sting += 'move_backward'
             sequence.append('move_backward')
+            disp.show_image(backEyeLoc)
+    	    data,rate=sf.read(backSound)
+    	    sd.play(data,rate)
         if not touchValue_Right:
             display_sting += 'move_right'
             sequence.append('move_right')
+            disp.show_image(rightEyeLoc)
+    	    data,rate=sf.read(rightSound)
+    	    sd.play(data,rate)
         if not touchValue_Left:
             display_sting += 'move_left'
             sequence.append('move_left')
+            disp.show_image(leftEyeLoc)
+    	    data,rate=sf.read(leftSound)
+    	    sd.play(data,rate)
         if display_sting == '':
             disp.show_image(idleEyeLoc)
        
@@ -166,7 +178,7 @@ def main(args=None):
     	    sd.play(data,rate)
     	minimal_client.send_move_request(movement)
     	print(movement)
-    	time.sleep(1.0)
+    	time.sleep(1.2)
 
     # This spins up a client node, checks if it's done, throws an exception of there's an issue
     # (Probably a bit redundant with other code and can be simplified. But right now it works, so ¯\_(ツ)_/¯)
