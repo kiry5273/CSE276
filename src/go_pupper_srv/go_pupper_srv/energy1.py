@@ -120,9 +120,9 @@ def main(args=None):
             if beat_type=='kick':
                 sequence.append('move_forward')
             elif beat_type=='snare':
-                sequence.append('right')
+                sequence.append('move_right')
             elif beat_type=='clap':
-                sequence.append('left')
+                sequence.append('move_left')
             elif beat_type=='hi-hat':
                 sequence.append('move_backward')
             beat_types.append((onset, beat_type))
