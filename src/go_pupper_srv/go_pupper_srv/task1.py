@@ -152,50 +152,66 @@ def main(args=None):
     idleEyeLoc = "/home/ubuntu/ros2_ws/img/idleRZ.png"
 
     sequence = generate_sequence()
-    engine = pyttsx3.init()
 
-    
-    text = "follow me for the first four moves."
-    print(text)
-    engine.say(text)
-    engine.runAndWait()
+    first4Sound = "/home/ubuntu/ros2_ws/sound/first_4moves.wav"
+    second4Sound = "/home/ubuntu/ros2_ws/sound/second_4moves.wav"
+    third4Sound = "/home/ubuntu/ros2_ws/sound/third_4moves.wav"
+    last4Sound = "/home/ubuntu/ros2_ws/sound/last_4moves.wav"
+    first8Sound = "/home/ubuntu/ros2_ws/sound/first_8moves.wav"
+    second8Sound = "/home/ubuntu/ros2_ws/sound/second_8moves.wav"
+    allSound = "/home/ubuntu/ros2_ws/sound/all_16moves.wav"
+
     # show the first 4 moves
+    data,rate=sf.read(first4Sound)
+    sd.play(data,rate)
     for i in range(0, 4):
         move_pupper(sequence[i])
         minimal_client.send_move_request(sequence[i])
         time.sleep(0.8)
     
     # show the second 4 moves
+    data,rate=sf.read(second4Sound)
+    sd.play(data,rate)
     for i in range(4, 8):
         move_pupper(sequence[i])
         minimal_client.send_move_request(sequence[i])
         time.sleep(0.8)
 
     # show the first 8 moves
+    data,rate=sf.read(first8Sound)
+    sd.play(data,rate)
     for i in range(0, 8):
         move_pupper(sequence[i])
         minimal_client.send_move_request(sequence[i])
         time.sleep(0.8)
 
     # show the third 4 moves
+    data,rate=sf.read(third4Sound)
+    sd.play(data,rate)
     for i in range(8, 12):
         move_pupper(sequence[i])
         minimal_client.send_move_request(sequence[i])
         time.sleep(0.8)
 
     # show the fourth 4 moves
+    data,rate=sf.read(last4Sound)
+    sd.play(data,rate)
     for i in range(12, 16):
         move_pupper(sequence[i])
         minimal_client.send_move_request(sequence[i])
         time.sleep(0.8)
     
     # show the second 8 moves
+    data,rate=sf.read(second8Sound)
+    sd.play(data,rate)
     for i in range(8, 16):
         move_pupper(sequence[i])
         minimal_client.send_move_request(sequence[i])
         time.sleep(0.8)
 
     # show all 16 moves
+    data,rate=sf.read(allSound)
+    sd.play(data,rate)
     for i in range(16):
         move_pupper(sequence[i])
         minimal_client.send_move_request(sequence[i])
