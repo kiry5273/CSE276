@@ -1,0 +1,50 @@
+/usr/lib/python3/dist-packages/pythran/tables.py:4520: FutureWarning: In the future `np.bool` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, method):
+/usr/lib/python3/dist-packages/pythran/tables.py:4553: FutureWarning: In the future `np.bytes` will be defined as the corresponding NumPy scalar.
+  obj = getattr(themodule, elem)
+/home/ubuntu/.local/lib/python3.10/site-packages/setuptools/__init__.py:80: _DeprecatedInstaller: setuptools.installer and fetch_build_eggs are deprecated.
+!!
+
+        ********************************************************************************
+        Requirements should be satisfied by a PEP 517 installer.
+        If you are using pip, you can try `pip install --use-pep517`.
+        ********************************************************************************
+
+!!
+  dist.fetch_build_eggs(dist.setup_requires)
+In file included from [01m[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1929[m[K,
+                 from [01m[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/ndarrayobject.h:12[m[K,
+                 from [01m[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/arrayobject.h:5[m[K,
+                 from [01m[Kmadmom/audio/comb_filters.c:1249[m[K:
+[01m[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:17:2:[m[K [01;35m[Kwarning: [m[K#warning "Using deprecated NumPy API, disable it with " "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   17 | #[01;35m[Kwarning[m[K "Using deprecated NumPy API, disable it with " \
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1929[m[K,
+                 from [01m[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/ndarrayobject.h:12[m[K,
+                 from [01m[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/arrayobject.h:5[m[K,
+                 from [01m[Kmadmom/features/beats_crf.c:1250[m[K:
+[01m[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:17:2:[m[K [01;35m[Kwarning: [m[K#warning "Using deprecated NumPy API, disable it with " "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   17 | #[01;35m[Kwarning[m[K "Using deprecated NumPy API, disable it with " \
+      |  [01;35m[K^~~~~~~[m[K
+[01m[Kmadmom/features/beats_crf.c:[m[K In function ‘[01m[K__pyx_pw_6madmom_8features_9beats_crf_9viterbi[m[K’:
+[01m[Kmadmom/features/beats_crf.c:21643:86:[m[K [01;35m[Kwarning: [m[K‘[01m[K__pyx_v_next_state[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+21643 | [01;35m[K( /* dim=0 */ ((char *) (((long *) __pyx_v_path.data) + __pyx_t_13)) )) = __pyx_v_next_state[m[K;
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[Kmadmom/features/beats_crf.c:21172:7:[m[K [01;36m[Knote: [m[K‘[01m[K__pyx_v_next_state[m[K’ was declared here
+21172 |   int [01;36m[K__pyx_v_next_state[m[K;
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1929[m[K,
+                 from [01m[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/ndarrayobject.h:12[m[K,
+                 from [01m[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/arrayobject.h:5[m[K,
+                 from [01m[Kmadmom/ml/hmm.c:1250[m[K:
+[01m[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:17:2:[m[K [01;35m[Kwarning: [m[K#warning "Using deprecated NumPy API, disable it with " "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   17 | #[01;35m[Kwarning[m[K "Using deprecated NumPy API, disable it with " \
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1929[m[K,
+                 from [01m[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/ndarrayobject.h:12[m[K,
+                 from [01m[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/arrayobject.h:5[m[K,
+                 from [01m[Kmadmom/ml/nn/layers.c:1249[m[K:
+[01m[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:17:2:[m[K [01;35m[Kwarning: [m[K#warning "Using deprecated NumPy API, disable it with " "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   17 | #[01;35m[Kwarning[m[K "Using deprecated NumPy API, disable it with " \
+      |  [01;35m[K^~~~~~~[m[K

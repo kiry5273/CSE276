@@ -1,0 +1,2409 @@
+[0.000000] (-) TimerEvent: {}
+[0.002031] (madmom) JobQueued: {'identifier': 'madmom', 'dependencies': OrderedDict()}
+[0.002330] (madmom) JobStarted: {'identifier': 'madmom'}
+[0.098583] (-) TimerEvent: {}
+[0.199904] (-) TimerEvent: {}
+[0.300732] (-) TimerEvent: {}
+[0.402339] (-) TimerEvent: {}
+[0.503858] (-) TimerEvent: {}
+[0.604874] (-) TimerEvent: {}
+[0.705822] (-) TimerEvent: {}
+[0.806761] (-) TimerEvent: {}
+[0.907491] (-) TimerEvent: {}
+[1.008281] (-) TimerEvent: {}
+[1.109069] (-) TimerEvent: {}
+[1.210268] (-) TimerEvent: {}
+[1.311637] (-) TimerEvent: {}
+[1.413329] (-) TimerEvent: {}
+[1.514607] (-) TimerEvent: {}
+[1.615922] (-) TimerEvent: {}
+[1.716693] (-) TimerEvent: {}
+[1.817441] (-) TimerEvent: {}
+[1.918161] (-) TimerEvent: {}
+[2.019065] (-) TimerEvent: {}
+[2.119753] (-) TimerEvent: {}
+[2.220479] (-) TimerEvent: {}
+[2.321209] (-) TimerEvent: {}
+[2.421934] (-) TimerEvent: {}
+[2.523205] (-) TimerEvent: {}
+[2.625533] (-) TimerEvent: {}
+[2.727528] (-) TimerEvent: {}
+[2.828460] (-) TimerEvent: {}
+[2.929550] (-) TimerEvent: {}
+[3.030394] (-) TimerEvent: {}
+[3.131390] (-) TimerEvent: {}
+[3.232108] (-) TimerEvent: {}
+[3.332797] (-) TimerEvent: {}
+[3.433510] (-) TimerEvent: {}
+[3.534184] (-) TimerEvent: {}
+[3.634850] (-) TimerEvent: {}
+[3.735820] (-) TimerEvent: {}
+[3.836546] (-) TimerEvent: {}
+[3.937227] (-) TimerEvent: {}
+[4.037980] (-) TimerEvent: {}
+[4.138712] (-) TimerEvent: {}
+[4.239459] (-) TimerEvent: {}
+[4.340518] (-) TimerEvent: {}
+[4.441539] (-) TimerEvent: {}
+[4.542220] (-) TimerEvent: {}
+[4.642927] (-) TimerEvent: {}
+[4.743618] (-) TimerEvent: {}
+[4.844286] (-) TimerEvent: {}
+[4.945107] (-) TimerEvent: {}
+[5.046072] (-) TimerEvent: {}
+[5.147982] (-) TimerEvent: {}
+[5.248734] (-) TimerEvent: {}
+[5.350050] (-) TimerEvent: {}
+[5.451446] (-) TimerEvent: {}
+[5.552586] (-) TimerEvent: {}
+[5.653877] (-) TimerEvent: {}
+[5.754802] (-) TimerEvent: {}
+[5.855709] (-) TimerEvent: {}
+[5.956665] (-) TimerEvent: {}
+[6.057370] (-) TimerEvent: {}
+[6.158043] (-) TimerEvent: {}
+[6.258737] (-) TimerEvent: {}
+[6.360420] (-) TimerEvent: {}
+[6.462067] (-) TimerEvent: {}
+[6.565893] (-) TimerEvent: {}
+[6.667185] (-) TimerEvent: {}
+[6.769077] (-) TimerEvent: {}
+[6.871924] (-) TimerEvent: {}
+[6.973644] (-) TimerEvent: {}
+[7.075586] (-) TimerEvent: {}
+[7.178765] (-) TimerEvent: {}
+[7.279638] (-) TimerEvent: {}
+[7.380391] (-) TimerEvent: {}
+[7.481425] (-) TimerEvent: {}
+[7.582174] (-) TimerEvent: {}
+[7.683037] (-) TimerEvent: {}
+[7.783915] (-) TimerEvent: {}
+[7.886674] (-) TimerEvent: {}
+[7.988599] (-) TimerEvent: {}
+[8.089317] (-) TimerEvent: {}
+[8.190092] (-) TimerEvent: {}
+[8.291649] (-) TimerEvent: {}
+[8.393396] (-) TimerEvent: {}
+[8.494094] (-) TimerEvent: {}
+[8.594820] (-) TimerEvent: {}
+[8.695631] (-) TimerEvent: {}
+[8.796447] (-) TimerEvent: {}
+[8.897232] (-) TimerEvent: {}
+[8.998084] (-) TimerEvent: {}
+[9.098989] (-) TimerEvent: {}
+[9.200260] (-) TimerEvent: {}
+[9.300990] (-) TimerEvent: {}
+[9.401890] (-) TimerEvent: {}
+[9.503117] (-) TimerEvent: {}
+[9.604337] (-) TimerEvent: {}
+[9.705050] (-) TimerEvent: {}
+[9.805753] (-) TimerEvent: {}
+[9.906576] (-) TimerEvent: {}
+[10.007352] (-) TimerEvent: {}
+[10.108211] (-) TimerEvent: {}
+[10.209391] (-) TimerEvent: {}
+[10.310082] (-) TimerEvent: {}
+[10.410790] (-) TimerEvent: {}
+[10.511485] (-) TimerEvent: {}
+[10.612148] (-) TimerEvent: {}
+[10.712829] (-) TimerEvent: {}
+[10.813499] (-) TimerEvent: {}
+[10.914156] (-) TimerEvent: {}
+[11.015291] (-) TimerEvent: {}
+[11.116328] (-) TimerEvent: {}
+[11.217023] (-) TimerEvent: {}
+[11.317748] (-) TimerEvent: {}
+[11.418502] (-) TimerEvent: {}
+[11.519248] (-) TimerEvent: {}
+[11.619954] (-) TimerEvent: {}
+[11.720649] (-) TimerEvent: {}
+[11.821375] (-) TimerEvent: {}
+[11.922060] (-) TimerEvent: {}
+[12.022730] (-) TimerEvent: {}
+[12.123488] (-) TimerEvent: {}
+[12.224296] (-) TimerEvent: {}
+[12.324979] (-) TimerEvent: {}
+[12.425723] (-) TimerEvent: {}
+[12.526462] (-) TimerEvent: {}
+[12.627884] (-) TimerEvent: {}
+[12.728563] (-) TimerEvent: {}
+[12.829249] (-) TimerEvent: {}
+[12.929931] (-) TimerEvent: {}
+[13.030600] (-) TimerEvent: {}
+[13.131383] (-) TimerEvent: {}
+[13.232165] (-) TimerEvent: {}
+[13.332839] (-) TimerEvent: {}
+[13.433510] (-) TimerEvent: {}
+[13.534174] (-) TimerEvent: {}
+[13.634864] (-) TimerEvent: {}
+[13.735624] (-) TimerEvent: {}
+[13.836356] (-) TimerEvent: {}
+[13.937061] (-) TimerEvent: {}
+[14.037706] (-) TimerEvent: {}
+[14.138384] (-) TimerEvent: {}
+[14.239112] (-) TimerEvent: {}
+[14.339843] (-) TimerEvent: {}
+[14.440545] (-) TimerEvent: {}
+[14.541210] (-) TimerEvent: {}
+[14.641890] (-) TimerEvent: {}
+[14.742582] (-) TimerEvent: {}
+[14.843308] (-) TimerEvent: {}
+[14.944611] (-) TimerEvent: {}
+[15.045402] (-) TimerEvent: {}
+[15.146249] (-) TimerEvent: {}
+[15.247126] (-) TimerEvent: {}
+[15.348368] (-) TimerEvent: {}
+[15.449550] (-) TimerEvent: {}
+[15.550661] (-) TimerEvent: {}
+[15.652417] (-) TimerEvent: {}
+[15.758060] (-) TimerEvent: {}
+[15.860272] (-) TimerEvent: {}
+[15.961445] (-) TimerEvent: {}
+[16.062651] (-) TimerEvent: {}
+[16.066068] (madmom) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/madmom', 'build', '--build-base', '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build', 'install', '--record', '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/madmom', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/ros2_ws/install/pupper_interfaces/lib:/home/ubuntu/ros2_ws/install/mini_pupper_interfaces/lib:/home/ubuntu/ros2_ws/install/champ_base/lib:/home/ubuntu/ros2_ws/install/champ_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/madmom', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1907', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'ubuntu', 'DESKTOP_AUTOSTART_ID': '10acfccb42a63e9e95171745993862809400000019070016', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'WINDOWPATH': '2', 'PATH': '/home/ubuntu/ros2_ws/install/champ_base/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/minipupperv2:@/tmp/.ICE-unix/1907,unix/minipupperv2:/tmp/.ICE-unix/1907', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/75f70e76_3df5_435b_8d22_76e06e020533', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.79', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/go_pupper_srv:/home/ubuntu/ros2_ws/install/pupper_interfaces:/home/ubuntu/ros2_ws/install/mini_pupper_music:/home/ubuntu/ros2_ws/install/mini_pupper_dance:/home/ubuntu/ros2_ws/install/mini_pupper_interfaces:/home/ubuntu/ros2_ws/install/mini_pupper_driver:/home/ubuntu/ros2_ws/install/mini_pupper_description:/home/ubuntu/ros2_ws/install/mini_pupper_bringup:/home/ubuntu/ros2_ws/install/mini_pupper_2_description:/home/ubuntu/ros2_ws/install/ldlidar_stl_ros2:/home/ubuntu/ros2_ws/install/champ_teleop:/home/ubuntu/ros2_ws/install/champ_bringup:/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ_description:/home/ubuntu/ros2_ws/install/champ_config:/home/ubuntu/ros2_ws/install/champ:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/prefix_override:/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/pupper_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/mini_pupper_music/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/mini_pupper_dance/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/mini_pupper_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/mini_pupper_driver/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/champ_bringup/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/pupper_interfaces:/home/ubuntu/ros2_ws/install/mini_pupper_interfaces:/home/ubuntu/ros2_ws/install/mini_pupper_description:/home/ubuntu/ros2_ws/install/mini_pupper_bringup:/home/ubuntu/ros2_ws/install/mini_pupper_2_description:/home/ubuntu/ros2_ws/install/ldlidar_stl_ros2:/home/ubuntu/ros2_ws/install/champ_teleop:/home/ubuntu/ros2_ws/install/champ_bringup:/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ_description:/home/ubuntu/ros2_ws/install/champ_config:/home/ubuntu/ros2_ws/install/champ'}, 'shell': False}
+[16.162829] (-) TimerEvent: {}
+[16.263573] (-) TimerEvent: {}
+[16.364257] (-) TimerEvent: {}
+[16.464960] (-) TimerEvent: {}
+[16.565650] (-) TimerEvent: {}
+[16.666333] (-) TimerEvent: {}
+[16.767112] (-) TimerEvent: {}
+[16.867918] (-) TimerEvent: {}
+[16.968942] (-) TimerEvent: {}
+[17.069681] (-) TimerEvent: {}
+[17.170702] (-) TimerEvent: {}
+[17.283327] (-) TimerEvent: {}
+[17.384016] (-) TimerEvent: {}
+[17.484706] (-) TimerEvent: {}
+[17.585394] (-) TimerEvent: {}
+[17.686100] (-) TimerEvent: {}
+[17.786851] (-) TimerEvent: {}
+[17.888443] (-) TimerEvent: {}
+[17.990592] (-) TimerEvent: {}
+[18.091895] (-) TimerEvent: {}
+[18.192986] (-) TimerEvent: {}
+[18.293887] (-) TimerEvent: {}
+[18.394548] (-) TimerEvent: {}
+[18.495270] (-) TimerEvent: {}
+[18.596079] (-) TimerEvent: {}
+[18.696812] (-) TimerEvent: {}
+[18.763291] (madmom) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pythran/tables.py:4520: FutureWarning: In the future `np.bool` will be defined as the corresponding NumPy scalar.\n'}
+[18.764221] (madmom) StderrLine: {'line': b'  if not hasattr(numpy, method):\n'}
+[18.796999] (-) TimerEvent: {}
+[18.844541] (madmom) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pythran/tables.py:4553: FutureWarning: In the future `np.bytes` will be defined as the corresponding NumPy scalar.\n'}
+[18.845206] (madmom) StderrLine: {'line': b'  obj = getattr(themodule, elem)\n'}
+[18.897258] (-) TimerEvent: {}
+[18.998252] (-) TimerEvent: {}
+[19.099071] (-) TimerEvent: {}
+[19.199847] (-) TimerEvent: {}
+[19.302010] (-) TimerEvent: {}
+[19.404116] (-) TimerEvent: {}
+[19.505717] (-) TimerEvent: {}
+[19.606656] (-) TimerEvent: {}
+[19.708027] (-) TimerEvent: {}
+[19.808955] (-) TimerEvent: {}
+[19.910056] (-) TimerEvent: {}
+[20.011044] (-) TimerEvent: {}
+[20.111824] (-) TimerEvent: {}
+[20.212958] (-) TimerEvent: {}
+[20.314093] (-) TimerEvent: {}
+[20.415416] (-) TimerEvent: {}
+[20.516940] (-) TimerEvent: {}
+[20.617941] (-) TimerEvent: {}
+[20.719003] (-) TimerEvent: {}
+[20.819826] (-) TimerEvent: {}
+[20.920896] (-) TimerEvent: {}
+[21.021899] (-) TimerEvent: {}
+[21.123530] (-) TimerEvent: {}
+[21.225307] (-) TimerEvent: {}
+[21.326716] (-) TimerEvent: {}
+[21.427837] (-) TimerEvent: {}
+[21.529372] (-) TimerEvent: {}
+[21.562090] (madmom) StderrLine: {'line': b'/home/ubuntu/.local/lib/python3.10/site-packages/setuptools/__init__.py:80: _DeprecatedInstaller: setuptools.installer and fetch_build_eggs are deprecated.\n'}
+[21.563082] (madmom) StderrLine: {'line': b'!!\n'}
+[21.563864] (madmom) StderrLine: {'line': b'\n'}
+[21.564503] (madmom) StderrLine: {'line': b'        ********************************************************************************\n'}
+[21.565180] (madmom) StderrLine: {'line': b'        Requirements should be satisfied by a PEP 517 installer.\n'}
+[21.565714] (madmom) StderrLine: {'line': b'        If you are using pip, you can try `pip install --use-pep517`.\n'}
+[21.566193] (madmom) StderrLine: {'line': b'        ********************************************************************************\n'}
+[21.566629] (madmom) StderrLine: {'line': b'\n'}
+[21.567073] (madmom) StderrLine: {'line': b'!!\n'}
+[21.567573] (madmom) StderrLine: {'line': b'  dist.fetch_build_eggs(dist.setup_requires)\n'}
+[21.629471] (-) TimerEvent: {}
+[21.730138] (-) TimerEvent: {}
+[21.830806] (-) TimerEvent: {}
+[21.931510] (-) TimerEvent: {}
+[22.032243] (-) TimerEvent: {}
+[22.132914] (-) TimerEvent: {}
+[22.234821] (-) TimerEvent: {}
+[22.335984] (-) TimerEvent: {}
+[22.437515] (-) TimerEvent: {}
+[22.540002] (-) TimerEvent: {}
+[22.641689] (-) TimerEvent: {}
+[22.742359] (-) TimerEvent: {}
+[22.843347] (-) TimerEvent: {}
+[22.945257] (-) TimerEvent: {}
+[23.046459] (-) TimerEvent: {}
+[23.080506] (madmom) StdoutLine: {'line': b'\x1b[39mrunning egg_info\x1b[0m\n'}
+[23.081938] (madmom) StdoutLine: {'line': b'\x1b[39mcreating ../build/madmom/madmom.egg-info\x1b[0m\n'}
+[23.146626] (-) TimerEvent: {}
+[23.210105] (madmom) StdoutLine: {'line': b'\x1b[39mwriting ../build/madmom/madmom.egg-info/PKG-INFO\x1b[0m\n'}
+[23.215706] (madmom) StdoutLine: {'line': b'\x1b[39mwriting dependency_links to ../build/madmom/madmom.egg-info/dependency_links.txt\x1b[0m\n'}
+[23.217152] (madmom) StdoutLine: {'line': b'\x1b[39mwriting requirements to ../build/madmom/madmom.egg-info/requires.txt\x1b[0m\n'}
+[23.218930] (madmom) StdoutLine: {'line': b'\x1b[39mwriting top-level names to ../build/madmom/madmom.egg-info/top_level.txt\x1b[0m\n'}
+[23.220846] (madmom) StdoutLine: {'line': b"\x1b[39mwriting manifest file '../build/madmom/madmom.egg-info/SOURCES.txt'\x1b[0m\n"}
+[23.246807] (-) TimerEvent: {}
+[23.348297] (-) TimerEvent: {}
+[23.449427] (-) TimerEvent: {}
+[23.550442] (-) TimerEvent: {}
+[23.622308] (madmom) StdoutLine: {'line': b"\x1b[39mreading manifest file '../build/madmom/madmom.egg-info/SOURCES.txt'\x1b[0m\n"}
+[23.624208] (madmom) StdoutLine: {'line': b"\x1b[39mreading manifest template 'MANIFEST.in'\x1b[0m\n"}
+[23.626177] (madmom) StdoutLine: {'line': b"\x1b[31mno previously-included directories found matching 'docs'\x1b[0m\n"}
+[23.650774] (-) TimerEvent: {}
+[23.664084] (madmom) StdoutLine: {'line': b"\x1b[39madding license file 'LICENSE'\x1b[0m\n"}
+[23.672353] (madmom) StdoutLine: {'line': b"\x1b[39mwriting manifest file '../build/madmom/madmom.egg-info/SOURCES.txt'\x1b[0m\n"}
+[23.673245] (madmom) StdoutLine: {'line': b'\x1b[39mrunning build\x1b[0m\n'}
+[23.673944] (madmom) StdoutLine: {'line': b'\x1b[39mrunning build_py\x1b[0m\n'}
+[23.674617] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build\x1b[0m\n'}
+[23.675542] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310\x1b[0m\n'}
+[23.676227] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom\x1b[0m\n'}
+[23.676718] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/processors.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom\x1b[0m\n'}
+[23.677369] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/__init__.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom\x1b[0m\n'}
+[23.678013] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/conftest.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom\x1b[0m\n'}
+[23.694622] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/ml\x1b[0m\n'}
+[23.695498] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/ml/gmm.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/ml\x1b[0m\n'}
+[23.696348] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/ml/__init__.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/ml\x1b[0m\n'}
+[23.699418] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/ml/crf.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/ml\x1b[0m\n'}
+[23.700339] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features\x1b[0m\n'}
+[23.701219] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/features/__init__.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features\x1b[0m\n'}
+[23.702093] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/features/downbeats.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features\x1b[0m\n'}
+[23.703248] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/features/key.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features\x1b[0m\n'}
+[23.704162] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/features/beats.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features\x1b[0m\n'}
+[23.710702] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/features/notes_hmm.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features\x1b[0m\n'}
+[23.714351] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/features/tempo.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features\x1b[0m\n'}
+[23.715299] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/features/beats_hmm.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features\x1b[0m\n'}
+[23.715945] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/features/chords.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features\x1b[0m\n'}
+[23.716541] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/features/notes.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features\x1b[0m\n'}
+[23.717136] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/features/onsets.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features\x1b[0m\n'}
+[23.737578] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/utils\x1b[0m\n'}
+[23.741256] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/utils/__init__.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/utils\x1b[0m\n'}
+[23.741794] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/utils/midi.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/utils\x1b[0m\n'}
+[23.742282] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/utils/stats.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/utils\x1b[0m\n'}
+[23.744782] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/evaluation\x1b[0m\n'}
+[23.745303] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/evaluation/__init__.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/evaluation\x1b[0m\n'}
+[23.745679] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/evaluation/key.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/evaluation\x1b[0m\n'}
+[23.746144] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/evaluation/beats.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/evaluation\x1b[0m\n'}
+[23.748082] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/evaluation/tempo.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/evaluation\x1b[0m\n'}
+[23.750651] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/evaluation/chords.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/evaluation\x1b[0m\n'}
+[23.753301] (-) TimerEvent: {}
+[23.754034] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/evaluation/notes.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/evaluation\x1b[0m\n'}
+[23.754578] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/evaluation/onsets.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/evaluation\x1b[0m\n'}
+[23.755109] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models\x1b[0m\n'}
+[23.755775] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/__init__.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models\x1b[0m\n'}
+[23.756229] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio\x1b[0m\n'}
+[23.756848] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/audio/__init__.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio\x1b[0m\n'}
+[23.757357] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/audio/stft.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio\x1b[0m\n'}
+[23.757843] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/audio/signal.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio\x1b[0m\n'}
+[23.758420] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/audio/spectrogram.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio\x1b[0m\n'}
+[23.758817] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/audio/chroma.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio\x1b[0m\n'}
+[23.759360] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/audio/filters.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio\x1b[0m\n'}
+[23.759923] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/audio/cepstrogram.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio\x1b[0m\n'}
+[23.761450] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/audio/hpss.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio\x1b[0m\n'}
+[23.763705] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/io\x1b[0m\n'}
+[23.765489] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/io/__init__.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/io\x1b[0m\n'}
+[23.766151] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/io/audio.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/io\x1b[0m\n'}
+[23.766874] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/io/midi.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/io\x1b[0m\n'}
+[23.768653] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/ml/nn\x1b[0m\n'}
+[23.769510] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/ml/nn/__init__.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/ml/nn\x1b[0m\n'}
+[23.770309] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/ml/nn/layers.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/ml/nn\x1b[0m\n'}
+[23.771718] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/ml/nn/activations.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/ml/nn\x1b[0m\n'}
+[23.790592] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/LICENSE -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models\x1b[0m\n'}
+[23.792843] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/README.rst -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models\x1b[0m\n'}
+[23.794309] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats\x1b[0m\n'}
+[23.795352] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2016\x1b[0m\n'}
+[23.796537] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/beats/2016/beats_lstm_5.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2016\x1b[0m\n'}
+[23.808691] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/beats/2016/beats_lstm_3.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2016\x1b[0m\n'}
+[23.814934] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/beats/2016/beats_lstm_2.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2016\x1b[0m\n'}
+[23.833289] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/beats/2016/beats_lstm_8.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2016\x1b[0m\n'}
+[23.839776] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/beats/2016/beats_lstm_1.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2016\x1b[0m\n'}
+[23.845856] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/beats/2016/beats_lstm_7.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2016\x1b[0m\n'}
+[23.851447] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/beats/2016/beats_lstm_6.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2016\x1b[0m\n'}
+[23.853431] (-) TimerEvent: {}
+[23.856780] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/beats/2016/beats_lstm_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2016\x1b[0m\n'}
+[23.862065] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2015\x1b[0m\n'}
+[23.862704] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/beats/2015/beats_blstm_2.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2015\x1b[0m\n'}
+[23.874701] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/beats/2015/beats_blstm_3.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2015\x1b[0m\n'}
+[23.887116] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/beats/2015/beats_blstm_8.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2015\x1b[0m\n'}
+[23.901053] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/beats/2015/beats_blstm_6.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2015\x1b[0m\n'}
+[23.916468] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/beats/2015/beats_blstm_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2015\x1b[0m\n'}
+[23.938332] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/beats/2015/beats_blstm_1.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2015\x1b[0m\n'}
+[23.950090] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/beats/2015/beats_blstm_5.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2015\x1b[0m\n'}
+[23.953572] (-) TimerEvent: {}
+[23.962568] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/beats/2015/beats_blstm_7.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2015\x1b[0m\n'}
+[23.975507] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/chords\x1b[0m\n'}
+[23.976377] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/chords/2016\x1b[0m\n'}
+[23.977013] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/chords/2016/chords_cnncrf.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/chords/2016\x1b[0m\n'}
+[23.979611] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/chords/2016/chords_cnnfeat.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/chords/2016\x1b[0m\n'}
+[24.053775] (-) TimerEvent: {}
+[24.078004] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/chords/2016/chords_dccrf.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/chords/2016\x1b[0m\n'}
+[24.079802] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/chroma\x1b[0m\n'}
+[24.080523] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/chroma/2016\x1b[0m\n'}
+[24.081181] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/chroma/2016/chroma_dnn.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/chroma/2016\x1b[0m\n'}
+[24.104705] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats\x1b[0m\n'}
+[24.108839] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016\x1b[0m\n'}
+[24.110306] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/downbeats/2016/downbeats_bgru_rhythmic_3.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016\x1b[0m\n'}
+[24.119971] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/downbeats/2016/downbeats_bgru_harmonic_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016\x1b[0m\n'}
+[24.120585] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/downbeats/2016/downbeats_bgru_harmonic_3.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016\x1b[0m\n'}
+[24.136925] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/downbeats/2016/downbeats_bgru_rhythmic_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016\x1b[0m\n'}
+[24.144021] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/downbeats/2016/downbeats_blstm_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016\x1b[0m\n'}
+[24.148316] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/downbeats/2016/downbeats_bgru_rhythmic_1.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016\x1b[0m\n'}
+[24.153909] (-) TimerEvent: {}
+[24.154525] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/downbeats/2016/downbeats_blstm_7.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016\x1b[0m\n'}
+[24.159788] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/downbeats/2016/downbeats_bgru_rhythmic_2.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016\x1b[0m\n'}
+[24.166284] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/downbeats/2016/downbeats_blstm_5.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016\x1b[0m\n'}
+[24.170638] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/downbeats/2016/downbeats_bgru_harmonic_1.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016\x1b[0m\n'}
+[24.173694] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/downbeats/2016/downbeats_blstm_2.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016\x1b[0m\n'}
+[24.177787] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/downbeats/2016/downbeats_blstm_6.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016\x1b[0m\n'}
+[24.183699] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/downbeats/2016/downbeats_bgru_harmonic_5.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016\x1b[0m\n'}
+[24.187448] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/downbeats/2016/downbeats_blstm_8.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016\x1b[0m\n'}
+[24.191793] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/downbeats/2016/downbeats_blstm_1.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016\x1b[0m\n'}
+[24.197618] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/downbeats/2016/downbeats_bgru_rhythmic_0.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016\x1b[0m\n'}
+[24.205043] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/downbeats/2016/downbeats_bgru_harmonic_0.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016\x1b[0m\n'}
+[24.213579] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/downbeats/2016/downbeats_bgru_harmonic_2.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016\x1b[0m\n'}
+[24.218594] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/downbeats/2016/downbeats_blstm_3.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016\x1b[0m\n'}
+[24.236897] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/downbeats/2016/downbeats_bgru_rhythmic_5.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016\x1b[0m\n'}
+[24.243033] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/key\x1b[0m\n'}
+[24.246516] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/key/2018\x1b[0m\n'}
+[24.247126] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/key/2018/key_cnn.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/key/2018\x1b[0m\n'}
+[24.254326] (-) TimerEvent: {}
+[24.271209] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/notes\x1b[0m\n'}
+[24.272118] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/notes/2018\x1b[0m\n'}
+[24.272809] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/notes/2018/notes_cnn_1.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/notes/2018\x1b[0m\n'}
+[24.335185] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/notes/2018/notes_cnn_2.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/notes/2018\x1b[0m\n'}
+[24.354466] (-) TimerEvent: {}
+[24.384558] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/notes/2019\x1b[0m\n'}
+[24.385561] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/notes/2019/notes_cnn.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/notes/2019\x1b[0m\n'}
+[24.437630] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/notes/2013\x1b[0m\n'}
+[24.438425] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/notes/2013/notes_brnn.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/notes/2013\x1b[0m\n'}
+[24.454676] (-) TimerEvent: {}
+[24.464397] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets\x1b[0m\n'}
+[24.465155] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2014\x1b[0m\n'}
+[24.465695] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/onsets/2014/onsets_brnn_pp_6.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2014\x1b[0m\n'}
+[24.471493] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/onsets/2014/onsets_brnn_pp_8.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2014\x1b[0m\n'}
+[24.472485] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/onsets/2014/onsets_brnn_pp_1.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2014\x1b[0m\n'}
+[24.473137] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/onsets/2014/onsets_brnn_pp_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2014\x1b[0m\n'}
+[24.473886] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/onsets/2014/onsets_brnn_pp_3.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2014\x1b[0m\n'}
+[24.474364] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/onsets/2014/onsets_brnn_pp_2.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2014\x1b[0m\n'}
+[24.475150] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/onsets/2014/onsets_brnn_pp_5.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2014\x1b[0m\n'}
+[24.476017] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/onsets/2014/onsets_brnn_pp_7.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2014\x1b[0m\n'}
+[24.476612] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013\x1b[0m\n'}
+[24.477183] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/onsets/2013/onsets_rnn_8.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013\x1b[0m\n'}
+[24.479116] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/onsets/2013/onsets_rnn_1.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013\x1b[0m\n'}
+[24.483417] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/onsets/2013/onsets_brnn_5.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013\x1b[0m\n'}
+[24.487815] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/onsets/2013/onsets_rnn_6.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013\x1b[0m\n'}
+[24.491069] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/onsets/2013/onsets_brnn_8.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013\x1b[0m\n'}
+[24.496085] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/onsets/2013/onsets_rnn_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013\x1b[0m\n'}
+[24.500816] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/onsets/2013/onsets_cnn.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013\x1b[0m\n'}
+[24.551080] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/onsets/2013/onsets_brnn_7.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013\x1b[0m\n'}
+[24.554840] (-) TimerEvent: {}
+[24.555796] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/onsets/2013/onsets_brnn_6.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013\x1b[0m\n'}
+[24.560040] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/onsets/2013/onsets_brnn_1.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013\x1b[0m\n'}
+[24.564700] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/onsets/2013/onsets_rnn_7.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013\x1b[0m\n'}
+[24.568020] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/onsets/2013/onsets_brnn_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013\x1b[0m\n'}
+[24.572607] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/onsets/2013/onsets_brnn_2.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013\x1b[0m\n'}
+[24.577098] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/onsets/2013/onsets_rnn_2.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013\x1b[0m\n'}
+[24.580086] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/onsets/2013/onsets_brnn_3.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013\x1b[0m\n'}
+[24.585062] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/onsets/2013/onsets_rnn_3.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013\x1b[0m\n'}
+[24.588316] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/onsets/2013/onsets_rnn_5.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013\x1b[0m\n'}
+[24.591494] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/patterns\x1b[0m\n'}
+[24.592771] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/patterns/2013\x1b[0m\n'}
+[24.593359] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/patterns/2013/ballroom_pattern_4_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/patterns/2013\x1b[0m\n'}
+[24.595810] (madmom) StdoutLine: {'line': b'\x1b[39mcopying madmom/models/patterns/2013/ballroom_pattern_3_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/patterns/2013\x1b[0m\n'}
+[24.627133] (madmom) StdoutLine: {'line': b'\x1b[39mrunning build_ext\x1b[0m\n'}
+[24.627804] (madmom) StdoutLine: {'line': b"\x1b[39mbuilding 'madmom.audio.comb_filters' extension\x1b[0m\n"}
+[24.655048] (-) TimerEvent: {}
+[24.743574] (madmom) StdoutLine: {'line': b'\x1b[39mINFO: C compiler: aarch64-linux-gnu-gcc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -fPIC\n'}
+[24.745920] (madmom) StdoutLine: {'line': b'\x1b[0m\n'}
+[24.747253] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/temp.linux-aarch64-cpython-310\x1b[0m\n'}
+[24.751293] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/temp.linux-aarch64-cpython-310/madmom\x1b[0m\n'}
+[24.752164] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/temp.linux-aarch64-cpython-310/madmom/audio\x1b[0m\n'}
+[24.752554] (madmom) StdoutLine: {'line': b"\x1b[39mINFO: compile options: '-I/usr/local/lib/python3.10/dist-packages/numpy/core/include -I/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/include -I/usr/include/python3.10 -c'\x1b[0m\n"}
+[24.752885] (madmom) StdoutLine: {'line': b'\x1b[39mINFO: aarch64-linux-gnu-gcc: madmom/audio/comb_filters.c\x1b[0m\n'}
+[24.755161] (-) TimerEvent: {}
+[24.855804] (-) TimerEvent: {}
+[24.956535] (-) TimerEvent: {}
+[25.057333] (-) TimerEvent: {}
+[25.158323] (-) TimerEvent: {}
+[25.259152] (-) TimerEvent: {}
+[25.359974] (-) TimerEvent: {}
+[25.460824] (-) TimerEvent: {}
+[25.561626] (-) TimerEvent: {}
+[25.662542] (-) TimerEvent: {}
+[25.763984] (-) TimerEvent: {}
+[25.865063] (-) TimerEvent: {}
+[25.919375] (madmom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1929\x1b[m\x1b[K,\n'}
+[25.920105] (madmom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/ndarrayobject.h:12\x1b[m\x1b[K,\n'}
+[25.920496] (madmom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/arrayobject.h:5\x1b[m\x1b[K,\n'}
+[25.920836] (madmom) StderrLine: {'line': b'                 from \x1b[01m\x1b[Kmadmom/audio/comb_filters.c:1249\x1b[m\x1b[K:\n'}
+[25.921167] (madmom) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:17:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning "Using deprecated NumPy API, disable it with " "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[25.921632] (madmom) StderrLine: {'line': b'   17 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K "Using deprecated NumPy API, disable it with " \\\n'}
+[25.922029] (madmom) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[25.965247] (-) TimerEvent: {}
+[26.066019] (-) TimerEvent: {}
+[26.166820] (-) TimerEvent: {}
+[26.267744] (-) TimerEvent: {}
+[26.369036] (-) TimerEvent: {}
+[26.469943] (-) TimerEvent: {}
+[26.570871] (-) TimerEvent: {}
+[26.671883] (-) TimerEvent: {}
+[26.772790] (-) TimerEvent: {}
+[26.873669] (-) TimerEvent: {}
+[26.974688] (-) TimerEvent: {}
+[27.076147] (-) TimerEvent: {}
+[27.176879] (-) TimerEvent: {}
+[27.277694] (-) TimerEvent: {}
+[27.378423] (-) TimerEvent: {}
+[27.479397] (-) TimerEvent: {}
+[27.580169] (-) TimerEvent: {}
+[27.681324] (-) TimerEvent: {}
+[27.782786] (-) TimerEvent: {}
+[27.883858] (-) TimerEvent: {}
+[27.984742] (-) TimerEvent: {}
+[28.086143] (-) TimerEvent: {}
+[28.187004] (-) TimerEvent: {}
+[28.287943] (-) TimerEvent: {}
+[28.388904] (-) TimerEvent: {}
+[28.489691] (-) TimerEvent: {}
+[28.590572] (-) TimerEvent: {}
+[28.691556] (-) TimerEvent: {}
+[28.792391] (-) TimerEvent: {}
+[28.893605] (-) TimerEvent: {}
+[28.994425] (-) TimerEvent: {}
+[29.095426] (-) TimerEvent: {}
+[29.196281] (-) TimerEvent: {}
+[29.297127] (-) TimerEvent: {}
+[29.397930] (-) TimerEvent: {}
+[29.499041] (-) TimerEvent: {}
+[29.599880] (-) TimerEvent: {}
+[29.701244] (-) TimerEvent: {}
+[29.802120] (-) TimerEvent: {}
+[29.903109] (-) TimerEvent: {}
+[30.004096] (-) TimerEvent: {}
+[30.105071] (-) TimerEvent: {}
+[30.205850] (-) TimerEvent: {}
+[30.306712] (-) TimerEvent: {}
+[30.407567] (-) TimerEvent: {}
+[30.508945] (-) TimerEvent: {}
+[30.610341] (-) TimerEvent: {}
+[30.711281] (-) TimerEvent: {}
+[30.812231] (-) TimerEvent: {}
+[30.913725] (-) TimerEvent: {}
+[31.014695] (-) TimerEvent: {}
+[31.115627] (-) TimerEvent: {}
+[31.216551] (-) TimerEvent: {}
+[31.317488] (-) TimerEvent: {}
+[31.418504] (-) TimerEvent: {}
+[31.519446] (-) TimerEvent: {}
+[31.620366] (-) TimerEvent: {}
+[31.721264] (-) TimerEvent: {}
+[31.822496] (-) TimerEvent: {}
+[31.923454] (-) TimerEvent: {}
+[32.024370] (-) TimerEvent: {}
+[32.125302] (-) TimerEvent: {}
+[32.226266] (-) TimerEvent: {}
+[32.328987] (-) TimerEvent: {}
+[32.429999] (-) TimerEvent: {}
+[32.683551] (-) TimerEvent: {}
+[32.786259] (-) TimerEvent: {}
+[32.895584] (-) TimerEvent: {}
+[32.998282] (-) TimerEvent: {}
+[33.099602] (-) TimerEvent: {}
+[33.202349] (-) TimerEvent: {}
+[33.303585] (-) TimerEvent: {}
+[33.404489] (-) TimerEvent: {}
+[33.505577] (-) TimerEvent: {}
+[33.606453] (-) TimerEvent: {}
+[33.707368] (-) TimerEvent: {}
+[33.808140] (-) TimerEvent: {}
+[33.908924] (-) TimerEvent: {}
+[34.009765] (-) TimerEvent: {}
+[34.110532] (-) TimerEvent: {}
+[34.211504] (-) TimerEvent: {}
+[34.312312] (-) TimerEvent: {}
+[34.413314] (-) TimerEvent: {}
+[34.514218] (-) TimerEvent: {}
+[34.615197] (-) TimerEvent: {}
+[34.716651] (-) TimerEvent: {}
+[34.817679] (-) TimerEvent: {}
+[34.918776] (-) TimerEvent: {}
+[35.019860] (-) TimerEvent: {}
+[35.121083] (-) TimerEvent: {}
+[35.222152] (-) TimerEvent: {}
+[35.323523] (-) TimerEvent: {}
+[35.424691] (-) TimerEvent: {}
+[35.525876] (-) TimerEvent: {}
+[35.626890] (-) TimerEvent: {}
+[35.727862] (-) TimerEvent: {}
+[35.828819] (-) TimerEvent: {}
+[35.929678] (-) TimerEvent: {}
+[36.030606] (-) TimerEvent: {}
+[36.131360] (-) TimerEvent: {}
+[36.232141] (-) TimerEvent: {}
+[36.333010] (-) TimerEvent: {}
+[36.434026] (-) TimerEvent: {}
+[36.535375] (-) TimerEvent: {}
+[36.636675] (-) TimerEvent: {}
+[36.737642] (-) TimerEvent: {}
+[36.838789] (-) TimerEvent: {}
+[36.939882] (-) TimerEvent: {}
+[37.040807] (-) TimerEvent: {}
+[37.141925] (-) TimerEvent: {}
+[37.242840] (-) TimerEvent: {}
+[37.343873] (-) TimerEvent: {}
+[37.444823] (-) TimerEvent: {}
+[37.545896] (-) TimerEvent: {}
+[37.647185] (-) TimerEvent: {}
+[37.748709] (-) TimerEvent: {}
+[37.852209] (-) TimerEvent: {}
+[37.955178] (-) TimerEvent: {}
+[38.056137] (-) TimerEvent: {}
+[38.157692] (-) TimerEvent: {}
+[38.259523] (-) TimerEvent: {}
+[38.360395] (-) TimerEvent: {}
+[38.461302] (-) TimerEvent: {}
+[38.562235] (-) TimerEvent: {}
+[38.663087] (-) TimerEvent: {}
+[38.764105] (-) TimerEvent: {}
+[38.865720] (-) TimerEvent: {}
+[38.966453] (-) TimerEvent: {}
+[39.067279] (-) TimerEvent: {}
+[39.168154] (-) TimerEvent: {}
+[39.269050] (-) TimerEvent: {}
+[39.370283] (-) TimerEvent: {}
+[39.471832] (-) TimerEvent: {}
+[39.572979] (-) TimerEvent: {}
+[39.674436] (-) TimerEvent: {}
+[39.777867] (-) TimerEvent: {}
+[39.842502] (madmom) StdoutLine: {'line': b'\x1b[39mINFO: aarch64-linux-gnu-gcc -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -g -fwrapv -O2 /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/temp.linux-aarch64-cpython-310/madmom/audio/comb_filters.o -L/usr/lib/aarch64-linux-gnu -o /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio/comb_filters.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[39.878131] (-) TimerEvent: {}
+[39.979097] (-) TimerEvent: {}
+[40.002414] (madmom) StdoutLine: {'line': b"\x1b[39mbuilding 'madmom.features.beats_crf' extension\x1b[0m\n"}
+[40.003425] (madmom) StdoutLine: {'line': b'\x1b[39mINFO: C compiler: aarch64-linux-gnu-gcc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -fPIC\n'}
+[40.004004] (madmom) StdoutLine: {'line': b'\x1b[0m\n'}
+[40.004514] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/temp.linux-aarch64-cpython-310/madmom/features\x1b[0m\n'}
+[40.004902] (madmom) StdoutLine: {'line': b"\x1b[39mINFO: compile options: '-I/usr/local/lib/python3.10/dist-packages/numpy/core/include -I/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/include -I/usr/include/python3.10 -c'\x1b[0m\n"}
+[40.005241] (madmom) StdoutLine: {'line': b'\x1b[39mINFO: aarch64-linux-gnu-gcc: madmom/features/beats_crf.c\x1b[0m\n'}
+[40.079287] (-) TimerEvent: {}
+[40.180040] (-) TimerEvent: {}
+[40.280824] (-) TimerEvent: {}
+[40.381621] (-) TimerEvent: {}
+[40.482448] (-) TimerEvent: {}
+[40.533437] (madmom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1929\x1b[m\x1b[K,\n'}
+[40.534217] (madmom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/ndarrayobject.h:12\x1b[m\x1b[K,\n'}
+[40.534772] (madmom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/arrayobject.h:5\x1b[m\x1b[K,\n'}
+[40.535558] (madmom) StderrLine: {'line': b'                 from \x1b[01m\x1b[Kmadmom/features/beats_crf.c:1250\x1b[m\x1b[K:\n'}
+[40.536184] (madmom) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:17:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning "Using deprecated NumPy API, disable it with " "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[40.536718] (madmom) StderrLine: {'line': b'   17 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K "Using deprecated NumPy API, disable it with " \\\n'}
+[40.537213] (madmom) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[40.582915] (-) TimerEvent: {}
+[40.684242] (-) TimerEvent: {}
+[40.785413] (-) TimerEvent: {}
+[40.886377] (-) TimerEvent: {}
+[40.987245] (-) TimerEvent: {}
+[41.088232] (-) TimerEvent: {}
+[41.189281] (-) TimerEvent: {}
+[41.290038] (-) TimerEvent: {}
+[41.391087] (-) TimerEvent: {}
+[41.491868] (-) TimerEvent: {}
+[41.592656] (-) TimerEvent: {}
+[41.693437] (-) TimerEvent: {}
+[41.794179] (-) TimerEvent: {}
+[41.895565] (-) TimerEvent: {}
+[41.998616] (-) TimerEvent: {}
+[42.099973] (-) TimerEvent: {}
+[42.200826] (-) TimerEvent: {}
+[42.302370] (-) TimerEvent: {}
+[42.403274] (-) TimerEvent: {}
+[42.504124] (-) TimerEvent: {}
+[42.604976] (-) TimerEvent: {}
+[42.719997] (-) TimerEvent: {}
+[42.820780] (-) TimerEvent: {}
+[42.922092] (-) TimerEvent: {}
+[43.022821] (-) TimerEvent: {}
+[43.123804] (-) TimerEvent: {}
+[43.224560] (-) TimerEvent: {}
+[43.325386] (-) TimerEvent: {}
+[43.426117] (-) TimerEvent: {}
+[43.526856] (-) TimerEvent: {}
+[43.627642] (-) TimerEvent: {}
+[43.728382] (-) TimerEvent: {}
+[43.829080] (-) TimerEvent: {}
+[43.929840] (-) TimerEvent: {}
+[44.030590] (-) TimerEvent: {}
+[44.131324] (-) TimerEvent: {}
+[44.232115] (-) TimerEvent: {}
+[44.332896] (-) TimerEvent: {}
+[44.433723] (-) TimerEvent: {}
+[44.534525] (-) TimerEvent: {}
+[44.635372] (-) TimerEvent: {}
+[44.736162] (-) TimerEvent: {}
+[44.836955] (-) TimerEvent: {}
+[44.937769] (-) TimerEvent: {}
+[45.039105] (-) TimerEvent: {}
+[45.139888] (-) TimerEvent: {}
+[45.241218] (-) TimerEvent: {}
+[45.342045] (-) TimerEvent: {}
+[45.442840] (-) TimerEvent: {}
+[45.543682] (-) TimerEvent: {}
+[45.644450] (-) TimerEvent: {}
+[45.745269] (-) TimerEvent: {}
+[45.846128] (-) TimerEvent: {}
+[45.946903] (-) TimerEvent: {}
+[46.047767] (-) TimerEvent: {}
+[46.148593] (-) TimerEvent: {}
+[46.249426] (-) TimerEvent: {}
+[46.350226] (-) TimerEvent: {}
+[46.451026] (-) TimerEvent: {}
+[46.551795] (-) TimerEvent: {}
+[46.652556] (-) TimerEvent: {}
+[46.753351] (-) TimerEvent: {}
+[46.854084] (-) TimerEvent: {}
+[46.954830] (-) TimerEvent: {}
+[47.055601] (-) TimerEvent: {}
+[47.156332] (-) TimerEvent: {}
+[47.257123] (-) TimerEvent: {}
+[47.357833] (-) TimerEvent: {}
+[47.458553] (-) TimerEvent: {}
+[47.559268] (-) TimerEvent: {}
+[47.659944] (-) TimerEvent: {}
+[47.760747] (-) TimerEvent: {}
+[47.861507] (-) TimerEvent: {}
+[47.962246] (-) TimerEvent: {}
+[48.063012] (-) TimerEvent: {}
+[48.163750] (-) TimerEvent: {}
+[48.264643] (-) TimerEvent: {}
+[48.365636] (-) TimerEvent: {}
+[48.466399] (-) TimerEvent: {}
+[48.567119] (-) TimerEvent: {}
+[48.667852] (-) TimerEvent: {}
+[48.768597] (-) TimerEvent: {}
+[48.869418] (-) TimerEvent: {}
+[48.970157] (-) TimerEvent: {}
+[49.071029] (-) TimerEvent: {}
+[49.171751] (-) TimerEvent: {}
+[49.272444] (-) TimerEvent: {}
+[49.373143] (-) TimerEvent: {}
+[49.473884] (-) TimerEvent: {}
+[49.574585] (-) TimerEvent: {}
+[49.675368] (-) TimerEvent: {}
+[49.776107] (-) TimerEvent: {}
+[49.876823] (-) TimerEvent: {}
+[49.977568] (-) TimerEvent: {}
+[50.078321] (-) TimerEvent: {}
+[50.179071] (-) TimerEvent: {}
+[50.279813] (-) TimerEvent: {}
+[50.380650] (-) TimerEvent: {}
+[50.481449] (-) TimerEvent: {}
+[50.582234] (-) TimerEvent: {}
+[50.683339] (-) TimerEvent: {}
+[50.784142] (-) TimerEvent: {}
+[50.885069] (-) TimerEvent: {}
+[50.985823] (-) TimerEvent: {}
+[51.086544] (-) TimerEvent: {}
+[51.187310] (-) TimerEvent: {}
+[51.288029] (-) TimerEvent: {}
+[51.388935] (-) TimerEvent: {}
+[51.489876] (-) TimerEvent: {}
+[51.590749] (-) TimerEvent: {}
+[51.691674] (-) TimerEvent: {}
+[51.792370] (-) TimerEvent: {}
+[51.893069] (-) TimerEvent: {}
+[51.993849] (-) TimerEvent: {}
+[52.095014] (-) TimerEvent: {}
+[52.196011] (-) TimerEvent: {}
+[52.296963] (-) TimerEvent: {}
+[52.397694] (-) TimerEvent: {}
+[52.498433] (-) TimerEvent: {}
+[52.599194] (-) TimerEvent: {}
+[52.699956] (-) TimerEvent: {}
+[52.800763] (-) TimerEvent: {}
+[52.901581] (-) TimerEvent: {}
+[53.002318] (-) TimerEvent: {}
+[53.103090] (-) TimerEvent: {}
+[53.203850] (-) TimerEvent: {}
+[53.304637] (-) TimerEvent: {}
+[53.405803] (-) TimerEvent: {}
+[53.506890] (-) TimerEvent: {}
+[53.607724] (-) TimerEvent: {}
+[53.708519] (-) TimerEvent: {}
+[53.809354] (-) TimerEvent: {}
+[53.910131] (-) TimerEvent: {}
+[54.010889] (-) TimerEvent: {}
+[54.111671] (-) TimerEvent: {}
+[54.212438] (-) TimerEvent: {}
+[54.313281] (-) TimerEvent: {}
+[54.414132] (-) TimerEvent: {}
+[54.515393] (-) TimerEvent: {}
+[54.616177] (-) TimerEvent: {}
+[54.717745] (-) TimerEvent: {}
+[54.818565] (-) TimerEvent: {}
+[54.919417] (-) TimerEvent: {}
+[55.020181] (-) TimerEvent: {}
+[55.121578] (-) TimerEvent: {}
+[55.222414] (-) TimerEvent: {}
+[55.323374] (-) TimerEvent: {}
+[55.424241] (-) TimerEvent: {}
+[55.525341] (-) TimerEvent: {}
+[55.626156] (-) TimerEvent: {}
+[55.726991] (-) TimerEvent: {}
+[55.827855] (-) TimerEvent: {}
+[55.928912] (-) TimerEvent: {}
+[56.030346] (-) TimerEvent: {}
+[56.131643] (-) TimerEvent: {}
+[56.232451] (-) TimerEvent: {}
+[56.333423] (-) TimerEvent: {}
+[56.434491] (-) TimerEvent: {}
+[56.535549] (-) TimerEvent: {}
+[56.636605] (-) TimerEvent: {}
+[56.737517] (-) TimerEvent: {}
+[56.838885] (-) TimerEvent: {}
+[56.940369] (-) TimerEvent: {}
+[57.041575] (-) TimerEvent: {}
+[57.143654] (-) TimerEvent: {}
+[57.245350] (-) TimerEvent: {}
+[57.347024] (-) TimerEvent: {}
+[57.448341] (-) TimerEvent: {}
+[57.549088] (-) TimerEvent: {}
+[57.650920] (-) TimerEvent: {}
+[57.756670] (-) TimerEvent: {}
+[57.858215] (-) TimerEvent: {}
+[57.970791] (-) TimerEvent: {}
+[58.071858] (-) TimerEvent: {}
+[58.172941] (-) TimerEvent: {}
+[58.273826] (-) TimerEvent: {}
+[58.374686] (-) TimerEvent: {}
+[58.475612] (-) TimerEvent: {}
+[58.576638] (-) TimerEvent: {}
+[58.677996] (-) TimerEvent: {}
+[58.779576] (-) TimerEvent: {}
+[58.880359] (-) TimerEvent: {}
+[58.981131] (-) TimerEvent: {}
+[59.081913] (-) TimerEvent: {}
+[59.183288] (-) TimerEvent: {}
+[59.284674] (-) TimerEvent: {}
+[59.385506] (-) TimerEvent: {}
+[59.486342] (-) TimerEvent: {}
+[59.587335] (-) TimerEvent: {}
+[59.689355] (-) TimerEvent: {}
+[59.790396] (-) TimerEvent: {}
+[59.891166] (-) TimerEvent: {}
+[59.992056] (-) TimerEvent: {}
+[60.093043] (-) TimerEvent: {}
+[60.194831] (-) TimerEvent: {}
+[60.297039] (-) TimerEvent: {}
+[60.398388] (-) TimerEvent: {}
+[60.499269] (-) TimerEvent: {}
+[60.600562] (-) TimerEvent: {}
+[60.701665] (-) TimerEvent: {}
+[60.802994] (-) TimerEvent: {}
+[60.904556] (-) TimerEvent: {}
+[61.005380] (-) TimerEvent: {}
+[61.106345] (-) TimerEvent: {}
+[61.207547] (-) TimerEvent: {}
+[61.322306] (-) TimerEvent: {}
+[61.423171] (-) TimerEvent: {}
+[61.523965] (-) TimerEvent: {}
+[61.624850] (-) TimerEvent: {}
+[61.725849] (-) TimerEvent: {}
+[61.826651] (-) TimerEvent: {}
+[61.927706] (-) TimerEvent: {}
+[62.028923] (-) TimerEvent: {}
+[62.129824] (-) TimerEvent: {}
+[62.230728] (-) TimerEvent: {}
+[62.331604] (-) TimerEvent: {}
+[62.432603] (-) TimerEvent: {}
+[62.533805] (-) TimerEvent: {}
+[62.635126] (-) TimerEvent: {}
+[62.736420] (-) TimerEvent: {}
+[62.837420] (-) TimerEvent: {}
+[62.938662] (-) TimerEvent: {}
+[63.056195] (-) TimerEvent: {}
+[63.157871] (-) TimerEvent: {}
+[63.259364] (-) TimerEvent: {}
+[63.366398] (-) TimerEvent: {}
+[63.467275] (-) TimerEvent: {}
+[63.568222] (-) TimerEvent: {}
+[63.669818] (-) TimerEvent: {}
+[63.773060] (-) TimerEvent: {}
+[63.874007] (-) TimerEvent: {}
+[63.975008] (-) TimerEvent: {}
+[64.075832] (-) TimerEvent: {}
+[64.177280] (-) TimerEvent: {}
+[64.278188] (-) TimerEvent: {}
+[64.379156] (-) TimerEvent: {}
+[64.480074] (-) TimerEvent: {}
+[64.581012] (-) TimerEvent: {}
+[64.681970] (-) TimerEvent: {}
+[64.782840] (-) TimerEvent: {}
+[64.883810] (-) TimerEvent: {}
+[64.984840] (-) TimerEvent: {}
+[65.085875] (-) TimerEvent: {}
+[65.186668] (-) TimerEvent: {}
+[65.287503] (-) TimerEvent: {}
+[65.388333] (-) TimerEvent: {}
+[65.489229] (-) TimerEvent: {}
+[65.590658] (-) TimerEvent: {}
+[65.692862] (-) TimerEvent: {}
+[65.794496] (-) TimerEvent: {}
+[65.895389] (-) TimerEvent: {}
+[65.996508] (-) TimerEvent: {}
+[66.097522] (-) TimerEvent: {}
+[66.198361] (-) TimerEvent: {}
+[66.300349] (-) TimerEvent: {}
+[66.401154] (-) TimerEvent: {}
+[66.502149] (-) TimerEvent: {}
+[66.603291] (-) TimerEvent: {}
+[66.704604] (-) TimerEvent: {}
+[66.806558] (-) TimerEvent: {}
+[66.908273] (-) TimerEvent: {}
+[67.009329] (-) TimerEvent: {}
+[67.110285] (-) TimerEvent: {}
+[67.211366] (-) TimerEvent: {}
+[67.313299] (-) TimerEvent: {}
+[67.414151] (-) TimerEvent: {}
+[67.515881] (-) TimerEvent: {}
+[67.621027] (-) TimerEvent: {}
+[67.721938] (-) TimerEvent: {}
+[67.823127] (-) TimerEvent: {}
+[67.924024] (-) TimerEvent: {}
+[68.024940] (-) TimerEvent: {}
+[68.126112] (-) TimerEvent: {}
+[68.227348] (-) TimerEvent: {}
+[68.329120] (-) TimerEvent: {}
+[68.434856] (-) TimerEvent: {}
+[68.466830] (madmom) StderrLine: {'line': b'\x1b[01m\x1b[Kmadmom/features/beats_crf.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K__pyx_pw_6madmom_8features_9beats_crf_9viterbi\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[68.477032] (madmom) StderrLine: {'line': b'\x1b[01m\x1b[Kmadmom/features/beats_crf.c:21643:86:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K__pyx_v_next_state\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized in this function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized\x07-Wmaybe-uninitialized\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[68.477727] (madmom) StderrLine: {'line': b'21643 | \x1b[01;35m\x1b[K( /* dim=0 */ ((char *) (((long *) __pyx_v_path.data) + __pyx_t_13)) )) = __pyx_v_next_state\x1b[m\x1b[K;\n'}
+[68.478243] (madmom) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[68.478740] (madmom) StderrLine: {'line': b'\n'}
+[68.487752] (madmom) StderrLine: {'line': b'\x1b[01m\x1b[Kmadmom/features/beats_crf.c:21172:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K__pyx_v_next_state\x1b[m\x1b[K\xe2\x80\x99 was declared here\n'}
+[68.491274] (madmom) StderrLine: {'line': b'21172 |   int \x1b[01;36m\x1b[K__pyx_v_next_state\x1b[m\x1b[K;\n'}
+[68.493725] (madmom) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[68.535155] (-) TimerEvent: {}
+[68.636080] (-) TimerEvent: {}
+[68.737306] (-) TimerEvent: {}
+[68.838406] (-) TimerEvent: {}
+[68.939393] (-) TimerEvent: {}
+[69.040327] (-) TimerEvent: {}
+[69.141289] (-) TimerEvent: {}
+[69.242154] (-) TimerEvent: {}
+[69.343104] (-) TimerEvent: {}
+[69.444141] (-) TimerEvent: {}
+[69.545270] (-) TimerEvent: {}
+[69.646142] (-) TimerEvent: {}
+[69.747059] (-) TimerEvent: {}
+[69.847860] (-) TimerEvent: {}
+[69.948658] (-) TimerEvent: {}
+[70.049499] (-) TimerEvent: {}
+[70.150525] (-) TimerEvent: {}
+[70.251513] (-) TimerEvent: {}
+[70.352490] (-) TimerEvent: {}
+[70.453978] (-) TimerEvent: {}
+[70.554922] (-) TimerEvent: {}
+[70.656490] (-) TimerEvent: {}
+[70.758147] (-) TimerEvent: {}
+[70.859125] (-) TimerEvent: {}
+[70.961471] (-) TimerEvent: {}
+[71.062414] (-) TimerEvent: {}
+[71.163550] (-) TimerEvent: {}
+[71.264393] (-) TimerEvent: {}
+[71.365338] (-) TimerEvent: {}
+[71.467301] (-) TimerEvent: {}
+[71.571126] (-) TimerEvent: {}
+[71.671933] (-) TimerEvent: {}
+[71.772771] (-) TimerEvent: {}
+[71.873947] (-) TimerEvent: {}
+[71.975726] (-) TimerEvent: {}
+[72.076792] (-) TimerEvent: {}
+[72.178012] (-) TimerEvent: {}
+[72.279240] (-) TimerEvent: {}
+[72.380190] (-) TimerEvent: {}
+[72.481088] (-) TimerEvent: {}
+[72.582608] (-) TimerEvent: {}
+[72.684678] (-) TimerEvent: {}
+[72.786829] (-) TimerEvent: {}
+[72.888206] (-) TimerEvent: {}
+[72.990823] (-) TimerEvent: {}
+[73.099615] (-) TimerEvent: {}
+[73.219277] (-) TimerEvent: {}
+[73.321214] (-) TimerEvent: {}
+[73.422514] (-) TimerEvent: {}
+[73.524518] (-) TimerEvent: {}
+[73.556136] (madmom) StdoutLine: {'line': b'\x1b[39mINFO: aarch64-linux-gnu-gcc -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -g -fwrapv -O2 /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/temp.linux-aarch64-cpython-310/madmom/features/beats_crf.o -L/usr/lib/aarch64-linux-gnu -o /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features/beats_crf.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[73.624673] (-) TimerEvent: {}
+[73.725501] (-) TimerEvent: {}
+[73.741165] (madmom) StdoutLine: {'line': b"\x1b[39mbuilding 'madmom.ml.hmm' extension\x1b[0m\n"}
+[73.742445] (madmom) StdoutLine: {'line': b'\x1b[39mINFO: C compiler: aarch64-linux-gnu-gcc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -fPIC\n'}
+[73.743176] (madmom) StdoutLine: {'line': b'\x1b[0m\n'}
+[73.743649] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/temp.linux-aarch64-cpython-310/madmom/ml\x1b[0m\n'}
+[73.744077] (madmom) StdoutLine: {'line': b"\x1b[39mINFO: compile options: '-I/usr/local/lib/python3.10/dist-packages/numpy/core/include -I/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/include -I/usr/include/python3.10 -c'\x1b[0m\n"}
+[73.744437] (madmom) StdoutLine: {'line': b'\x1b[39mINFO: aarch64-linux-gnu-gcc: madmom/ml/hmm.c\x1b[0m\n'}
+[73.825767] (-) TimerEvent: {}
+[73.926992] (-) TimerEvent: {}
+[74.028538] (-) TimerEvent: {}
+[74.130654] (-) TimerEvent: {}
+[74.231972] (-) TimerEvent: {}
+[74.260939] (madmom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1929\x1b[m\x1b[K,\n'}
+[74.261733] (madmom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/ndarrayobject.h:12\x1b[m\x1b[K,\n'}
+[74.262157] (madmom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/arrayobject.h:5\x1b[m\x1b[K,\n'}
+[74.262553] (madmom) StderrLine: {'line': b'                 from \x1b[01m\x1b[Kmadmom/ml/hmm.c:1250\x1b[m\x1b[K:\n'}
+[74.262922] (madmom) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:17:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning "Using deprecated NumPy API, disable it with " "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[74.263475] (madmom) StderrLine: {'line': b'   17 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K "Using deprecated NumPy API, disable it with " \\\n'}
+[74.263855] (madmom) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[74.332036] (-) TimerEvent: {}
+[74.433370] (-) TimerEvent: {}
+[74.536179] (-) TimerEvent: {}
+[74.637809] (-) TimerEvent: {}
+[74.740559] (-) TimerEvent: {}
+[74.841324] (-) TimerEvent: {}
+[74.942069] (-) TimerEvent: {}
+[75.043352] (-) TimerEvent: {}
+[75.144174] (-) TimerEvent: {}
+[75.244949] (-) TimerEvent: {}
+[75.345710] (-) TimerEvent: {}
+[75.447635] (-) TimerEvent: {}
+[75.548818] (-) TimerEvent: {}
+[75.655247] (-) TimerEvent: {}
+[75.756647] (-) TimerEvent: {}
+[75.858727] (-) TimerEvent: {}
+[75.959518] (-) TimerEvent: {}
+[76.060302] (-) TimerEvent: {}
+[76.161033] (-) TimerEvent: {}
+[76.261794] (-) TimerEvent: {}
+[76.362589] (-) TimerEvent: {}
+[76.463398] (-) TimerEvent: {}
+[76.564194] (-) TimerEvent: {}
+[76.664949] (-) TimerEvent: {}
+[76.765713] (-) TimerEvent: {}
+[76.866851] (-) TimerEvent: {}
+[76.968405] (-) TimerEvent: {}
+[77.069266] (-) TimerEvent: {}
+[77.170117] (-) TimerEvent: {}
+[77.271044] (-) TimerEvent: {}
+[77.372114] (-) TimerEvent: {}
+[77.473081] (-) TimerEvent: {}
+[77.574333] (-) TimerEvent: {}
+[77.675861] (-) TimerEvent: {}
+[77.777535] (-) TimerEvent: {}
+[77.879483] (-) TimerEvent: {}
+[77.980958] (-) TimerEvent: {}
+[78.081831] (-) TimerEvent: {}
+[78.183549] (-) TimerEvent: {}
+[78.285001] (-) TimerEvent: {}
+[78.386572] (-) TimerEvent: {}
+[78.487569] (-) TimerEvent: {}
+[78.589331] (-) TimerEvent: {}
+[78.690579] (-) TimerEvent: {}
+[78.792349] (-) TimerEvent: {}
+[78.893971] (-) TimerEvent: {}
+[78.995604] (-) TimerEvent: {}
+[79.096817] (-) TimerEvent: {}
+[79.197888] (-) TimerEvent: {}
+[79.298927] (-) TimerEvent: {}
+[79.400231] (-) TimerEvent: {}
+[79.501536] (-) TimerEvent: {}
+[79.602660] (-) TimerEvent: {}
+[79.704102] (-) TimerEvent: {}
+[79.805132] (-) TimerEvent: {}
+[79.906126] (-) TimerEvent: {}
+[80.007222] (-) TimerEvent: {}
+[80.108599] (-) TimerEvent: {}
+[80.210583] (-) TimerEvent: {}
+[80.312188] (-) TimerEvent: {}
+[80.413782] (-) TimerEvent: {}
+[80.514896] (-) TimerEvent: {}
+[80.616348] (-) TimerEvent: {}
+[80.717999] (-) TimerEvent: {}
+[80.819194] (-) TimerEvent: {}
+[80.920642] (-) TimerEvent: {}
+[81.022591] (-) TimerEvent: {}
+[81.124119] (-) TimerEvent: {}
+[81.224966] (-) TimerEvent: {}
+[81.325716] (-) TimerEvent: {}
+[81.426464] (-) TimerEvent: {}
+[81.527358] (-) TimerEvent: {}
+[81.628144] (-) TimerEvent: {}
+[81.728919] (-) TimerEvent: {}
+[81.830053] (-) TimerEvent: {}
+[81.931227] (-) TimerEvent: {}
+[82.032261] (-) TimerEvent: {}
+[82.133031] (-) TimerEvent: {}
+[82.233824] (-) TimerEvent: {}
+[82.334660] (-) TimerEvent: {}
+[82.435459] (-) TimerEvent: {}
+[82.536214] (-) TimerEvent: {}
+[82.637009] (-) TimerEvent: {}
+[82.737837] (-) TimerEvent: {}
+[82.839844] (-) TimerEvent: {}
+[82.940607] (-) TimerEvent: {}
+[83.041372] (-) TimerEvent: {}
+[83.142429] (-) TimerEvent: {}
+[83.245304] (-) TimerEvent: {}
+[83.346071] (-) TimerEvent: {}
+[83.447261] (-) TimerEvent: {}
+[83.548035] (-) TimerEvent: {}
+[83.648790] (-) TimerEvent: {}
+[83.750258] (-) TimerEvent: {}
+[83.851007] (-) TimerEvent: {}
+[83.951767] (-) TimerEvent: {}
+[84.052502] (-) TimerEvent: {}
+[84.153346] (-) TimerEvent: {}
+[84.254483] (-) TimerEvent: {}
+[84.355516] (-) TimerEvent: {}
+[84.456758] (-) TimerEvent: {}
+[84.557478] (-) TimerEvent: {}
+[84.658799] (-) TimerEvent: {}
+[84.759811] (-) TimerEvent: {}
+[84.860495] (-) TimerEvent: {}
+[84.961415] (-) TimerEvent: {}
+[85.062485] (-) TimerEvent: {}
+[85.163449] (-) TimerEvent: {}
+[85.264307] (-) TimerEvent: {}
+[85.365458] (-) TimerEvent: {}
+[85.466548] (-) TimerEvent: {}
+[85.567416] (-) TimerEvent: {}
+[85.668407] (-) TimerEvent: {}
+[85.769142] (-) TimerEvent: {}
+[85.869917] (-) TimerEvent: {}
+[85.970714] (-) TimerEvent: {}
+[86.072068] (-) TimerEvent: {}
+[86.173057] (-) TimerEvent: {}
+[86.273839] (-) TimerEvent: {}
+[86.374873] (-) TimerEvent: {}
+[86.476067] (-) TimerEvent: {}
+[86.577207] (-) TimerEvent: {}
+[86.678230] (-) TimerEvent: {}
+[86.779968] (-) TimerEvent: {}
+[86.880952] (-) TimerEvent: {}
+[86.981793] (-) TimerEvent: {}
+[87.082757] (-) TimerEvent: {}
+[87.184026] (-) TimerEvent: {}
+[87.285027] (-) TimerEvent: {}
+[87.385750] (-) TimerEvent: {}
+[87.486607] (-) TimerEvent: {}
+[87.587835] (-) TimerEvent: {}
+[87.689101] (-) TimerEvent: {}
+[87.790130] (-) TimerEvent: {}
+[87.891101] (-) TimerEvent: {}
+[87.992115] (-) TimerEvent: {}
+[88.093053] (-) TimerEvent: {}
+[88.193982] (-) TimerEvent: {}
+[88.294912] (-) TimerEvent: {}
+[88.395774] (-) TimerEvent: {}
+[88.496804] (-) TimerEvent: {}
+[88.597884] (-) TimerEvent: {}
+[88.699193] (-) TimerEvent: {}
+[88.800463] (-) TimerEvent: {}
+[88.902724] (-) TimerEvent: {}
+[89.004614] (-) TimerEvent: {}
+[89.105350] (-) TimerEvent: {}
+[89.206460] (-) TimerEvent: {}
+[89.308022] (-) TimerEvent: {}
+[89.408753] (-) TimerEvent: {}
+[89.510263] (-) TimerEvent: {}
+[89.611303] (-) TimerEvent: {}
+[89.712500] (-) TimerEvent: {}
+[89.814028] (-) TimerEvent: {}
+[89.915043] (-) TimerEvent: {}
+[90.015912] (-) TimerEvent: {}
+[90.117052] (-) TimerEvent: {}
+[90.218122] (-) TimerEvent: {}
+[90.319881] (-) TimerEvent: {}
+[90.420854] (-) TimerEvent: {}
+[90.522075] (-) TimerEvent: {}
+[90.623367] (-) TimerEvent: {}
+[90.724591] (-) TimerEvent: {}
+[90.825615] (-) TimerEvent: {}
+[90.927447] (-) TimerEvent: {}
+[91.028241] (-) TimerEvent: {}
+[91.129095] (-) TimerEvent: {}
+[91.230067] (-) TimerEvent: {}
+[91.330907] (-) TimerEvent: {}
+[91.431724] (-) TimerEvent: {}
+[91.532963] (-) TimerEvent: {}
+[91.633820] (-) TimerEvent: {}
+[91.734714] (-) TimerEvent: {}
+[91.835658] (-) TimerEvent: {}
+[91.936904] (-) TimerEvent: {}
+[92.038203] (-) TimerEvent: {}
+[92.139539] (-) TimerEvent: {}
+[92.240298] (-) TimerEvent: {}
+[92.341116] (-) TimerEvent: {}
+[92.441965] (-) TimerEvent: {}
+[92.543115] (-) TimerEvent: {}
+[92.644501] (-) TimerEvent: {}
+[92.745375] (-) TimerEvent: {}
+[92.846214] (-) TimerEvent: {}
+[92.947302] (-) TimerEvent: {}
+[93.048470] (-) TimerEvent: {}
+[93.149305] (-) TimerEvent: {}
+[93.250200] (-) TimerEvent: {}
+[93.351079] (-) TimerEvent: {}
+[93.452031] (-) TimerEvent: {}
+[93.553274] (-) TimerEvent: {}
+[93.654098] (-) TimerEvent: {}
+[93.754836] (-) TimerEvent: {}
+[93.855629] (-) TimerEvent: {}
+[93.956366] (-) TimerEvent: {}
+[94.057129] (-) TimerEvent: {}
+[94.158344] (-) TimerEvent: {}
+[94.259068] (-) TimerEvent: {}
+[94.359951] (-) TimerEvent: {}
+[94.460741] (-) TimerEvent: {}
+[94.561624] (-) TimerEvent: {}
+[94.662546] (-) TimerEvent: {}
+[94.763665] (-) TimerEvent: {}
+[94.864450] (-) TimerEvent: {}
+[94.965175] (-) TimerEvent: {}
+[95.065904] (-) TimerEvent: {}
+[95.166666] (-) TimerEvent: {}
+[95.267530] (-) TimerEvent: {}
+[95.368272] (-) TimerEvent: {}
+[95.469022] (-) TimerEvent: {}
+[95.570211] (-) TimerEvent: {}
+[95.671549] (-) TimerEvent: {}
+[95.773127] (-) TimerEvent: {}
+[95.874151] (-) TimerEvent: {}
+[95.974997] (-) TimerEvent: {}
+[96.075712] (-) TimerEvent: {}
+[96.176493] (-) TimerEvent: {}
+[96.277242] (-) TimerEvent: {}
+[96.377987] (-) TimerEvent: {}
+[96.478799] (-) TimerEvent: {}
+[96.579607] (-) TimerEvent: {}
+[96.680361] (-) TimerEvent: {}
+[96.781625] (-) TimerEvent: {}
+[96.883302] (-) TimerEvent: {}
+[96.984093] (-) TimerEvent: {}
+[97.084867] (-) TimerEvent: {}
+[97.185700] (-) TimerEvent: {}
+[97.286415] (-) TimerEvent: {}
+[97.387200] (-) TimerEvent: {}
+[97.487966] (-) TimerEvent: {}
+[97.588723] (-) TimerEvent: {}
+[97.689474] (-) TimerEvent: {}
+[97.790484] (-) TimerEvent: {}
+[97.891882] (-) TimerEvent: {}
+[97.992960] (-) TimerEvent: {}
+[98.093874] (-) TimerEvent: {}
+[98.194653] (-) TimerEvent: {}
+[98.295535] (-) TimerEvent: {}
+[98.396312] (-) TimerEvent: {}
+[98.497278] (-) TimerEvent: {}
+[98.598108] (-) TimerEvent: {}
+[98.698937] (-) TimerEvent: {}
+[98.800188] (-) TimerEvent: {}
+[98.901061] (-) TimerEvent: {}
+[99.001927] (-) TimerEvent: {}
+[99.102772] (-) TimerEvent: {}
+[99.203784] (-) TimerEvent: {}
+[99.304787] (-) TimerEvent: {}
+[99.405564] (-) TimerEvent: {}
+[99.506358] (-) TimerEvent: {}
+[99.607201] (-) TimerEvent: {}
+[99.708145] (-) TimerEvent: {}
+[99.808918] (-) TimerEvent: {}
+[99.909713] (-) TimerEvent: {}
+[100.010630] (-) TimerEvent: {}
+[100.111668] (-) TimerEvent: {}
+[100.212574] (-) TimerEvent: {}
+[100.313459] (-) TimerEvent: {}
+[100.414337] (-) TimerEvent: {}
+[100.515499] (-) TimerEvent: {}
+[100.616267] (-) TimerEvent: {}
+[100.717055] (-) TimerEvent: {}
+[100.817839] (-) TimerEvent: {}
+[100.918573] (-) TimerEvent: {}
+[101.019499] (-) TimerEvent: {}
+[101.125897] (-) TimerEvent: {}
+[101.226685] (-) TimerEvent: {}
+[101.327633] (-) TimerEvent: {}
+[101.428414] (-) TimerEvent: {}
+[101.529690] (-) TimerEvent: {}
+[101.630508] (-) TimerEvent: {}
+[101.731358] (-) TimerEvent: {}
+[101.832157] (-) TimerEvent: {}
+[101.933242] (-) TimerEvent: {}
+[102.035512] (-) TimerEvent: {}
+[102.136668] (-) TimerEvent: {}
+[102.237472] (-) TimerEvent: {}
+[102.338201] (-) TimerEvent: {}
+[102.439058] (-) TimerEvent: {}
+[102.540007] (-) TimerEvent: {}
+[102.641170] (-) TimerEvent: {}
+[102.741980] (-) TimerEvent: {}
+[102.843056] (-) TimerEvent: {}
+[102.944326] (-) TimerEvent: {}
+[103.045109] (-) TimerEvent: {}
+[103.145985] (-) TimerEvent: {}
+[103.247321] (-) TimerEvent: {}
+[103.348093] (-) TimerEvent: {}
+[103.449177] (-) TimerEvent: {}
+[103.550565] (-) TimerEvent: {}
+[103.651454] (-) TimerEvent: {}
+[103.752292] (-) TimerEvent: {}
+[103.853154] (-) TimerEvent: {}
+[103.953964] (-) TimerEvent: {}
+[104.054761] (-) TimerEvent: {}
+[104.155579] (-) TimerEvent: {}
+[104.256335] (-) TimerEvent: {}
+[104.357225] (-) TimerEvent: {}
+[104.458014] (-) TimerEvent: {}
+[104.558761] (-) TimerEvent: {}
+[104.659534] (-) TimerEvent: {}
+[104.760315] (-) TimerEvent: {}
+[104.861131] (-) TimerEvent: {}
+[104.962050] (-) TimerEvent: {}
+[105.063467] (-) TimerEvent: {}
+[105.164397] (-) TimerEvent: {}
+[105.265275] (-) TimerEvent: {}
+[105.366259] (-) TimerEvent: {}
+[105.467247] (-) TimerEvent: {}
+[105.568066] (-) TimerEvent: {}
+[105.668962] (-) TimerEvent: {}
+[105.769749] (-) TimerEvent: {}
+[105.870641] (-) TimerEvent: {}
+[105.971576] (-) TimerEvent: {}
+[106.072416] (-) TimerEvent: {}
+[106.173208] (-) TimerEvent: {}
+[106.274003] (-) TimerEvent: {}
+[106.374795] (-) TimerEvent: {}
+[106.475612] (-) TimerEvent: {}
+[106.576356] (-) TimerEvent: {}
+[106.677200] (-) TimerEvent: {}
+[106.778739] (-) TimerEvent: {}
+[106.880301] (-) TimerEvent: {}
+[106.981124] (-) TimerEvent: {}
+[107.082020] (-) TimerEvent: {}
+[107.183039] (-) TimerEvent: {}
+[107.284136] (-) TimerEvent: {}
+[107.385089] (-) TimerEvent: {}
+[107.485890] (-) TimerEvent: {}
+[107.586878] (-) TimerEvent: {}
+[107.688253] (-) TimerEvent: {}
+[107.789037] (-) TimerEvent: {}
+[107.889930] (-) TimerEvent: {}
+[107.990774] (-) TimerEvent: {}
+[108.091626] (-) TimerEvent: {}
+[108.192444] (-) TimerEvent: {}
+[108.293254] (-) TimerEvent: {}
+[108.394069] (-) TimerEvent: {}
+[108.494978] (-) TimerEvent: {}
+[108.595771] (-) TimerEvent: {}
+[108.697016] (-) TimerEvent: {}
+[108.798799] (-) TimerEvent: {}
+[108.899723] (-) TimerEvent: {}
+[109.000693] (-) TimerEvent: {}
+[109.101533] (-) TimerEvent: {}
+[109.202310] (-) TimerEvent: {}
+[109.303211] (-) TimerEvent: {}
+[109.404297] (-) TimerEvent: {}
+[109.505318] (-) TimerEvent: {}
+[109.606651] (-) TimerEvent: {}
+[109.707408] (-) TimerEvent: {}
+[109.808719] (-) TimerEvent: {}
+[109.910203] (-) TimerEvent: {}
+[110.012943] (-) TimerEvent: {}
+[110.113798] (-) TimerEvent: {}
+[110.214671] (-) TimerEvent: {}
+[110.315646] (-) TimerEvent: {}
+[110.416788] (-) TimerEvent: {}
+[110.519154] (-) TimerEvent: {}
+[110.620683] (-) TimerEvent: {}
+[110.721442] (-) TimerEvent: {}
+[110.823081] (-) TimerEvent: {}
+[110.924402] (-) TimerEvent: {}
+[111.025598] (-) TimerEvent: {}
+[111.126881] (-) TimerEvent: {}
+[111.227929] (-) TimerEvent: {}
+[111.328756] (-) TimerEvent: {}
+[111.429624] (-) TimerEvent: {}
+[111.530560] (-) TimerEvent: {}
+[111.632537] (-) TimerEvent: {}
+[111.733743] (-) TimerEvent: {}
+[111.835899] (-) TimerEvent: {}
+[111.937233] (-) TimerEvent: {}
+[112.038583] (-) TimerEvent: {}
+[112.141425] (-) TimerEvent: {}
+[112.242843] (-) TimerEvent: {}
+[112.344422] (-) TimerEvent: {}
+[112.445201] (-) TimerEvent: {}
+[112.545973] (-) TimerEvent: {}
+[112.646825] (-) TimerEvent: {}
+[112.747675] (-) TimerEvent: {}
+[112.849095] (-) TimerEvent: {}
+[112.950163] (-) TimerEvent: {}
+[113.051055] (-) TimerEvent: {}
+[113.151921] (-) TimerEvent: {}
+[113.253220] (-) TimerEvent: {}
+[113.354905] (-) TimerEvent: {}
+[113.456019] (-) TimerEvent: {}
+[113.557124] (-) TimerEvent: {}
+[113.658165] (-) TimerEvent: {}
+[113.759150] (-) TimerEvent: {}
+[113.860163] (-) TimerEvent: {}
+[113.961569] (-) TimerEvent: {}
+[114.062652] (-) TimerEvent: {}
+[114.163596] (-) TimerEvent: {}
+[114.265548] (-) TimerEvent: {}
+[114.366340] (-) TimerEvent: {}
+[114.467506] (-) TimerEvent: {}
+[114.568534] (-) TimerEvent: {}
+[114.669431] (-) TimerEvent: {}
+[114.770853] (-) TimerEvent: {}
+[114.872406] (-) TimerEvent: {}
+[114.974132] (-) TimerEvent: {}
+[115.074995] (-) TimerEvent: {}
+[115.175885] (-) TimerEvent: {}
+[115.276671] (-) TimerEvent: {}
+[115.377486] (-) TimerEvent: {}
+[115.478327] (-) TimerEvent: {}
+[115.579302] (-) TimerEvent: {}
+[115.680773] (-) TimerEvent: {}
+[115.781647] (-) TimerEvent: {}
+[115.882676] (-) TimerEvent: {}
+[115.983602] (-) TimerEvent: {}
+[116.084398] (-) TimerEvent: {}
+[116.185181] (-) TimerEvent: {}
+[116.286123] (-) TimerEvent: {}
+[116.387238] (-) TimerEvent: {}
+[116.488154] (-) TimerEvent: {}
+[116.589160] (-) TimerEvent: {}
+[116.690041] (-) TimerEvent: {}
+[116.790887] (-) TimerEvent: {}
+[116.892136] (-) TimerEvent: {}
+[116.993624] (-) TimerEvent: {}
+[117.094661] (-) TimerEvent: {}
+[117.196098] (-) TimerEvent: {}
+[117.296917] (-) TimerEvent: {}
+[117.397707] (-) TimerEvent: {}
+[117.498728] (-) TimerEvent: {}
+[117.599691] (-) TimerEvent: {}
+[117.700574] (-) TimerEvent: {}
+[117.801331] (-) TimerEvent: {}
+[117.902206] (-) TimerEvent: {}
+[118.003473] (-) TimerEvent: {}
+[118.104372] (-) TimerEvent: {}
+[118.205215] (-) TimerEvent: {}
+[118.306084] (-) TimerEvent: {}
+[118.407278] (-) TimerEvent: {}
+[118.508155] (-) TimerEvent: {}
+[118.609008] (-) TimerEvent: {}
+[118.709790] (-) TimerEvent: {}
+[118.823412] (-) TimerEvent: {}
+[118.924270] (-) TimerEvent: {}
+[119.024978] (-) TimerEvent: {}
+[119.125718] (-) TimerEvent: {}
+[119.226507] (-) TimerEvent: {}
+[119.327312] (-) TimerEvent: {}
+[119.428149] (-) TimerEvent: {}
+[119.529029] (-) TimerEvent: {}
+[119.629853] (-) TimerEvent: {}
+[119.730752] (-) TimerEvent: {}
+[119.831685] (-) TimerEvent: {}
+[119.933193] (-) TimerEvent: {}
+[120.034422] (-) TimerEvent: {}
+[120.136864] (-) TimerEvent: {}
+[120.237845] (-) TimerEvent: {}
+[120.339076] (-) TimerEvent: {}
+[120.439858] (-) TimerEvent: {}
+[120.540656] (-) TimerEvent: {}
+[120.641873] (-) TimerEvent: {}
+[120.742537] (-) TimerEvent: {}
+[120.843239] (-) TimerEvent: {}
+[120.944040] (-) TimerEvent: {}
+[121.044927] (-) TimerEvent: {}
+[121.146152] (-) TimerEvent: {}
+[121.247932] (-) TimerEvent: {}
+[121.349354] (-) TimerEvent: {}
+[121.450194] (-) TimerEvent: {}
+[121.551014] (-) TimerEvent: {}
+[121.651894] (-) TimerEvent: {}
+[121.752800] (-) TimerEvent: {}
+[121.853629] (-) TimerEvent: {}
+[121.954519] (-) TimerEvent: {}
+[122.055329] (-) TimerEvent: {}
+[122.156139] (-) TimerEvent: {}
+[122.257024] (-) TimerEvent: {}
+[122.358548] (-) TimerEvent: {}
+[122.459724] (-) TimerEvent: {}
+[122.560608] (-) TimerEvent: {}
+[122.661642] (-) TimerEvent: {}
+[122.763347] (-) TimerEvent: {}
+[122.868512] (-) TimerEvent: {}
+[122.977836] (-) TimerEvent: {}
+[123.084153] (-) TimerEvent: {}
+[123.187250] (-) TimerEvent: {}
+[123.289241] (-) TimerEvent: {}
+[123.390009] (-) TimerEvent: {}
+[123.461120] (madmom) StdoutLine: {'line': b'\x1b[39mINFO: aarch64-linux-gnu-gcc -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -g -fwrapv -O2 /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/temp.linux-aarch64-cpython-310/madmom/ml/hmm.o -L/usr/lib/aarch64-linux-gnu -o /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/ml/hmm.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[123.490206] (-) TimerEvent: {}
+[123.591364] (-) TimerEvent: {}
+[123.661781] (madmom) StdoutLine: {'line': b"\x1b[39mbuilding 'madmom.ml.nn.layers' extension\x1b[0m\n"}
+[123.663136] (madmom) StdoutLine: {'line': b'\x1b[39mINFO: C compiler: aarch64-linux-gnu-gcc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -fPIC\n'}
+[123.663902] (madmom) StdoutLine: {'line': b'\x1b[0m\n'}
+[123.664465] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/temp.linux-aarch64-cpython-310/madmom/ml/nn\x1b[0m\n'}
+[123.664932] (madmom) StdoutLine: {'line': b"\x1b[39mINFO: compile options: '-I/usr/local/lib/python3.10/dist-packages/numpy/core/include -I/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/include -I/usr/include/python3.10 -c'\x1b[0m\n"}
+[123.665570] (madmom) StdoutLine: {'line': b'\x1b[39mINFO: aarch64-linux-gnu-gcc: madmom/ml/nn/layers.c\x1b[0m\n'}
+[123.691904] (-) TimerEvent: {}
+[123.793001] (-) TimerEvent: {}
+[123.895344] (-) TimerEvent: {}
+[123.996133] (-) TimerEvent: {}
+[124.096887] (-) TimerEvent: {}
+[124.197683] (-) TimerEvent: {}
+[124.209154] (madmom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1929\x1b[m\x1b[K,\n'}
+[124.209967] (madmom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/ndarrayobject.h:12\x1b[m\x1b[K,\n'}
+[124.210421] (madmom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/arrayobject.h:5\x1b[m\x1b[K,\n'}
+[124.210797] (madmom) StderrLine: {'line': b'                 from \x1b[01m\x1b[Kmadmom/ml/nn/layers.c:1249\x1b[m\x1b[K:\n'}
+[124.211279] (madmom) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:17:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning "Using deprecated NumPy API, disable it with " "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[124.211643] (madmom) StderrLine: {'line': b'   17 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K "Using deprecated NumPy API, disable it with " \\\n'}
+[124.211968] (madmom) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[124.297881] (-) TimerEvent: {}
+[124.398697] (-) TimerEvent: {}
+[124.499535] (-) TimerEvent: {}
+[124.600327] (-) TimerEvent: {}
+[124.701075] (-) TimerEvent: {}
+[124.801985] (-) TimerEvent: {}
+[124.903030] (-) TimerEvent: {}
+[125.003754] (-) TimerEvent: {}
+[125.104605] (-) TimerEvent: {}
+[125.205346] (-) TimerEvent: {}
+[125.306124] (-) TimerEvent: {}
+[125.406921] (-) TimerEvent: {}
+[125.507745] (-) TimerEvent: {}
+[125.608524] (-) TimerEvent: {}
+[125.709256] (-) TimerEvent: {}
+[125.810003] (-) TimerEvent: {}
+[125.910757] (-) TimerEvent: {}
+[126.011587] (-) TimerEvent: {}
+[126.112377] (-) TimerEvent: {}
+[126.213117] (-) TimerEvent: {}
+[126.313856] (-) TimerEvent: {}
+[126.414609] (-) TimerEvent: {}
+[126.515579] (-) TimerEvent: {}
+[126.616698] (-) TimerEvent: {}
+[126.717598] (-) TimerEvent: {}
+[126.818753] (-) TimerEvent: {}
+[126.922020] (-) TimerEvent: {}
+[127.023138] (-) TimerEvent: {}
+[127.124072] (-) TimerEvent: {}
+[127.225179] (-) TimerEvent: {}
+[127.326728] (-) TimerEvent: {}
+[127.427586] (-) TimerEvent: {}
+[127.528347] (-) TimerEvent: {}
+[127.629161] (-) TimerEvent: {}
+[127.729892] (-) TimerEvent: {}
+[127.830621] (-) TimerEvent: {}
+[127.931362] (-) TimerEvent: {}
+[128.032082] (-) TimerEvent: {}
+[128.132793] (-) TimerEvent: {}
+[128.233562] (-) TimerEvent: {}
+[128.334289] (-) TimerEvent: {}
+[128.435070] (-) TimerEvent: {}
+[128.535808] (-) TimerEvent: {}
+[128.636612] (-) TimerEvent: {}
+[128.737349] (-) TimerEvent: {}
+[128.838126] (-) TimerEvent: {}
+[128.956929] (-) TimerEvent: {}
+[129.057666] (-) TimerEvent: {}
+[129.158426] (-) TimerEvent: {}
+[129.259178] (-) TimerEvent: {}
+[129.359907] (-) TimerEvent: {}
+[129.460586] (-) TimerEvent: {}
+[129.561269] (-) TimerEvent: {}
+[129.661956] (-) TimerEvent: {}
+[129.762692] (-) TimerEvent: {}
+[129.863415] (-) TimerEvent: {}
+[129.964095] (-) TimerEvent: {}
+[130.065123] (-) TimerEvent: {}
+[130.166059] (-) TimerEvent: {}
+[130.267135] (-) TimerEvent: {}
+[130.368037] (-) TimerEvent: {}
+[130.468918] (-) TimerEvent: {}
+[130.569804] (-) TimerEvent: {}
+[130.670989] (-) TimerEvent: {}
+[130.772084] (-) TimerEvent: {}
+[130.874686] (-) TimerEvent: {}
+[130.976028] (-) TimerEvent: {}
+[131.077594] (-) TimerEvent: {}
+[131.178650] (-) TimerEvent: {}
+[131.279936] (-) TimerEvent: {}
+[131.381128] (-) TimerEvent: {}
+[131.482777] (-) TimerEvent: {}
+[131.584421] (-) TimerEvent: {}
+[131.686255] (-) TimerEvent: {}
+[131.787145] (-) TimerEvent: {}
+[131.888018] (-) TimerEvent: {}
+[131.988801] (-) TimerEvent: {}
+[132.089640] (-) TimerEvent: {}
+[132.190577] (-) TimerEvent: {}
+[132.291628] (-) TimerEvent: {}
+[132.392539] (-) TimerEvent: {}
+[132.493570] (-) TimerEvent: {}
+[132.594761] (-) TimerEvent: {}
+[132.699790] (-) TimerEvent: {}
+[132.801837] (-) TimerEvent: {}
+[132.902616] (-) TimerEvent: {}
+[133.003472] (-) TimerEvent: {}
+[133.104260] (-) TimerEvent: {}
+[133.205028] (-) TimerEvent: {}
+[133.306442] (-) TimerEvent: {}
+[133.407422] (-) TimerEvent: {}
+[133.508685] (-) TimerEvent: {}
+[133.611198] (-) TimerEvent: {}
+[133.712248] (-) TimerEvent: {}
+[133.813484] (-) TimerEvent: {}
+[133.914400] (-) TimerEvent: {}
+[134.015833] (-) TimerEvent: {}
+[134.117073] (-) TimerEvent: {}
+[134.218253] (-) TimerEvent: {}
+[134.319244] (-) TimerEvent: {}
+[134.419965] (-) TimerEvent: {}
+[134.520687] (-) TimerEvent: {}
+[134.621777] (-) TimerEvent: {}
+[134.722490] (-) TimerEvent: {}
+[134.823216] (-) TimerEvent: {}
+[134.924583] (-) TimerEvent: {}
+[135.025745] (-) TimerEvent: {}
+[135.126426] (-) TimerEvent: {}
+[135.227108] (-) TimerEvent: {}
+[135.327788] (-) TimerEvent: {}
+[135.428459] (-) TimerEvent: {}
+[135.529659] (-) TimerEvent: {}
+[135.630860] (-) TimerEvent: {}
+[135.731961] (-) TimerEvent: {}
+[135.832689] (-) TimerEvent: {}
+[135.933465] (-) TimerEvent: {}
+[136.034193] (-) TimerEvent: {}
+[136.134928] (-) TimerEvent: {}
+[136.236949] (-) TimerEvent: {}
+[136.337929] (-) TimerEvent: {}
+[136.439410] (-) TimerEvent: {}
+[136.541857] (-) TimerEvent: {}
+[136.642675] (-) TimerEvent: {}
+[136.743465] (-) TimerEvent: {}
+[136.844334] (-) TimerEvent: {}
+[136.945755] (-) TimerEvent: {}
+[137.047036] (-) TimerEvent: {}
+[137.147901] (-) TimerEvent: {}
+[137.248637] (-) TimerEvent: {}
+[137.349666] (-) TimerEvent: {}
+[137.450523] (-) TimerEvent: {}
+[137.551360] (-) TimerEvent: {}
+[137.652484] (-) TimerEvent: {}
+[137.753235] (-) TimerEvent: {}
+[137.854061] (-) TimerEvent: {}
+[137.954790] (-) TimerEvent: {}
+[138.055630] (-) TimerEvent: {}
+[138.156352] (-) TimerEvent: {}
+[138.257331] (-) TimerEvent: {}
+[138.358310] (-) TimerEvent: {}
+[138.459271] (-) TimerEvent: {}
+[138.560227] (-) TimerEvent: {}
+[138.661552] (-) TimerEvent: {}
+[138.762917] (-) TimerEvent: {}
+[138.863712] (-) TimerEvent: {}
+[138.964527] (-) TimerEvent: {}
+[139.065462] (-) TimerEvent: {}
+[139.166785] (-) TimerEvent: {}
+[139.267581] (-) TimerEvent: {}
+[139.368444] (-) TimerEvent: {}
+[139.469412] (-) TimerEvent: {}
+[139.570377] (-) TimerEvent: {}
+[139.671184] (-) TimerEvent: {}
+[139.771972] (-) TimerEvent: {}
+[139.872730] (-) TimerEvent: {}
+[139.973586] (-) TimerEvent: {}
+[140.074395] (-) TimerEvent: {}
+[140.175287] (-) TimerEvent: {}
+[140.276112] (-) TimerEvent: {}
+[140.377027] (-) TimerEvent: {}
+[140.477923] (-) TimerEvent: {}
+[140.578804] (-) TimerEvent: {}
+[140.679782] (-) TimerEvent: {}
+[140.781034] (-) TimerEvent: {}
+[140.882258] (-) TimerEvent: {}
+[140.983123] (-) TimerEvent: {}
+[141.083932] (-) TimerEvent: {}
+[141.185421] (-) TimerEvent: {}
+[141.286297] (-) TimerEvent: {}
+[141.387142] (-) TimerEvent: {}
+[141.487931] (-) TimerEvent: {}
+[141.590093] (-) TimerEvent: {}
+[141.691394] (-) TimerEvent: {}
+[141.792365] (-) TimerEvent: {}
+[141.893410] (-) TimerEvent: {}
+[141.994419] (-) TimerEvent: {}
+[142.095138] (-) TimerEvent: {}
+[142.195846] (-) TimerEvent: {}
+[142.296595] (-) TimerEvent: {}
+[142.397763] (-) TimerEvent: {}
+[142.498761] (-) TimerEvent: {}
+[142.599498] (-) TimerEvent: {}
+[142.700242] (-) TimerEvent: {}
+[142.801316] (-) TimerEvent: {}
+[142.902285] (-) TimerEvent: {}
+[143.003229] (-) TimerEvent: {}
+[143.104245] (-) TimerEvent: {}
+[143.204982] (-) TimerEvent: {}
+[143.305961] (-) TimerEvent: {}
+[143.406685] (-) TimerEvent: {}
+[143.507481] (-) TimerEvent: {}
+[143.608586] (-) TimerEvent: {}
+[143.710169] (-) TimerEvent: {}
+[143.810885] (-) TimerEvent: {}
+[143.912165] (-) TimerEvent: {}
+[144.012921] (-) TimerEvent: {}
+[144.113881] (-) TimerEvent: {}
+[144.214820] (-) TimerEvent: {}
+[144.315682] (-) TimerEvent: {}
+[144.416662] (-) TimerEvent: {}
+[144.517494] (-) TimerEvent: {}
+[144.618610] (-) TimerEvent: {}
+[144.719744] (-) TimerEvent: {}
+[144.820553] (-) TimerEvent: {}
+[144.921363] (-) TimerEvent: {}
+[145.022243] (-) TimerEvent: {}
+[145.123109] (-) TimerEvent: {}
+[145.223938] (-) TimerEvent: {}
+[145.324684] (-) TimerEvent: {}
+[145.425503] (-) TimerEvent: {}
+[145.526228] (-) TimerEvent: {}
+[145.627109] (-) TimerEvent: {}
+[145.729067] (-) TimerEvent: {}
+[145.829976] (-) TimerEvent: {}
+[145.930784] (-) TimerEvent: {}
+[146.031713] (-) TimerEvent: {}
+[146.132526] (-) TimerEvent: {}
+[146.233434] (-) TimerEvent: {}
+[146.334266] (-) TimerEvent: {}
+[146.435115] (-) TimerEvent: {}
+[146.535856] (-) TimerEvent: {}
+[146.637343] (-) TimerEvent: {}
+[146.738306] (-) TimerEvent: {}
+[146.839619] (-) TimerEvent: {}
+[146.940348] (-) TimerEvent: {}
+[147.041121] (-) TimerEvent: {}
+[147.142382] (-) TimerEvent: {}
+[147.243307] (-) TimerEvent: {}
+[147.345306] (-) TimerEvent: {}
+[147.446105] (-) TimerEvent: {}
+[147.546936] (-) TimerEvent: {}
+[147.649059] (-) TimerEvent: {}
+[147.749948] (-) TimerEvent: {}
+[147.850846] (-) TimerEvent: {}
+[147.951726] (-) TimerEvent: {}
+[148.052578] (-) TimerEvent: {}
+[148.153773] (-) TimerEvent: {}
+[148.254859] (-) TimerEvent: {}
+[148.355735] (-) TimerEvent: {}
+[148.456587] (-) TimerEvent: {}
+[148.557555] (-) TimerEvent: {}
+[148.658397] (-) TimerEvent: {}
+[148.759323] (-) TimerEvent: {}
+[148.860187] (-) TimerEvent: {}
+[148.961015] (-) TimerEvent: {}
+[149.061844] (-) TimerEvent: {}
+[149.177280] (-) TimerEvent: {}
+[149.278071] (-) TimerEvent: {}
+[149.378853] (-) TimerEvent: {}
+[149.479799] (-) TimerEvent: {}
+[149.580631] (-) TimerEvent: {}
+[149.681462] (-) TimerEvent: {}
+[149.782253] (-) TimerEvent: {}
+[149.883064] (-) TimerEvent: {}
+[149.983819] (-) TimerEvent: {}
+[150.084846] (-) TimerEvent: {}
+[150.186415] (-) TimerEvent: {}
+[150.287478] (-) TimerEvent: {}
+[150.388476] (-) TimerEvent: {}
+[150.489273] (-) TimerEvent: {}
+[150.590039] (-) TimerEvent: {}
+[150.690853] (-) TimerEvent: {}
+[150.791792] (-) TimerEvent: {}
+[150.892622] (-) TimerEvent: {}
+[150.993508] (-) TimerEvent: {}
+[151.094300] (-) TimerEvent: {}
+[151.195229] (-) TimerEvent: {}
+[151.295946] (-) TimerEvent: {}
+[151.396936] (-) TimerEvent: {}
+[151.497959] (-) TimerEvent: {}
+[151.598871] (-) TimerEvent: {}
+[151.700196] (-) TimerEvent: {}
+[151.801133] (-) TimerEvent: {}
+[151.902198] (-) TimerEvent: {}
+[152.003719] (-) TimerEvent: {}
+[152.104593] (-) TimerEvent: {}
+[152.206048] (-) TimerEvent: {}
+[152.307058] (-) TimerEvent: {}
+[152.408229] (-) TimerEvent: {}
+[152.509044] (-) TimerEvent: {}
+[152.609926] (-) TimerEvent: {}
+[152.710698] (-) TimerEvent: {}
+[152.811635] (-) TimerEvent: {}
+[152.913737] (-) TimerEvent: {}
+[153.015506] (-) TimerEvent: {}
+[153.116526] (-) TimerEvent: {}
+[153.217355] (-) TimerEvent: {}
+[153.318123] (-) TimerEvent: {}
+[153.419173] (-) TimerEvent: {}
+[153.520532] (-) TimerEvent: {}
+[153.621389] (-) TimerEvent: {}
+[153.722266] (-) TimerEvent: {}
+[153.823136] (-) TimerEvent: {}
+[153.923913] (-) TimerEvent: {}
+[154.024742] (-) TimerEvent: {}
+[154.125610] (-) TimerEvent: {}
+[154.226551] (-) TimerEvent: {}
+[154.327480] (-) TimerEvent: {}
+[154.428371] (-) TimerEvent: {}
+[154.529114] (-) TimerEvent: {}
+[154.630184] (-) TimerEvent: {}
+[154.731916] (-) TimerEvent: {}
+[154.833166] (-) TimerEvent: {}
+[154.934264] (-) TimerEvent: {}
+[155.035183] (-) TimerEvent: {}
+[155.136438] (-) TimerEvent: {}
+[155.237822] (-) TimerEvent: {}
+[155.338736] (-) TimerEvent: {}
+[155.440728] (-) TimerEvent: {}
+[155.541717] (-) TimerEvent: {}
+[155.643783] (-) TimerEvent: {}
+[155.744890] (-) TimerEvent: {}
+[155.845675] (-) TimerEvent: {}
+[155.946522] (-) TimerEvent: {}
+[156.048175] (-) TimerEvent: {}
+[156.149259] (-) TimerEvent: {}
+[156.250329] (-) TimerEvent: {}
+[156.352205] (-) TimerEvent: {}
+[156.453033] (-) TimerEvent: {}
+[156.554095] (-) TimerEvent: {}
+[156.655908] (-) TimerEvent: {}
+[156.757234] (-) TimerEvent: {}
+[156.857976] (-) TimerEvent: {}
+[156.959396] (-) TimerEvent: {}
+[157.060871] (-) TimerEvent: {}
+[157.161891] (-) TimerEvent: {}
+[157.262746] (-) TimerEvent: {}
+[157.363738] (-) TimerEvent: {}
+[157.464671] (-) TimerEvent: {}
+[157.565727] (-) TimerEvent: {}
+[157.666830] (-) TimerEvent: {}
+[157.768040] (-) TimerEvent: {}
+[157.869287] (-) TimerEvent: {}
+[157.970537] (-) TimerEvent: {}
+[158.071538] (-) TimerEvent: {}
+[158.172794] (-) TimerEvent: {}
+[158.273800] (-) TimerEvent: {}
+[158.374707] (-) TimerEvent: {}
+[158.475624] (-) TimerEvent: {}
+[158.576477] (-) TimerEvent: {}
+[158.677833] (-) TimerEvent: {}
+[158.778775] (-) TimerEvent: {}
+[158.879770] (-) TimerEvent: {}
+[158.980997] (-) TimerEvent: {}
+[159.082443] (-) TimerEvent: {}
+[159.183376] (-) TimerEvent: {}
+[159.284960] (-) TimerEvent: {}
+[159.386594] (-) TimerEvent: {}
+[159.487442] (-) TimerEvent: {}
+[159.588495] (-) TimerEvent: {}
+[159.689677] (-) TimerEvent: {}
+[159.790588] (-) TimerEvent: {}
+[159.891701] (-) TimerEvent: {}
+[159.992552] (-) TimerEvent: {}
+[160.093350] (-) TimerEvent: {}
+[160.194301] (-) TimerEvent: {}
+[160.295082] (-) TimerEvent: {}
+[160.395828] (-) TimerEvent: {}
+[160.496669] (-) TimerEvent: {}
+[160.597513] (-) TimerEvent: {}
+[160.698470] (-) TimerEvent: {}
+[160.799605] (-) TimerEvent: {}
+[160.900877] (-) TimerEvent: {}
+[161.002829] (-) TimerEvent: {}
+[161.104058] (-) TimerEvent: {}
+[161.205060] (-) TimerEvent: {}
+[161.306141] (-) TimerEvent: {}
+[161.407115] (-) TimerEvent: {}
+[161.507929] (-) TimerEvent: {}
+[161.608852] (-) TimerEvent: {}
+[161.713294] (-) TimerEvent: {}
+[161.814173] (-) TimerEvent: {}
+[161.915016] (-) TimerEvent: {}
+[162.015807] (-) TimerEvent: {}
+[162.116585] (-) TimerEvent: {}
+[162.217430] (-) TimerEvent: {}
+[162.318212] (-) TimerEvent: {}
+[162.418934] (-) TimerEvent: {}
+[162.519875] (-) TimerEvent: {}
+[162.620801] (-) TimerEvent: {}
+[162.721684] (-) TimerEvent: {}
+[162.822641] (-) TimerEvent: {}
+[162.923937] (-) TimerEvent: {}
+[163.024712] (-) TimerEvent: {}
+[163.125622] (-) TimerEvent: {}
+[163.227207] (-) TimerEvent: {}
+[163.331314] (-) TimerEvent: {}
+[163.432082] (-) TimerEvent: {}
+[163.532889] (-) TimerEvent: {}
+[163.633719] (-) TimerEvent: {}
+[163.734513] (-) TimerEvent: {}
+[163.835535] (-) TimerEvent: {}
+[163.936452] (-) TimerEvent: {}
+[164.037270] (-) TimerEvent: {}
+[164.138094] (-) TimerEvent: {}
+[164.239182] (-) TimerEvent: {}
+[164.340702] (-) TimerEvent: {}
+[164.442134] (-) TimerEvent: {}
+[164.544789] (-) TimerEvent: {}
+[164.645586] (-) TimerEvent: {}
+[164.746615] (-) TimerEvent: {}
+[164.848191] (-) TimerEvent: {}
+[164.949090] (-) TimerEvent: {}
+[165.049984] (-) TimerEvent: {}
+[165.152171] (-) TimerEvent: {}
+[165.253181] (-) TimerEvent: {}
+[165.355022] (-) TimerEvent: {}
+[165.456167] (-) TimerEvent: {}
+[165.557052] (-) TimerEvent: {}
+[165.658406] (-) TimerEvent: {}
+[165.759953] (-) TimerEvent: {}
+[165.861429] (-) TimerEvent: {}
+[165.962725] (-) TimerEvent: {}
+[166.063967] (-) TimerEvent: {}
+[166.165304] (-) TimerEvent: {}
+[166.266114] (-) TimerEvent: {}
+[166.366931] (-) TimerEvent: {}
+[166.468369] (-) TimerEvent: {}
+[166.569663] (-) TimerEvent: {}
+[166.671006] (-) TimerEvent: {}
+[166.772191] (-) TimerEvent: {}
+[166.873577] (-) TimerEvent: {}
+[166.974444] (-) TimerEvent: {}
+[167.075402] (-) TimerEvent: {}
+[167.176172] (-) TimerEvent: {}
+[167.277639] (-) TimerEvent: {}
+[167.378446] (-) TimerEvent: {}
+[167.480052] (-) TimerEvent: {}
+[167.581575] (-) TimerEvent: {}
+[167.682861] (-) TimerEvent: {}
+[167.784453] (-) TimerEvent: {}
+[167.885728] (-) TimerEvent: {}
+[167.987963] (-) TimerEvent: {}
+[168.088812] (-) TimerEvent: {}
+[168.190439] (-) TimerEvent: {}
+[168.291754] (-) TimerEvent: {}
+[168.392739] (-) TimerEvent: {}
+[168.494187] (-) TimerEvent: {}
+[168.596230] (-) TimerEvent: {}
+[168.701138] (-) TimerEvent: {}
+[168.802445] (-) TimerEvent: {}
+[168.903889] (-) TimerEvent: {}
+[169.005416] (-) TimerEvent: {}
+[169.106299] (-) TimerEvent: {}
+[169.207094] (-) TimerEvent: {}
+[169.308765] (-) TimerEvent: {}
+[169.412271] (-) TimerEvent: {}
+[169.514026] (-) TimerEvent: {}
+[169.614855] (-) TimerEvent: {}
+[169.715699] (-) TimerEvent: {}
+[169.817485] (-) TimerEvent: {}
+[169.919823] (-) TimerEvent: {}
+[170.021339] (-) TimerEvent: {}
+[170.122846] (-) TimerEvent: {}
+[170.223686] (-) TimerEvent: {}
+[170.325565] (-) TimerEvent: {}
+[170.426737] (-) TimerEvent: {}
+[170.528036] (-) TimerEvent: {}
+[170.629079] (-) TimerEvent: {}
+[170.730662] (-) TimerEvent: {}
+[170.831632] (-) TimerEvent: {}
+[170.933207] (-) TimerEvent: {}
+[171.035150] (-) TimerEvent: {}
+[171.136548] (-) TimerEvent: {}
+[171.237534] (-) TimerEvent: {}
+[171.338648] (-) TimerEvent: {}
+[171.440363] (-) TimerEvent: {}
+[171.541693] (-) TimerEvent: {}
+[171.643110] (-) TimerEvent: {}
+[171.743921] (-) TimerEvent: {}
+[171.845748] (-) TimerEvent: {}
+[171.946513] (-) TimerEvent: {}
+[172.047860] (-) TimerEvent: {}
+[172.148861] (-) TimerEvent: {}
+[172.250491] (-) TimerEvent: {}
+[172.351405] (-) TimerEvent: {}
+[172.452851] (-) TimerEvent: {}
+[172.553823] (-) TimerEvent: {}
+[172.655290] (-) TimerEvent: {}
+[172.756858] (-) TimerEvent: {}
+[172.858177] (-) TimerEvent: {}
+[172.959368] (-) TimerEvent: {}
+[173.060181] (-) TimerEvent: {}
+[173.160980] (-) TimerEvent: {}
+[173.261918] (-) TimerEvent: {}
+[173.362751] (-) TimerEvent: {}
+[173.464084] (-) TimerEvent: {}
+[173.565012] (-) TimerEvent: {}
+[173.666228] (-) TimerEvent: {}
+[173.767615] (-) TimerEvent: {}
+[173.868754] (-) TimerEvent: {}
+[173.972640] (-) TimerEvent: {}
+[174.073867] (-) TimerEvent: {}
+[174.175139] (-) TimerEvent: {}
+[174.277419] (-) TimerEvent: {}
+[174.378646] (-) TimerEvent: {}
+[174.479814] (-) TimerEvent: {}
+[174.583260] (-) TimerEvent: {}
+[174.684613] (-) TimerEvent: {}
+[174.788169] (-) TimerEvent: {}
+[174.889270] (-) TimerEvent: {}
+[174.990837] (-) TimerEvent: {}
+[175.092582] (-) TimerEvent: {}
+[175.194610] (-) TimerEvent: {}
+[175.297433] (-) TimerEvent: {}
+[175.398549] (-) TimerEvent: {}
+[175.500084] (-) TimerEvent: {}
+[175.601404] (-) TimerEvent: {}
+[175.703035] (-) TimerEvent: {}
+[175.803884] (-) TimerEvent: {}
+[175.904764] (-) TimerEvent: {}
+[176.006730] (-) TimerEvent: {}
+[176.107800] (-) TimerEvent: {}
+[176.209023] (-) TimerEvent: {}
+[176.310097] (-) TimerEvent: {}
+[176.411710] (-) TimerEvent: {}
+[176.513471] (-) TimerEvent: {}
+[176.615361] (-) TimerEvent: {}
+[176.716922] (-) TimerEvent: {}
+[176.819117] (-) TimerEvent: {}
+[176.920807] (-) TimerEvent: {}
+[177.022525] (-) TimerEvent: {}
+[177.127485] (-) TimerEvent: {}
+[177.229919] (-) TimerEvent: {}
+[177.331333] (-) TimerEvent: {}
+[177.432747] (-) TimerEvent: {}
+[177.533665] (-) TimerEvent: {}
+[177.635250] (-) TimerEvent: {}
+[177.736866] (-) TimerEvent: {}
+[177.838323] (-) TimerEvent: {}
+[177.941208] (-) TimerEvent: {}
+[178.043618] (-) TimerEvent: {}
+[178.145259] (-) TimerEvent: {}
+[178.247100] (-) TimerEvent: {}
+[178.348711] (-) TimerEvent: {}
+[178.450560] (-) TimerEvent: {}
+[178.553355] (-) TimerEvent: {}
+[178.655440] (-) TimerEvent: {}
+[178.757300] (-) TimerEvent: {}
+[178.859249] (-) TimerEvent: {}
+[178.962243] (-) TimerEvent: {}
+[179.065190] (-) TimerEvent: {}
+[179.166099] (-) TimerEvent: {}
+[179.266820] (-) TimerEvent: {}
+[179.367950] (-) TimerEvent: {}
+[179.469041] (-) TimerEvent: {}
+[179.570098] (-) TimerEvent: {}
+[179.671591] (-) TimerEvent: {}
+[179.772507] (-) TimerEvent: {}
+[179.873498] (-) TimerEvent: {}
+[179.974293] (-) TimerEvent: {}
+[180.075521] (-) TimerEvent: {}
+[180.176966] (-) TimerEvent: {}
+[180.278374] (-) TimerEvent: {}
+[180.380515] (-) TimerEvent: {}
+[180.482040] (-) TimerEvent: {}
+[180.582958] (-) TimerEvent: {}
+[180.684507] (-) TimerEvent: {}
+[180.785324] (-) TimerEvent: {}
+[180.886347] (-) TimerEvent: {}
+[180.987513] (-) TimerEvent: {}
+[181.088508] (-) TimerEvent: {}
+[181.189723] (-) TimerEvent: {}
+[181.291405] (-) TimerEvent: {}
+[181.392703] (-) TimerEvent: {}
+[181.493740] (-) TimerEvent: {}
+[181.594523] (-) TimerEvent: {}
+[181.695300] (-) TimerEvent: {}
+[181.796564] (-) TimerEvent: {}
+[181.897810] (-) TimerEvent: {}
+[181.998596] (-) TimerEvent: {}
+[182.099314] (-) TimerEvent: {}
+[182.200008] (-) TimerEvent: {}
+[182.300742] (-) TimerEvent: {}
+[182.401514] (-) TimerEvent: {}
+[182.502295] (-) TimerEvent: {}
+[182.603093] (-) TimerEvent: {}
+[182.703870] (-) TimerEvent: {}
+[182.804643] (-) TimerEvent: {}
+[182.905448] (-) TimerEvent: {}
+[183.006244] (-) TimerEvent: {}
+[183.107046] (-) TimerEvent: {}
+[183.207779] (-) TimerEvent: {}
+[183.308566] (-) TimerEvent: {}
+[183.409366] (-) TimerEvent: {}
+[183.510142] (-) TimerEvent: {}
+[183.610977] (-) TimerEvent: {}
+[183.711783] (-) TimerEvent: {}
+[183.812578] (-) TimerEvent: {}
+[183.913574] (-) TimerEvent: {}
+[184.014996] (-) TimerEvent: {}
+[184.117495] (-) TimerEvent: {}
+[184.218611] (-) TimerEvent: {}
+[184.319887] (-) TimerEvent: {}
+[184.421343] (-) TimerEvent: {}
+[184.523548] (-) TimerEvent: {}
+[184.628921] (-) TimerEvent: {}
+[184.731172] (-) TimerEvent: {}
+[184.834192] (-) TimerEvent: {}
+[184.938696] (-) TimerEvent: {}
+[185.040158] (-) TimerEvent: {}
+[185.142294] (-) TimerEvent: {}
+[185.243259] (-) TimerEvent: {}
+[185.345194] (-) TimerEvent: {}
+[185.351770] (madmom) StdoutLine: {'line': b'\x1b[39mINFO: aarch64-linux-gnu-gcc -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -g -fwrapv -O2 /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/temp.linux-aarch64-cpython-310/madmom/ml/nn/layers.o -L/usr/lib/aarch64-linux-gnu -o /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/ml/nn/layers.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[185.445386] (-) TimerEvent: {}
+[185.541897] (madmom) StdoutLine: {'line': b'\x1b[39mrunning build_scripts\x1b[0m\n'}
+[185.544750] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10\x1b[0m\n'}
+[185.545673] (-) TimerEvent: {}
+[185.547867] (madmom) StdoutLine: {'line': b'\x1b[39mcopying and adjusting bin/DCChordRecognition -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10\x1b[0m\n'}
+[185.549573] (madmom) StdoutLine: {'line': b'\x1b[39mcopying and adjusting bin/TCNBeatTracker -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10\x1b[0m\n'}
+[185.551363] (madmom) StdoutLine: {'line': b'\x1b[39mcopying and adjusting bin/BeatTracker -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10\x1b[0m\n'}
+[185.552871] (madmom) StdoutLine: {'line': b'\x1b[39mcopying and adjusting bin/CRFBeatDetector -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10\x1b[0m\n'}
+[185.554507] (madmom) StdoutLine: {'line': b'\x1b[39mcopying and adjusting bin/MMBeatTracker -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10\x1b[0m\n'}
+[185.556049] (madmom) StdoutLine: {'line': b'\x1b[39mcopying and adjusting bin/DBNDownBeatTracker -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10\x1b[0m\n'}
+[185.557948] (madmom) StdoutLine: {'line': b'\x1b[39mcopying and adjusting bin/SpectralOnsetDetection -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10\x1b[0m\n'}
+[185.560321] (madmom) StdoutLine: {'line': b'\x1b[39mcopying and adjusting bin/LogFiltSpecFlux -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10\x1b[0m\n'}
+[185.562485] (madmom) StdoutLine: {'line': b'\x1b[39mcopying and adjusting bin/PickleProcessor -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10\x1b[0m\n'}
+[185.564149] (madmom) StdoutLine: {'line': b'\x1b[39mcopying and adjusting bin/GMMPatternTracker -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10\x1b[0m\n'}
+[185.565764] (madmom) StdoutLine: {'line': b'\x1b[39mcopying and adjusting bin/KeyRecognition -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10\x1b[0m\n'}
+[185.567294] (madmom) StdoutLine: {'line': b'\x1b[39mcopying and adjusting bin/OnsetDetector -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10\x1b[0m\n'}
+[185.568948] (madmom) StdoutLine: {'line': b'\x1b[39mcopying and adjusting bin/TempoDetector -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10\x1b[0m\n'}
+[185.570604] (madmom) StdoutLine: {'line': b'\x1b[39mcopying and adjusting bin/OnsetDetectorLL -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10\x1b[0m\n'}
+[185.572236] (madmom) StdoutLine: {'line': b'\x1b[39mcopying and adjusting bin/evaluate -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10\x1b[0m\n'}
+[185.574826] (madmom) StdoutLine: {'line': b'\x1b[39mcopying and adjusting bin/CNNOnsetDetector -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10\x1b[0m\n'}
+[185.575938] (madmom) StdoutLine: {'line': b'\x1b[39mcopying and adjusting bin/DBNBeatTracker -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10\x1b[0m\n'}
+[185.577853] (madmom) StdoutLine: {'line': b'\x1b[39mcopying and adjusting bin/TCNTempoDetector -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10\x1b[0m\n'}
+[185.579699] (madmom) StdoutLine: {'line': b'\x1b[39mcopying and adjusting bin/PianoTranscriptor -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10\x1b[0m\n'}
+[185.581611] (madmom) StdoutLine: {'line': b'\x1b[39mcopying and adjusting bin/ComplexFlux -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10\x1b[0m\n'}
+[185.583406] (madmom) StdoutLine: {'line': b'\x1b[39mcopying and adjusting bin/CNNChordRecognition -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10\x1b[0m\n'}
+[185.585149] (madmom) StdoutLine: {'line': b'\x1b[39mcopying and adjusting bin/BarTracker -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10\x1b[0m\n'}
+[185.586405] (madmom) StdoutLine: {'line': b'\x1b[39mcopying and adjusting bin/SuperFlux -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10\x1b[0m\n'}
+[185.588368] (madmom) StdoutLine: {'line': b'\x1b[39mcopying and adjusting bin/BeatDetector -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10\x1b[0m\n'}
+[185.591672] (madmom) StdoutLine: {'line': b'\x1b[39mcopying and adjusting bin/SuperFluxNN -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10\x1b[0m\n'}
+[185.594223] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/DCChordRecognition from 664 to 775\x1b[0m\n'}
+[185.595348] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/TCNBeatTracker from 664 to 775\x1b[0m\n'}
+[185.596173] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/BeatTracker from 664 to 775\x1b[0m\n'}
+[185.598784] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/CRFBeatDetector from 664 to 775\x1b[0m\n'}
+[185.600977] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/MMBeatTracker from 664 to 775\x1b[0m\n'}
+[185.602664] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/DBNDownBeatTracker from 664 to 775\x1b[0m\n'}
+[185.604207] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/SpectralOnsetDetection from 664 to 775\x1b[0m\n'}
+[185.605847] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/LogFiltSpecFlux from 664 to 775\x1b[0m\n'}
+[185.606680] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/PickleProcessor from 664 to 775\x1b[0m\n'}
+[185.607456] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/GMMPatternTracker from 664 to 775\x1b[0m\n'}
+[185.608090] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/KeyRecognition from 664 to 775\x1b[0m\n'}
+[185.608574] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/OnsetDetector from 664 to 775\x1b[0m\n'}
+[185.608947] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/TempoDetector from 664 to 775\x1b[0m\n'}
+[185.609307] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/OnsetDetectorLL from 664 to 775\x1b[0m\n'}
+[185.609775] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/evaluate from 664 to 775\x1b[0m\n'}
+[185.610196] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/CNNOnsetDetector from 664 to 775\x1b[0m\n'}
+[185.610652] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/DBNBeatTracker from 664 to 775\x1b[0m\n'}
+[185.611295] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/TCNTempoDetector from 664 to 775\x1b[0m\n'}
+[185.611856] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/PianoTranscriptor from 664 to 775\x1b[0m\n'}
+[185.612401] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/ComplexFlux from 664 to 775\x1b[0m\n'}
+[185.612803] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/CNNChordRecognition from 664 to 775\x1b[0m\n'}
+[185.613163] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/BarTracker from 664 to 775\x1b[0m\n'}
+[185.613517] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/SuperFlux from 664 to 775\x1b[0m\n'}
+[185.613866] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/BeatDetector from 664 to 775\x1b[0m\n'}
+[185.614222] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/SuperFluxNN from 664 to 775\x1b[0m\n'}
+[185.614646] (madmom) StdoutLine: {'line': b'\x1b[39mrunning install\x1b[0m\n'}
+[185.628175] (madmom) StdoutLine: {'line': b'\x1b[39mrunning install_lib\x1b[0m\n'}
+[185.646432] (-) TimerEvent: {}
+[185.748969] (-) TimerEvent: {}
+[185.756672] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom\x1b[0m\n'}
+[185.757437] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/processors.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom\x1b[0m\n'}
+[185.760772] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/__init__.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom\x1b[0m\n'}
+[185.762649] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/ml\x1b[0m\n'}
+[185.763336] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/ml/gmm.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/ml\x1b[0m\n'}
+[185.765197] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/ml/__init__.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/ml\x1b[0m\n'}
+[185.766836] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/ml/hmm.cpython-310-aarch64-linux-gnu.so -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/ml\x1b[0m\n'}
+[185.778809] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/ml/crf.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/ml\x1b[0m\n'}
+[185.781205] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/ml/nn\x1b[0m\n'}
+[185.782260] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/ml/nn/__init__.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/ml/nn\x1b[0m\n'}
+[185.784336] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/ml/nn/layers.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/ml/nn\x1b[0m\n'}
+[185.787942] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/ml/nn/activations.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/ml/nn\x1b[0m\n'}
+[185.789931] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/ml/nn/layers.cpython-310-aarch64-linux-gnu.so -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/ml/nn\x1b[0m\n'}
+[185.823085] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features\x1b[0m\n'}
+[185.823728] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features/__init__.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features\x1b[0m\n'}
+[185.824240] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features/downbeats.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features\x1b[0m\n'}
+[185.824669] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features/key.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features\x1b[0m\n'}
+[185.825397] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features/beats.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features\x1b[0m\n'}
+[185.825794] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features/notes_hmm.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features\x1b[0m\n'}
+[185.826128] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features/tempo.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features\x1b[0m\n'}
+[185.830374] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features/beats_hmm.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features\x1b[0m\n'}
+[185.834664] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features/beats_crf.cpython-310-aarch64-linux-gnu.so -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features\x1b[0m\n'}
+[185.843349] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features/chords.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features\x1b[0m\n'}
+[185.845350] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features/notes.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features\x1b[0m\n'}
+[185.847564] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features/onsets.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features\x1b[0m\n'}
+[185.849076] (-) TimerEvent: {}
+[185.851170] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/utils\x1b[0m\n'}
+[185.851948] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/utils/__init__.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/utils\x1b[0m\n'}
+[185.854360] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/utils/midi.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/utils\x1b[0m\n'}
+[185.857898] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/utils/stats.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/utils\x1b[0m\n'}
+[185.859935] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/evaluation\x1b[0m\n'}
+[185.860937] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/evaluation/__init__.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/evaluation\x1b[0m\n'}
+[185.863410] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/evaluation/key.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/evaluation\x1b[0m\n'}
+[185.865141] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/evaluation/beats.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/evaluation\x1b[0m\n'}
+[185.868980] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/evaluation/tempo.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/evaluation\x1b[0m\n'}
+[185.871653] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/evaluation/chords.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/evaluation\x1b[0m\n'}
+[185.873936] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/evaluation/notes.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/evaluation\x1b[0m\n'}
+[185.876098] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/evaluation/onsets.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/evaluation\x1b[0m\n'}
+[185.878160] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/conftest.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom\x1b[0m\n'}
+[185.881314] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models\x1b[0m\n'}
+[185.882195] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/__init__.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models\x1b[0m\n'}
+[185.883936] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/README.rst -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models\x1b[0m\n'}
+[185.885899] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/chords\x1b[0m\n'}
+[185.886922] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/chords/2016\x1b[0m\n'}
+[185.887769] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/chords/2016/chords_cnncrf.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/chords/2016\x1b[0m\n'}
+[185.890093] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/chords/2016/chords_cnnfeat.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/chords/2016\x1b[0m\n'}
+[185.949513] (-) TimerEvent: {}
+[185.996238] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/chords/2016/chords_dccrf.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/chords/2016\x1b[0m\n'}
+[186.000385] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/notes\x1b[0m\n'}
+[186.005066] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/notes/2018\x1b[0m\n'}
+[186.006811] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/notes/2018/notes_cnn_1.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/notes/2018\x1b[0m\n'}
+[186.049679] (-) TimerEvent: {}
+[186.072210] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/notes/2018/notes_cnn_2.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/notes/2018\x1b[0m\n'}
+[186.141326] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/notes/2019\x1b[0m\n'}
+[186.142039] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/notes/2019/notes_cnn.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/notes/2019\x1b[0m\n'}
+[186.149801] (-) TimerEvent: {}
+[186.210612] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/notes/2013\x1b[0m\n'}
+[186.219573] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/notes/2013/notes_brnn.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/notes/2013\x1b[0m\n'}
+[186.244621] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/chroma\x1b[0m\n'}
+[186.245401] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/chroma/2016\x1b[0m\n'}
+[186.246051] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/chroma/2016/chroma_dnn.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/chroma/2016\x1b[0m\n'}
+[186.249968] (-) TimerEvent: {}
+[186.304135] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/key\x1b[0m\n'}
+[186.311521] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/key/2018\x1b[0m\n'}
+[186.312224] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/key/2018/key_cnn.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/key/2018\x1b[0m\n'}
+[186.350150] (-) TimerEvent: {}
+[186.386200] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets\x1b[0m\n'}
+[186.387240] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2014\x1b[0m\n'}
+[186.388250] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2014/onsets_brnn_pp_6.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2014\x1b[0m\n'}
+[186.389987] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2014/onsets_brnn_pp_8.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2014\x1b[0m\n'}
+[186.392058] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2014/onsets_brnn_pp_1.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2014\x1b[0m\n'}
+[186.396058] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2014/onsets_brnn_pp_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2014\x1b[0m\n'}
+[186.401229] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2014/onsets_brnn_pp_3.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2014\x1b[0m\n'}
+[186.405802] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2014/onsets_brnn_pp_2.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2014\x1b[0m\n'}
+[186.408455] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2014/onsets_brnn_pp_5.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2014\x1b[0m\n'}
+[186.412504] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2014/onsets_brnn_pp_7.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2014\x1b[0m\n'}
+[186.416729] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2013\x1b[0m\n'}
+[186.419226] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013/onsets_rnn_8.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2013\x1b[0m\n'}
+[186.429946] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013/onsets_rnn_1.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2013\x1b[0m\n'}
+[186.437523] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013/onsets_brnn_5.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2013\x1b[0m\n'}
+[186.442331] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013/onsets_rnn_6.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2013\x1b[0m\n'}
+[186.445490] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013/onsets_brnn_8.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2013\x1b[0m\n'}
+[186.450549] (-) TimerEvent: {}
+[186.451548] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013/onsets_rnn_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2013\x1b[0m\n'}
+[186.454237] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013/onsets_cnn.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2013\x1b[0m\n'}
+[186.485980] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013/onsets_brnn_7.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2013\x1b[0m\n'}
+[186.491497] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013/onsets_brnn_6.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2013\x1b[0m\n'}
+[186.497478] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013/onsets_brnn_1.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2013\x1b[0m\n'}
+[186.507095] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013/onsets_rnn_7.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2013\x1b[0m\n'}
+[186.519416] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013/onsets_brnn_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2013\x1b[0m\n'}
+[186.530380] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013/onsets_brnn_2.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2013\x1b[0m\n'}
+[186.535715] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013/onsets_rnn_2.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2013\x1b[0m\n'}
+[186.539032] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013/onsets_brnn_3.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2013\x1b[0m\n'}
+[186.543812] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013/onsets_rnn_3.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2013\x1b[0m\n'}
+[186.546992] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013/onsets_rnn_5.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2013\x1b[0m\n'}
+[186.550500] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats\x1b[0m\n'}
+[186.551023] (-) TimerEvent: {}
+[186.551550] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats/2016\x1b[0m\n'}
+[186.552245] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2016/beats_lstm_5.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats/2016\x1b[0m\n'}
+[186.558348] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2016/beats_lstm_3.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats/2016\x1b[0m\n'}
+[186.563941] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2016/beats_lstm_2.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats/2016\x1b[0m\n'}
+[186.570084] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2016/beats_lstm_8.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats/2016\x1b[0m\n'}
+[186.575554] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2016/beats_lstm_1.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats/2016\x1b[0m\n'}
+[186.581373] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2016/beats_lstm_7.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats/2016\x1b[0m\n'}
+[186.587213] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2016/beats_lstm_6.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats/2016\x1b[0m\n'}
+[186.594706] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2016/beats_lstm_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats/2016\x1b[0m\n'}
+[186.604757] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats/2015\x1b[0m\n'}
+[186.607148] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2015/beats_blstm_2.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats/2015\x1b[0m\n'}
+[186.632869] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2015/beats_blstm_3.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats/2015\x1b[0m\n'}
+[186.644559] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2015/beats_blstm_8.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats/2015\x1b[0m\n'}
+[186.651212] (-) TimerEvent: {}
+[186.656293] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2015/beats_blstm_6.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats/2015\x1b[0m\n'}
+[186.668477] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2015/beats_blstm_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats/2015\x1b[0m\n'}
+[186.681197] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2015/beats_blstm_1.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats/2015\x1b[0m\n'}
+[186.692807] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2015/beats_blstm_5.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats/2015\x1b[0m\n'}
+[186.708713] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2015/beats_blstm_7.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats/2015\x1b[0m\n'}
+[186.723701] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats\x1b[0m\n'}
+[186.726660] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016\x1b[0m\n'}
+[186.729687] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_bgru_rhythmic_3.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016\x1b[0m\n'}
+[186.745333] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_bgru_harmonic_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016\x1b[0m\n'}
+[186.751372] (-) TimerEvent: {}
+[186.753499] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_bgru_harmonic_3.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016\x1b[0m\n'}
+[186.761691] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_bgru_rhythmic_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016\x1b[0m\n'}
+[186.776165] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_blstm_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016\x1b[0m\n'}
+[186.789044] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_bgru_rhythmic_1.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016\x1b[0m\n'}
+[186.806064] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_blstm_7.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016\x1b[0m\n'}
+[186.832241] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_bgru_rhythmic_2.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016\x1b[0m\n'}
+[186.848108] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_blstm_5.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016\x1b[0m\n'}
+[186.851517] (-) TimerEvent: {}
+[186.860959] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_bgru_harmonic_1.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016\x1b[0m\n'}
+[186.868956] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_blstm_2.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016\x1b[0m\n'}
+[186.881682] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_blstm_6.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016\x1b[0m\n'}
+[186.896275] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_bgru_harmonic_5.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016\x1b[0m\n'}
+[186.907520] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_blstm_8.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016\x1b[0m\n'}
+[186.920937] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_blstm_1.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016\x1b[0m\n'}
+[186.934111] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_bgru_rhythmic_0.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016\x1b[0m\n'}
+[186.948494] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_bgru_harmonic_0.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016\x1b[0m\n'}
+[186.951643] (-) TimerEvent: {}
+[186.956778] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_bgru_harmonic_2.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016\x1b[0m\n'}
+[186.964994] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_blstm_3.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016\x1b[0m\n'}
+[186.977525] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_bgru_rhythmic_5.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016\x1b[0m\n'}
+[186.992595] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/patterns\x1b[0m\n'}
+[186.994862] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/patterns/2013\x1b[0m\n'}
+[186.996799] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/patterns/2013/ballroom_pattern_4_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/patterns/2013\x1b[0m\n'}
+[187.000778] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/patterns/2013/ballroom_pattern_3_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/patterns/2013\x1b[0m\n'}
+[187.014104] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/LICENSE -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models\x1b[0m\n'}
+[187.015366] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/audio\x1b[0m\n'}
+[187.016433] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio/__init__.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/audio\x1b[0m\n'}
+[187.017456] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio/stft.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/audio\x1b[0m\n'}
+[187.019071] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio/signal.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/audio\x1b[0m\n'}
+[187.034300] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio/spectrogram.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/audio\x1b[0m\n'}
+[187.039588] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio/chroma.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/audio\x1b[0m\n'}
+[187.041623] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio/comb_filters.cpython-310-aarch64-linux-gnu.so -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/audio\x1b[0m\n'}
+[187.046482] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio/filters.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/audio\x1b[0m\n'}
+[187.050086] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio/cepstrogram.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/audio\x1b[0m\n'}
+[187.051931] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio/hpss.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/audio\x1b[0m\n'}
+[187.052460] (-) TimerEvent: {}
+[187.053984] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/io\x1b[0m\n'}
+[187.054764] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/io/__init__.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/io\x1b[0m\n'}
+[187.056724] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/io/audio.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/io\x1b[0m\n'}
+[187.059200] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/io/midi.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/io\x1b[0m\n'}
+[187.064506] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/processors.py to processors.cpython-310.pyc\x1b[0m\n'}
+[187.077848] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/__init__.py to __init__.cpython-310.pyc\x1b[0m\n'}
+[187.080694] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/ml/gmm.py to gmm.cpython-310.pyc\x1b[0m\n'}
+[187.087366] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/ml/__init__.py to __init__.cpython-310.pyc\x1b[0m\n'}
+[187.089262] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/ml/crf.py to crf.cpython-310.pyc\x1b[0m\n'}
+[187.092249] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/ml/nn/__init__.py to __init__.cpython-310.pyc\x1b[0m\n'}
+[187.098145] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/ml/nn/layers.py to layers.cpython-310.pyc\x1b[0m\n'}
+[187.123961] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/ml/nn/activations.py to activations.cpython-310.pyc\x1b[0m\n'}
+[187.133549] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features/__init__.py to __init__.cpython-310.pyc\x1b[0m\n'}
+[187.143463] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features/downbeats.py to downbeats.cpython-310.pyc\x1b[0m\n'}
+[187.153131] (-) TimerEvent: {}
+[187.160046] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features/key.py to key.cpython-310.pyc\x1b[0m\n'}
+[187.162840] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features/beats.py to beats.cpython-310.pyc\x1b[0m\n'}
+[187.176661] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features/notes_hmm.py to notes_hmm.cpython-310.pyc\x1b[0m\n'}
+[187.180554] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features/tempo.py to tempo.cpython-310.pyc\x1b[0m\n'}
+[187.193736] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features/beats_hmm.py to beats_hmm.cpython-310.pyc\x1b[0m\n'}
+[187.212998] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features/chords.py to chords.cpython-310.pyc\x1b[0m\n'}
+[187.216628] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features/notes.py to notes.cpython-310.pyc\x1b[0m\n'}
+[187.223792] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features/onsets.py to onsets.cpython-310.pyc\x1b[0m\n'}
+[187.238789] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/utils/__init__.py to __init__.cpython-310.pyc\x1b[0m\n'}
+[187.248933] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/utils/midi.py to midi.cpython-310.pyc\x1b[0m\n'}
+[187.254249] (-) TimerEvent: {}
+[187.278518] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/utils/stats.py to stats.cpython-310.pyc\x1b[0m\n'}
+[187.280829] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/evaluation/__init__.py to __init__.cpython-310.pyc\x1b[0m\n'}
+[187.295199] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/evaluation/key.py to key.cpython-310.pyc\x1b[0m\n'}
+[187.300511] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/evaluation/beats.py to beats.cpython-310.pyc\x1b[0m\n'}
+[187.322612] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/evaluation/tempo.py to tempo.cpython-310.pyc\x1b[0m\n'}
+[187.329253] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/evaluation/chords.py to chords.cpython-310.pyc\x1b[0m\n'}
+[187.346479] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/evaluation/notes.py to notes.cpython-310.pyc\x1b[0m\n'}
+[187.354502] (-) TimerEvent: {}
+[187.355984] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/evaluation/onsets.py to onsets.cpython-310.pyc\x1b[0m\n'}
+[187.363716] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/conftest.py to conftest.cpython-310.pyc\x1b[0m\n'}
+[187.365728] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/__init__.py to __init__.cpython-310.pyc\x1b[0m\n'}
+[187.368544] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/audio/__init__.py to __init__.cpython-310.pyc\x1b[0m\n'}
+[187.370574] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/audio/stft.py to stft.cpython-310.pyc\x1b[0m\n'}
+[187.378032] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/audio/signal.py to signal.cpython-310.pyc\x1b[0m\n'}
+[187.395868] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/audio/spectrogram.py to spectrogram.cpython-310.pyc\x1b[0m\n'}
+[187.421406] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/audio/chroma.py to chroma.cpython-310.pyc\x1b[0m\n'}
+[187.428571] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/audio/filters.py to filters.cpython-310.pyc\x1b[0m\n'}
+[187.454635] (-) TimerEvent: {}
+[187.455373] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/audio/cepstrogram.py to cepstrogram.cpython-310.pyc\x1b[0m\n'}
+[187.459744] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/audio/hpss.py to hpss.cpython-310.pyc\x1b[0m\n'}
+[187.463057] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/io/__init__.py to __init__.cpython-310.pyc\x1b[0m\n'}
+[187.470103] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/io/audio.py to audio.cpython-310.pyc\x1b[0m\n'}
+[187.480638] (madmom) StdoutLine: {'line': b'\x1b[39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/io/midi.py to midi.cpython-310.pyc\x1b[0m\n'}
+[187.488900] (madmom) StdoutLine: {'line': b'\x1b[39mrunning install_egg_info\x1b[0m\n'}
+[187.555150] (-) TimerEvent: {}
+[187.622336] (madmom) StdoutLine: {'line': b'\x1b[39mCopying ../build/madmom/madmom.egg-info to /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom-0.17.dev0-py3.10.egg-info\x1b[0m\n'}
+[187.632714] (madmom) StdoutLine: {'line': b'\x1b[39mrunning install_scripts\x1b[0m\n'}
+[187.655262] (-) TimerEvent: {}
+[187.752288] (madmom) StdoutLine: {'line': b'\x1b[39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin\x1b[0m\n'}
+[187.753169] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/DCChordRecognition -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin\x1b[0m\n'}
+[187.754243] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/TCNBeatTracker -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin\x1b[0m\n'}
+[187.755283] (-) TimerEvent: {}
+[187.756029] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/BeatTracker -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin\x1b[0m\n'}
+[187.756681] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/CRFBeatDetector -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin\x1b[0m\n'}
+[187.757338] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/MMBeatTracker -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin\x1b[0m\n'}
+[187.758352] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/DBNDownBeatTracker -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin\x1b[0m\n'}
+[187.759545] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/SpectralOnsetDetection -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin\x1b[0m\n'}
+[187.760794] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/LogFiltSpecFlux -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin\x1b[0m\n'}
+[187.761543] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/PickleProcessor -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin\x1b[0m\n'}
+[187.762242] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/GMMPatternTracker -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin\x1b[0m\n'}
+[187.763446] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/KeyRecognition -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin\x1b[0m\n'}
+[187.764470] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/OnsetDetector -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin\x1b[0m\n'}
+[187.765711] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/TempoDetector -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin\x1b[0m\n'}
+[187.766492] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/OnsetDetectorLL -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin\x1b[0m\n'}
+[187.769429] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/evaluate -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin\x1b[0m\n'}
+[187.769880] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/CNNOnsetDetector -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin\x1b[0m\n'}
+[187.770523] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/DBNBeatTracker -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin\x1b[0m\n'}
+[187.771110] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/TCNTempoDetector -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin\x1b[0m\n'}
+[187.771635] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/PianoTranscriptor -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin\x1b[0m\n'}
+[187.772189] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/ComplexFlux -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin\x1b[0m\n'}
+[187.772585] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/CNNChordRecognition -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin\x1b[0m\n'}
+[187.773166] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/BarTracker -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin\x1b[0m\n'}
+[187.773825] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/SuperFlux -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin\x1b[0m\n'}
+[187.774881] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/BeatDetector -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin\x1b[0m\n'}
+[187.776198] (madmom) StdoutLine: {'line': b'\x1b[39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/SuperFluxNN -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin\x1b[0m\n'}
+[187.777360] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/DCChordRecognition to 775\x1b[0m\n'}
+[187.778837] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/TCNBeatTracker to 775\x1b[0m\n'}
+[187.780088] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/BeatTracker to 775\x1b[0m\n'}
+[187.780554] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/CRFBeatDetector to 775\x1b[0m\n'}
+[187.780961] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/MMBeatTracker to 775\x1b[0m\n'}
+[187.781367] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/DBNDownBeatTracker to 775\x1b[0m\n'}
+[187.781730] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/SpectralOnsetDetection to 775\x1b[0m\n'}
+[187.782086] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/LogFiltSpecFlux to 775\x1b[0m\n'}
+[187.782438] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/PickleProcessor to 775\x1b[0m\n'}
+[187.782768] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/GMMPatternTracker to 775\x1b[0m\n'}
+[187.783164] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/KeyRecognition to 775\x1b[0m\n'}
+[187.783542] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/OnsetDetector to 775\x1b[0m\n'}
+[187.783932] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/TempoDetector to 775\x1b[0m\n'}
+[187.784361] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/OnsetDetectorLL to 775\x1b[0m\n'}
+[187.784997] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/evaluate to 775\x1b[0m\n'}
+[187.785445] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/CNNOnsetDetector to 775\x1b[0m\n'}
+[187.785850] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/DBNBeatTracker to 775\x1b[0m\n'}
+[187.786266] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/TCNTempoDetector to 775\x1b[0m\n'}
+[187.786706] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/PianoTranscriptor to 775\x1b[0m\n'}
+[187.787291] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/ComplexFlux to 775\x1b[0m\n'}
+[187.787703] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/CNNChordRecognition to 775\x1b[0m\n'}
+[187.788058] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/BarTracker to 775\x1b[0m\n'}
+[187.788408] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/SuperFlux to 775\x1b[0m\n'}
+[187.788737] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/BeatDetector to 775\x1b[0m\n'}
+[187.789076] (madmom) StdoutLine: {'line': b'\x1b[39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/SuperFluxNN to 775\x1b[0m\n'}
+[187.791033] (madmom) StdoutLine: {'line': b"\x1b[39mwriting list of installed files to '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/install.log'\x1b[0m\n"}
+[187.855601] (-) TimerEvent: {}
+[187.957015] (-) TimerEvent: {}
+[188.059134] (-) TimerEvent: {}
+[188.160475] (-) TimerEvent: {}
+[188.261677] (-) TimerEvent: {}
+[188.362894] (-) TimerEvent: {}
+[188.463896] (-) TimerEvent: {}
+[188.565153] (-) TimerEvent: {}
+[188.619023] (madmom) CommandEnded: {'returncode': 0}
+[188.665304] (-) TimerEvent: {}
+[188.725534] (madmom) JobEnded: {'identifier': 'madmom', 'rc': 0}
+[188.730638] (-) EventReactorShutdown: {}

@@ -134,20 +134,20 @@ def main(args=None):
             display_sting += 'move_backward'
             sequence.append('move_backward')
             disp.show_image(backEyeLoc)
-    	    data,rate=sf.read(backSound)
-    	    sd.play(data,rate)
+            data,rate=sf.read(backSound)
+            sd.play(data,rate)
         if not touchValue_Right:
             display_sting += 'move_right'
             sequence.append('move_right')
             disp.show_image(rightEyeLoc)
-    	    data,rate=sf.read(rightSound)
-    	    sd.play(data,rate)
+            data,rate=sf.read(rightSound)
+            sd.play(data,rate)
         if not touchValue_Left:
             display_sting += 'move_left'
             sequence.append('move_left')
             disp.show_image(leftEyeLoc)
-    	    data,rate=sf.read(leftSound)
-    	    sd.play(data,rate)
+            data,rate=sf.read(leftSound)
+            sd.play(data,rate)
         if display_sting == '':
             disp.show_image(idleEyeLoc)
        

@@ -12,8 +12,10 @@ setup.py
 go_pupper_srv/__init__.py
 go_pupper_srv/audio.py
 go_pupper_srv/client_go_pupper.py
+go_pupper_srv/energy1.py
 go_pupper_srv/sample_controller.py
 go_pupper_srv/service_go_pupper.py
+go_pupper_srv/task1.py
 go_pupper_srv/task2.py
 go_pupper_srv/task3.py
 resource/go_pupper_srv

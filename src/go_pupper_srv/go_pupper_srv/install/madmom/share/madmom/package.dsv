@@ -1,0 +1,9 @@
+source;share/madmom/hook/path.ps1
+source;share/madmom/hook/path.dsv
+source;share/madmom/hook/path.sh
+source;share/madmom/hook/pythonpath.ps1
+source;share/madmom/hook/pythonpath.dsv
+source;share/madmom/hook/pythonpath.sh
+source;share/madmom/hook/pythonscriptspath.ps1
+source;share/madmom/hook/pythonscriptspath.dsv
+source;share/madmom/hook/pythonscriptspath.sh

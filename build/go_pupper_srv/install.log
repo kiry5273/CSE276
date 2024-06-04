@@ -2,15 +2,19 @@
 /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv/sample_controller.py
 /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv/task2.py
 /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv/task3.py
+/home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv/task1.py
 /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv/audio.py
 /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv/client_go_pupper.py
+/home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv/energy1.py
 /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv/service_go_pupper.py
 /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv/__pycache__/__init__.cpython-310.pyc
 /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv/__pycache__/sample_controller.cpython-310.pyc
 /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv/__pycache__/task2.cpython-310.pyc
 /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv/__pycache__/task3.cpython-310.pyc
+/home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv/__pycache__/task1.cpython-310.pyc
 /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv/__pycache__/audio.cpython-310.pyc
 /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv/__pycache__/client_go_pupper.cpython-310.pyc
+/home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv/__pycache__/energy1.cpython-310.pyc
 /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv/__pycache__/service_go_pupper.cpython-310.pyc
 /home/ubuntu/ros2_ws/install/go_pupper_srv/share/ament_index/resource_index/packages/go_pupper_srv
 /home/ubuntu/ros2_ws/install/go_pupper_srv/share/go_pupper_srv/package.xml
@@ -25,4 +29,5 @@
 /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/go_pupper_srv/client
 /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/go_pupper_srv/salsa
 /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/go_pupper_srv/service
+/home/ubuntu/ros2_ws/install/go_pupper_srv/lib/go_pupper_srv/task1
 /home/ubuntu/ros2_ws/install/go_pupper_srv/lib/go_pupper_srv/task2

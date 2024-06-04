@@ -1,0 +1,541 @@
+[16.067s] Invoking command in '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/madmom': PYTHONPATH=/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/prefix_override:/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/madmom build --build-base /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build install --record /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/install.log --single-version-externally-managed
+[18.762s] /usr/lib/python3/dist-packages/pythran/tables.py:4520: FutureWarning: In the future `np.bool` will be defined as the corresponding NumPy scalar.
+[18.762s]   if not hasattr(numpy, method):
+[18.843s] /usr/lib/python3/dist-packages/pythran/tables.py:4553: FutureWarning: In the future `np.bytes` will be defined as the corresponding NumPy scalar.
+[18.843s]   obj = getattr(themodule, elem)
+[21.560s] /home/ubuntu/.local/lib/python3.10/site-packages/setuptools/__init__.py:80: _DeprecatedInstaller: setuptools.installer and fetch_build_eggs are deprecated.
+[21.561s] !!
+[21.562s] 
+[21.562s]         ********************************************************************************
+[21.563s]         Requirements should be satisfied by a PEP 517 installer.
+[21.564s]         If you are using pip, you can try `pip install --use-pep517`.
+[21.564s]         ********************************************************************************
+[21.564s] 
+[21.565s] !!
+[21.565s]   dist.fetch_build_eggs(dist.setup_requires)
+[23.079s] [39mrunning egg_info[0m
+[23.080s] [39mcreating ../build/madmom/madmom.egg-info[0m
+[23.209s] [39mwriting ../build/madmom/madmom.egg-info/PKG-INFO[0m
+[23.214s] [39mwriting dependency_links to ../build/madmom/madmom.egg-info/dependency_links.txt[0m
+[23.216s] [39mwriting requirements to ../build/madmom/madmom.egg-info/requires.txt[0m
+[23.218s] [39mwriting top-level names to ../build/madmom/madmom.egg-info/top_level.txt[0m
+[23.220s] [39mwriting manifest file '../build/madmom/madmom.egg-info/SOURCES.txt'[0m
+[23.621s] [39mreading manifest file '../build/madmom/madmom.egg-info/SOURCES.txt'[0m
+[23.623s] [39mreading manifest template 'MANIFEST.in'[0m
+[23.625s] [31mno previously-included directories found matching 'docs'[0m
+[23.662s] [39madding license file 'LICENSE'[0m
+[23.670s] [39mwriting manifest file '../build/madmom/madmom.egg-info/SOURCES.txt'[0m
+[23.671s] [39mrunning build[0m
+[23.672s] [39mrunning build_py[0m
+[23.673s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build[0m
+[23.674s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310[0m
+[23.674s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom[0m
+[23.675s] [39mcopying madmom/processors.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom[0m
+[23.675s] [39mcopying madmom/__init__.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom[0m
+[23.676s] [39mcopying madmom/conftest.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom[0m
+[23.693s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/ml[0m
+[23.694s] [39mcopying madmom/ml/gmm.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/ml[0m
+[23.696s] [39mcopying madmom/ml/__init__.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/ml[0m
+[23.698s] [39mcopying madmom/ml/crf.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/ml[0m
+[23.698s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features[0m
+[23.699s] [39mcopying madmom/features/__init__.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features[0m
+[23.700s] [39mcopying madmom/features/downbeats.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features[0m
+[23.701s] [39mcopying madmom/features/key.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features[0m
+[23.706s] [39mcopying madmom/features/beats.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features[0m
+[23.711s] [39mcopying madmom/features/notes_hmm.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features[0m
+[23.713s] [39mcopying madmom/features/tempo.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features[0m
+[23.713s] [39mcopying madmom/features/beats_hmm.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features[0m
+[23.714s] [39mcopying madmom/features/chords.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features[0m
+[23.714s] [39mcopying madmom/features/notes.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features[0m
+[23.715s] [39mcopying madmom/features/onsets.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features[0m
+[23.739s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/utils[0m
+[23.739s] [39mcopying madmom/utils/__init__.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/utils[0m
+[23.740s] [39mcopying madmom/utils/midi.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/utils[0m
+[23.742s] [39mcopying madmom/utils/stats.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/utils[0m
+[23.743s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/evaluation[0m
+[23.743s] [39mcopying madmom/evaluation/__init__.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/evaluation[0m
+[23.743s] [39mcopying madmom/evaluation/key.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/evaluation[0m
+[23.745s] [39mcopying madmom/evaluation/beats.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/evaluation[0m
+[23.747s] [39mcopying madmom/evaluation/tempo.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/evaluation[0m
+[23.751s] [39mcopying madmom/evaluation/chords.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/evaluation[0m
+[23.752s] [39mcopying madmom/evaluation/notes.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/evaluation[0m
+[23.752s] [39mcopying madmom/evaluation/onsets.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/evaluation[0m
+[23.753s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models[0m
+[23.754s] [39mcopying madmom/models/__init__.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models[0m
+[23.754s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio[0m
+[23.755s] [39mcopying madmom/audio/__init__.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio[0m
+[23.755s] [39mcopying madmom/audio/stft.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio[0m
+[23.756s] [39mcopying madmom/audio/signal.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio[0m
+[23.756s] [39mcopying madmom/audio/spectrogram.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio[0m
+[23.757s] [39mcopying madmom/audio/chroma.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio[0m
+[23.757s] [39mcopying madmom/audio/filters.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio[0m
+[23.758s] [39mcopying madmom/audio/cepstrogram.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio[0m
+[23.759s] [39mcopying madmom/audio/hpss.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio[0m
+[23.762s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/io[0m
+[23.764s] [39mcopying madmom/io/__init__.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/io[0m
+[23.764s] [39mcopying madmom/io/audio.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/io[0m
+[23.765s] [39mcopying madmom/io/midi.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/io[0m
+[23.767s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/ml/nn[0m
+[23.767s] [39mcopying madmom/ml/nn/__init__.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/ml/nn[0m
+[23.768s] [39mcopying madmom/ml/nn/layers.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/ml/nn[0m
+[23.770s] [39mcopying madmom/ml/nn/activations.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/ml/nn[0m
+[23.789s] [39mcopying madmom/models/LICENSE -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models[0m
+[23.791s] [39mcopying madmom/models/README.rst -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models[0m
+[23.793s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats[0m
+[23.793s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2016[0m
+[23.796s] [39mcopying madmom/models/beats/2016/beats_lstm_5.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2016[0m
+[23.807s] [39mcopying madmom/models/beats/2016/beats_lstm_3.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2016[0m
+[23.813s] [39mcopying madmom/models/beats/2016/beats_lstm_2.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2016[0m
+[23.831s] [39mcopying madmom/models/beats/2016/beats_lstm_8.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2016[0m
+[23.838s] [39mcopying madmom/models/beats/2016/beats_lstm_1.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2016[0m
+[23.844s] [39mcopying madmom/models/beats/2016/beats_lstm_7.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2016[0m
+[23.849s] [39mcopying madmom/models/beats/2016/beats_lstm_6.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2016[0m
+[23.855s] [39mcopying madmom/models/beats/2016/beats_lstm_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2016[0m
+[23.860s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2015[0m
+[23.861s] [39mcopying madmom/models/beats/2015/beats_blstm_2.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2015[0m
+[23.873s] [39mcopying madmom/models/beats/2015/beats_blstm_3.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2015[0m
+[23.885s] [39mcopying madmom/models/beats/2015/beats_blstm_8.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2015[0m
+[23.900s] [39mcopying madmom/models/beats/2015/beats_blstm_6.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2015[0m
+[23.914s] [39mcopying madmom/models/beats/2015/beats_blstm_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2015[0m
+[23.936s] [39mcopying madmom/models/beats/2015/beats_blstm_1.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2015[0m
+[23.948s] [39mcopying madmom/models/beats/2015/beats_blstm_5.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2015[0m
+[23.961s] [39mcopying madmom/models/beats/2015/beats_blstm_7.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2015[0m
+[23.974s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/chords[0m
+[23.974s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/chords/2016[0m
+[23.975s] [39mcopying madmom/models/chords/2016/chords_cnncrf.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/chords/2016[0m
+[23.978s] [39mcopying madmom/models/chords/2016/chords_cnnfeat.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/chords/2016[0m
+[24.076s] [39mcopying madmom/models/chords/2016/chords_dccrf.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/chords/2016[0m
+[24.078s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/chroma[0m
+[24.079s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/chroma/2016[0m
+[24.079s] [39mcopying madmom/models/chroma/2016/chroma_dnn.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/chroma/2016[0m
+[24.105s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats[0m
+[24.107s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016[0m
+[24.108s] [39mcopying madmom/models/downbeats/2016/downbeats_bgru_rhythmic_3.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016[0m
+[24.118s] [39mcopying madmom/models/downbeats/2016/downbeats_bgru_harmonic_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016[0m
+[24.118s] [39mcopying madmom/models/downbeats/2016/downbeats_bgru_harmonic_3.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016[0m
+[24.135s] [39mcopying madmom/models/downbeats/2016/downbeats_bgru_rhythmic_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016[0m
+[24.142s] [39mcopying madmom/models/downbeats/2016/downbeats_blstm_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016[0m
+[24.146s] [39mcopying madmom/models/downbeats/2016/downbeats_bgru_rhythmic_1.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016[0m
+[24.153s] [39mcopying madmom/models/downbeats/2016/downbeats_blstm_7.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016[0m
+[24.158s] [39mcopying madmom/models/downbeats/2016/downbeats_bgru_rhythmic_2.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016[0m
+[24.164s] [39mcopying madmom/models/downbeats/2016/downbeats_blstm_5.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016[0m
+[24.169s] [39mcopying madmom/models/downbeats/2016/downbeats_bgru_harmonic_1.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016[0m
+[24.172s] [39mcopying madmom/models/downbeats/2016/downbeats_blstm_2.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016[0m
+[24.176s] [39mcopying madmom/models/downbeats/2016/downbeats_blstm_6.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016[0m
+[24.182s] [39mcopying madmom/models/downbeats/2016/downbeats_bgru_harmonic_5.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016[0m
+[24.186s] [39mcopying madmom/models/downbeats/2016/downbeats_blstm_8.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016[0m
+[24.190s] [39mcopying madmom/models/downbeats/2016/downbeats_blstm_1.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016[0m
+[24.196s] [39mcopying madmom/models/downbeats/2016/downbeats_bgru_rhythmic_0.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016[0m
+[24.203s] [39mcopying madmom/models/downbeats/2016/downbeats_bgru_harmonic_0.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016[0m
+[24.213s] [39mcopying madmom/models/downbeats/2016/downbeats_bgru_harmonic_2.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016[0m
+[24.217s] [39mcopying madmom/models/downbeats/2016/downbeats_blstm_3.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016[0m
+[24.239s] [39mcopying madmom/models/downbeats/2016/downbeats_bgru_rhythmic_5.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016[0m
+[24.243s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/key[0m
+[24.244s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/key/2018[0m
+[24.245s] [39mcopying madmom/models/key/2018/key_cnn.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/key/2018[0m
+[24.269s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/notes[0m
+[24.270s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/notes/2018[0m
+[24.271s] [39mcopying madmom/models/notes/2018/notes_cnn_1.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/notes/2018[0m
+[24.333s] [39mcopying madmom/models/notes/2018/notes_cnn_2.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/notes/2018[0m
+[24.383s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/notes/2019[0m
+[24.384s] [39mcopying madmom/models/notes/2019/notes_cnn.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/notes/2019[0m
+[24.436s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/notes/2013[0m
+[24.436s] [39mcopying madmom/models/notes/2013/notes_brnn.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/notes/2013[0m
+[24.462s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets[0m
+[24.463s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2014[0m
+[24.464s] [39mcopying madmom/models/onsets/2014/onsets_brnn_pp_6.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2014[0m
+[24.470s] [39mcopying madmom/models/onsets/2014/onsets_brnn_pp_8.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2014[0m
+[24.470s] [39mcopying madmom/models/onsets/2014/onsets_brnn_pp_1.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2014[0m
+[24.471s] [39mcopying madmom/models/onsets/2014/onsets_brnn_pp_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2014[0m
+[24.472s] [39mcopying madmom/models/onsets/2014/onsets_brnn_pp_3.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2014[0m
+[24.472s] [39mcopying madmom/models/onsets/2014/onsets_brnn_pp_2.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2014[0m
+[24.473s] [39mcopying madmom/models/onsets/2014/onsets_brnn_pp_5.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2014[0m
+[24.474s] [39mcopying madmom/models/onsets/2014/onsets_brnn_pp_7.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2014[0m
+[24.475s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013[0m
+[24.475s] [39mcopying madmom/models/onsets/2013/onsets_rnn_8.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013[0m
+[24.477s] [39mcopying madmom/models/onsets/2013/onsets_rnn_1.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013[0m
+[24.482s] [39mcopying madmom/models/onsets/2013/onsets_brnn_5.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013[0m
+[24.486s] [39mcopying madmom/models/onsets/2013/onsets_rnn_6.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013[0m
+[24.489s] [39mcopying madmom/models/onsets/2013/onsets_brnn_8.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013[0m
+[24.494s] [39mcopying madmom/models/onsets/2013/onsets_rnn_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013[0m
+[24.499s] [39mcopying madmom/models/onsets/2013/onsets_cnn.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013[0m
+[24.549s] [39mcopying madmom/models/onsets/2013/onsets_brnn_7.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013[0m
+[24.554s] [39mcopying madmom/models/onsets/2013/onsets_brnn_6.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013[0m
+[24.558s] [39mcopying madmom/models/onsets/2013/onsets_brnn_1.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013[0m
+[24.563s] [39mcopying madmom/models/onsets/2013/onsets_rnn_7.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013[0m
+[24.566s] [39mcopying madmom/models/onsets/2013/onsets_brnn_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013[0m
+[24.571s] [39mcopying madmom/models/onsets/2013/onsets_brnn_2.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013[0m
+[24.575s] [39mcopying madmom/models/onsets/2013/onsets_rnn_2.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013[0m
+[24.578s] [39mcopying madmom/models/onsets/2013/onsets_brnn_3.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013[0m
+[24.583s] [39mcopying madmom/models/onsets/2013/onsets_rnn_3.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013[0m
+[24.586s] [39mcopying madmom/models/onsets/2013/onsets_rnn_5.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013[0m
+[24.589s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/patterns[0m
+[24.591s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/patterns/2013[0m
+[24.591s] [39mcopying madmom/models/patterns/2013/ballroom_pattern_4_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/patterns/2013[0m
+[24.594s] [39mcopying madmom/models/patterns/2013/ballroom_pattern_3_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/patterns/2013[0m
+[24.625s] [39mrunning build_ext[0m
+[24.626s] [39mbuilding 'madmom.audio.comb_filters' extension[0m
+[24.743s] [39mINFO: C compiler: aarch64-linux-gnu-gcc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -fPIC
+[24.744s] [0m
+[24.748s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/temp.linux-aarch64-cpython-310[0m
+[24.750s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/temp.linux-aarch64-cpython-310/madmom[0m
+[24.750s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/temp.linux-aarch64-cpython-310/madmom/audio[0m
+[24.750s] [39mINFO: compile options: '-I/usr/local/lib/python3.10/dist-packages/numpy/core/include -I/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/include -I/usr/include/python3.10 -c'[0m
+[24.751s] [39mINFO: aarch64-linux-gnu-gcc: madmom/audio/comb_filters.c[0m
+[25.917s] In file included from [01m[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1929[m[K,
+[25.918s]                  from [01m[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/ndarrayobject.h:12[m[K,
+[25.918s]                  from [01m[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/arrayobject.h:5[m[K,
+[25.919s]                  from [01m[Kmadmom/audio/comb_filters.c:1249[m[K:
+[25.919s] [01m[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:17:2:[m[K [01;35m[Kwarning: [m[K#warning "Using deprecated NumPy API, disable it with " "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[25.919s]    17 | #[01;35m[Kwarning[m[K "Using deprecated NumPy API, disable it with " \
+[25.920s]       |  [01;35m[K^~~~~~~[m[K
+[39.841s] [39mINFO: aarch64-linux-gnu-gcc -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -g -fwrapv -O2 /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/temp.linux-aarch64-cpython-310/madmom/audio/comb_filters.o -L/usr/lib/aarch64-linux-gnu -o /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio/comb_filters.cpython-310-aarch64-linux-gnu.so[0m
+[40.001s] [39mbuilding 'madmom.features.beats_crf' extension[0m
+[40.001s] [39mINFO: C compiler: aarch64-linux-gnu-gcc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -fPIC
+[40.002s] [0m
+[40.002s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/temp.linux-aarch64-cpython-310/madmom/features[0m
+[40.003s] [39mINFO: compile options: '-I/usr/local/lib/python3.10/dist-packages/numpy/core/include -I/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/include -I/usr/include/python3.10 -c'[0m
+[40.003s] [39mINFO: aarch64-linux-gnu-gcc: madmom/features/beats_crf.c[0m
+[40.532s] In file included from [01m[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1929[m[K,
+[40.532s]                  from [01m[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/ndarrayobject.h:12[m[K,
+[40.533s]                  from [01m[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/arrayobject.h:5[m[K,
+[40.533s]                  from [01m[Kmadmom/features/beats_crf.c:1250[m[K:
+[40.534s] [01m[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:17:2:[m[K [01;35m[Kwarning: [m[K#warning "Using deprecated NumPy API, disable it with " "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[40.535s]    17 | #[01;35m[Kwarning[m[K "Using deprecated NumPy API, disable it with " \
+[40.535s]       |  [01;35m[K^~~~~~~[m[K
+[68.467s] [01m[Kmadmom/features/beats_crf.c:[m[K In function ‘[01m[K__pyx_pw_6madmom_8features_9beats_crf_9viterbi[m[K’:
+[68.475s] [01m[Kmadmom/features/beats_crf.c:21643:86:[m[K [01;35m[Kwarning: [m[K‘[01m[K__pyx_v_next_state[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[68.476s] 21643 | [01;35m[K( /* dim=0 */ ((char *) (((long *) __pyx_v_path.data) + __pyx_t_13)) )) = __pyx_v_next_state[m[K;
+[68.476s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[68.477s] 
+[68.488s] [01m[Kmadmom/features/beats_crf.c:21172:7:[m[K [01;36m[Knote: [m[K‘[01m[K__pyx_v_next_state[m[K’ was declared here
+[68.491s] 21172 |   int [01;36m[K__pyx_v_next_state[m[K;
+[68.513s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[73.554s] [39mINFO: aarch64-linux-gnu-gcc -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -g -fwrapv -O2 /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/temp.linux-aarch64-cpython-310/madmom/features/beats_crf.o -L/usr/lib/aarch64-linux-gnu -o /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features/beats_crf.cpython-310-aarch64-linux-gnu.so[0m
+[73.740s] [39mbuilding 'madmom.ml.hmm' extension[0m
+[73.741s] [39mINFO: C compiler: aarch64-linux-gnu-gcc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -fPIC
+[73.741s] [0m
+[73.742s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/temp.linux-aarch64-cpython-310/madmom/ml[0m
+[73.742s] [39mINFO: compile options: '-I/usr/local/lib/python3.10/dist-packages/numpy/core/include -I/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/include -I/usr/include/python3.10 -c'[0m
+[73.742s] [39mINFO: aarch64-linux-gnu-gcc: madmom/ml/hmm.c[0m
+[74.259s] In file included from [01m[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1929[m[K,
+[74.260s]                  from [01m[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/ndarrayobject.h:12[m[K,
+[74.260s]                  from [01m[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/arrayobject.h:5[m[K,
+[74.260s]                  from [01m[Kmadmom/ml/hmm.c:1250[m[K:
+[74.261s] [01m[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:17:2:[m[K [01;35m[Kwarning: [m[K#warning "Using deprecated NumPy API, disable it with " "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[74.261s]    17 | #[01;35m[Kwarning[m[K "Using deprecated NumPy API, disable it with " \
+[74.262s]       |  [01;35m[K^~~~~~~[m[K
+[123.459s] [39mINFO: aarch64-linux-gnu-gcc -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -g -fwrapv -O2 /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/temp.linux-aarch64-cpython-310/madmom/ml/hmm.o -L/usr/lib/aarch64-linux-gnu -o /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/ml/hmm.cpython-310-aarch64-linux-gnu.so[0m
+[123.660s] [39mbuilding 'madmom.ml.nn.layers' extension[0m
+[123.661s] [39mINFO: C compiler: aarch64-linux-gnu-gcc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -fPIC
+[123.662s] [0m
+[123.662s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/temp.linux-aarch64-cpython-310/madmom/ml/nn[0m
+[123.663s] [39mINFO: compile options: '-I/usr/local/lib/python3.10/dist-packages/numpy/core/include -I/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/include -I/usr/include/python3.10 -c'[0m
+[123.663s] [39mINFO: aarch64-linux-gnu-gcc: madmom/ml/nn/layers.c[0m
+[124.207s] In file included from [01m[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1929[m[K,
+[124.208s]                  from [01m[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/ndarrayobject.h:12[m[K,
+[124.208s]                  from [01m[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/arrayobject.h:5[m[K,
+[124.209s]                  from [01m[Kmadmom/ml/nn/layers.c:1249[m[K:
+[124.209s] [01m[K/usr/local/lib/python3.10/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:17:2:[m[K [01;35m[Kwarning: [m[K#warning "Using deprecated NumPy API, disable it with " "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[124.209s]    17 | #[01;35m[Kwarning[m[K "Using deprecated NumPy API, disable it with " \
+[124.210s]       |  [01;35m[K^~~~~~~[m[K
+[185.350s] [39mINFO: aarch64-linux-gnu-gcc -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -g -fwrapv -O2 /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/temp.linux-aarch64-cpython-310/madmom/ml/nn/layers.o -L/usr/lib/aarch64-linux-gnu -o /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/ml/nn/layers.cpython-310-aarch64-linux-gnu.so[0m
+[185.541s] [39mrunning build_scripts[0m
+[185.543s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10[0m
+[185.546s] [39mcopying and adjusting bin/DCChordRecognition -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10[0m
+[185.547s] [39mcopying and adjusting bin/TCNBeatTracker -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10[0m
+[185.549s] [39mcopying and adjusting bin/BeatTracker -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10[0m
+[185.551s] [39mcopying and adjusting bin/CRFBeatDetector -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10[0m
+[185.552s] [39mcopying and adjusting bin/MMBeatTracker -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10[0m
+[185.554s] [39mcopying and adjusting bin/DBNDownBeatTracker -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10[0m
+[185.556s] [39mcopying and adjusting bin/SpectralOnsetDetection -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10[0m
+[185.558s] [39mcopying and adjusting bin/LogFiltSpecFlux -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10[0m
+[185.560s] [39mcopying and adjusting bin/PickleProcessor -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10[0m
+[185.562s] [39mcopying and adjusting bin/GMMPatternTracker -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10[0m
+[185.564s] [39mcopying and adjusting bin/KeyRecognition -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10[0m
+[185.565s] [39mcopying and adjusting bin/OnsetDetector -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10[0m
+[185.567s] [39mcopying and adjusting bin/TempoDetector -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10[0m
+[185.569s] [39mcopying and adjusting bin/OnsetDetectorLL -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10[0m
+[185.570s] [39mcopying and adjusting bin/evaluate -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10[0m
+[185.573s] [39mcopying and adjusting bin/CNNOnsetDetector -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10[0m
+[185.574s] [39mcopying and adjusting bin/DBNBeatTracker -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10[0m
+[185.576s] [39mcopying and adjusting bin/TCNTempoDetector -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10[0m
+[185.578s] [39mcopying and adjusting bin/PianoTranscriptor -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10[0m
+[185.580s] [39mcopying and adjusting bin/ComplexFlux -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10[0m
+[185.582s] [39mcopying and adjusting bin/CNNChordRecognition -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10[0m
+[185.583s] [39mcopying and adjusting bin/BarTracker -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10[0m
+[185.585s] [39mcopying and adjusting bin/SuperFlux -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10[0m
+[185.586s] [39mcopying and adjusting bin/BeatDetector -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10[0m
+[185.591s] [39mcopying and adjusting bin/SuperFluxNN -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10[0m
+[185.593s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/DCChordRecognition from 664 to 775[0m
+[185.594s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/TCNBeatTracker from 664 to 775[0m
+[185.596s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/BeatTracker from 664 to 775[0m
+[185.598s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/CRFBeatDetector from 664 to 775[0m
+[185.600s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/MMBeatTracker from 664 to 775[0m
+[185.601s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/DBNDownBeatTracker from 664 to 775[0m
+[185.603s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/SpectralOnsetDetection from 664 to 775[0m
+[185.604s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/LogFiltSpecFlux from 664 to 775[0m
+[185.605s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/PickleProcessor from 664 to 775[0m
+[185.605s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/GMMPatternTracker from 664 to 775[0m
+[185.606s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/KeyRecognition from 664 to 775[0m
+[185.606s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/OnsetDetector from 664 to 775[0m
+[185.607s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/TempoDetector from 664 to 775[0m
+[185.607s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/OnsetDetectorLL from 664 to 775[0m
+[185.608s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/evaluate from 664 to 775[0m
+[185.608s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/CNNOnsetDetector from 664 to 775[0m
+[185.609s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/DBNBeatTracker from 664 to 775[0m
+[185.609s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/TCNTempoDetector from 664 to 775[0m
+[185.610s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/PianoTranscriptor from 664 to 775[0m
+[185.610s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/ComplexFlux from 664 to 775[0m
+[185.611s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/CNNChordRecognition from 664 to 775[0m
+[185.611s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/BarTracker from 664 to 775[0m
+[185.611s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/SuperFlux from 664 to 775[0m
+[185.612s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/BeatDetector from 664 to 775[0m
+[185.612s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/SuperFluxNN from 664 to 775[0m
+[185.613s] [39mrunning install[0m
+[185.626s] [39mrunning install_lib[0m
+[185.755s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom[0m
+[185.755s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/processors.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom[0m
+[185.759s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/__init__.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom[0m
+[185.761s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/ml[0m
+[185.761s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/ml/gmm.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/ml[0m
+[185.763s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/ml/__init__.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/ml[0m
+[185.765s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/ml/hmm.cpython-310-aarch64-linux-gnu.so -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/ml[0m
+[185.777s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/ml/crf.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/ml[0m
+[185.779s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/ml/nn[0m
+[185.780s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/ml/nn/__init__.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/ml/nn[0m
+[185.782s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/ml/nn/layers.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/ml/nn[0m
+[185.786s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/ml/nn/activations.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/ml/nn[0m
+[185.788s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/ml/nn/layers.cpython-310-aarch64-linux-gnu.so -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/ml/nn[0m
+[185.821s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features[0m
+[185.822s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features/__init__.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features[0m
+[185.822s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features/downbeats.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features[0m
+[185.823s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features/key.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features[0m
+[185.823s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features/beats.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features[0m
+[185.824s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features/notes_hmm.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features[0m
+[185.824s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features/tempo.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features[0m
+[185.830s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features/beats_hmm.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features[0m
+[185.833s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features/beats_crf.cpython-310-aarch64-linux-gnu.so -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features[0m
+[185.841s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features/chords.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features[0m
+[185.843s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features/notes.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features[0m
+[185.846s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/features/onsets.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features[0m
+[185.849s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/utils[0m
+[185.850s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/utils/__init__.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/utils[0m
+[185.852s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/utils/midi.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/utils[0m
+[185.856s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/utils/stats.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/utils[0m
+[185.858s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/evaluation[0m
+[185.859s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/evaluation/__init__.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/evaluation[0m
+[185.861s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/evaluation/key.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/evaluation[0m
+[185.863s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/evaluation/beats.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/evaluation[0m
+[185.867s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/evaluation/tempo.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/evaluation[0m
+[185.870s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/evaluation/chords.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/evaluation[0m
+[185.872s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/evaluation/notes.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/evaluation[0m
+[185.874s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/evaluation/onsets.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/evaluation[0m
+[185.876s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/conftest.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom[0m
+[185.879s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models[0m
+[185.880s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/__init__.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models[0m
+[185.882s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/README.rst -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models[0m
+[185.884s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/chords[0m
+[185.885s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/chords/2016[0m
+[185.886s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/chords/2016/chords_cnncrf.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/chords/2016[0m
+[185.888s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/chords/2016/chords_cnnfeat.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/chords/2016[0m
+[185.994s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/chords/2016/chords_dccrf.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/chords/2016[0m
+[186.000s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/notes[0m
+[186.004s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/notes/2018[0m
+[186.005s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/notes/2018/notes_cnn_1.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/notes/2018[0m
+[186.070s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/notes/2018/notes_cnn_2.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/notes/2018[0m
+[186.139s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/notes/2019[0m
+[186.140s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/notes/2019/notes_cnn.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/notes/2019[0m
+[186.209s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/notes/2013[0m
+[186.218s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/notes/2013/notes_brnn.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/notes/2013[0m
+[186.243s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/chroma[0m
+[186.243s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/chroma/2016[0m
+[186.244s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/chroma/2016/chroma_dnn.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/chroma/2016[0m
+[186.302s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/key[0m
+[186.310s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/key/2018[0m
+[186.310s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/key/2018/key_cnn.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/key/2018[0m
+[186.384s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets[0m
+[186.385s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2014[0m
+[186.386s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2014/onsets_brnn_pp_6.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2014[0m
+[186.388s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2014/onsets_brnn_pp_8.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2014[0m
+[186.390s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2014/onsets_brnn_pp_1.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2014[0m
+[186.394s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2014/onsets_brnn_pp_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2014[0m
+[186.402s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2014/onsets_brnn_pp_3.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2014[0m
+[186.404s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2014/onsets_brnn_pp_2.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2014[0m
+[186.406s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2014/onsets_brnn_pp_5.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2014[0m
+[186.411s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2014/onsets_brnn_pp_7.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2014[0m
+[186.415s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2013[0m
+[186.417s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013/onsets_rnn_8.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2013[0m
+[186.428s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013/onsets_rnn_1.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2013[0m
+[186.436s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013/onsets_brnn_5.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2013[0m
+[186.441s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013/onsets_rnn_6.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2013[0m
+[186.444s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013/onsets_brnn_8.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2013[0m
+[186.449s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013/onsets_rnn_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2013[0m
+[186.452s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013/onsets_cnn.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2013[0m
+[186.484s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013/onsets_brnn_7.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2013[0m
+[186.490s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013/onsets_brnn_6.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2013[0m
+[186.496s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013/onsets_brnn_1.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2013[0m
+[186.505s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013/onsets_rnn_7.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2013[0m
+[186.517s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013/onsets_brnn_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2013[0m
+[186.529s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013/onsets_brnn_2.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2013[0m
+[186.534s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013/onsets_rnn_2.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2013[0m
+[186.537s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013/onsets_brnn_3.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2013[0m
+[186.542s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013/onsets_rnn_3.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2013[0m
+[186.545s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/onsets/2013/onsets_rnn_5.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/onsets/2013[0m
+[186.548s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats[0m
+[186.549s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats/2016[0m
+[186.550s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2016/beats_lstm_5.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats/2016[0m
+[186.556s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2016/beats_lstm_3.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats/2016[0m
+[186.562s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2016/beats_lstm_2.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats/2016[0m
+[186.568s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2016/beats_lstm_8.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats/2016[0m
+[186.573s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2016/beats_lstm_1.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats/2016[0m
+[186.579s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2016/beats_lstm_7.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats/2016[0m
+[186.585s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2016/beats_lstm_6.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats/2016[0m
+[186.593s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2016/beats_lstm_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats/2016[0m
+[186.604s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats/2015[0m
+[186.605s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2015/beats_blstm_2.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats/2015[0m
+[186.631s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2015/beats_blstm_3.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats/2015[0m
+[186.643s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2015/beats_blstm_8.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats/2015[0m
+[186.654s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2015/beats_blstm_6.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats/2015[0m
+[186.666s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2015/beats_blstm_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats/2015[0m
+[186.679s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2015/beats_blstm_1.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats/2015[0m
+[186.692s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2015/beats_blstm_5.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats/2015[0m
+[186.707s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/beats/2015/beats_blstm_7.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/beats/2015[0m
+[186.722s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats[0m
+[186.726s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016[0m
+[186.728s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_bgru_rhythmic_3.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016[0m
+[186.743s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_bgru_harmonic_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016[0m
+[186.751s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_bgru_harmonic_3.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016[0m
+[186.760s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_bgru_rhythmic_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016[0m
+[186.774s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_blstm_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016[0m
+[186.787s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_bgru_rhythmic_1.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016[0m
+[186.804s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_blstm_7.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016[0m
+[186.833s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_bgru_rhythmic_2.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016[0m
+[186.846s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_blstm_5.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016[0m
+[186.859s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_bgru_harmonic_1.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016[0m
+[186.867s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_blstm_2.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016[0m
+[186.880s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_blstm_6.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016[0m
+[186.894s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_bgru_harmonic_5.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016[0m
+[186.906s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_blstm_8.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016[0m
+[186.919s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_blstm_1.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016[0m
+[186.932s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_bgru_rhythmic_0.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016[0m
+[186.947s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_bgru_harmonic_0.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016[0m
+[186.955s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_bgru_harmonic_2.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016[0m
+[186.963s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_blstm_3.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016[0m
+[186.975s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/downbeats/2016/downbeats_bgru_rhythmic_5.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/downbeats/2016[0m
+[186.991s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/patterns[0m
+[186.994s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/patterns/2013[0m
+[186.995s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/patterns/2013/ballroom_pattern_4_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/patterns/2013[0m
+[186.999s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/patterns/2013/ballroom_pattern_3_4.pkl -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/patterns/2013[0m
+[187.012s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/models/LICENSE -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models[0m
+[187.014s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/audio[0m
+[187.015s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio/__init__.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/audio[0m
+[187.016s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio/stft.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/audio[0m
+[187.017s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio/signal.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/audio[0m
+[187.034s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio/spectrogram.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/audio[0m
+[187.038s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio/chroma.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/audio[0m
+[187.040s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio/comb_filters.cpython-310-aarch64-linux-gnu.so -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/audio[0m
+[187.045s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio/filters.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/audio[0m
+[187.048s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio/cepstrogram.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/audio[0m
+[187.050s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/audio/hpss.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/audio[0m
+[187.052s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/io[0m
+[187.053s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/io/__init__.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/io[0m
+[187.055s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/io/audio.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/io[0m
+[187.057s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/lib.linux-aarch64-cpython-310/madmom/io/midi.py -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/io[0m
+[187.062s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/processors.py to processors.cpython-310.pyc[0m
+[187.076s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/__init__.py to __init__.cpython-310.pyc[0m
+[187.079s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/ml/gmm.py to gmm.cpython-310.pyc[0m
+[187.085s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/ml/__init__.py to __init__.cpython-310.pyc[0m
+[187.087s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/ml/crf.py to crf.cpython-310.pyc[0m
+[187.091s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/ml/nn/__init__.py to __init__.cpython-310.pyc[0m
+[187.097s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/ml/nn/layers.py to layers.cpython-310.pyc[0m
+[187.122s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/ml/nn/activations.py to activations.cpython-310.pyc[0m
+[187.132s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features/__init__.py to __init__.cpython-310.pyc[0m
+[187.144s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features/downbeats.py to downbeats.cpython-310.pyc[0m
+[187.158s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features/key.py to key.cpython-310.pyc[0m
+[187.161s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features/beats.py to beats.cpython-310.pyc[0m
+[187.175s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features/notes_hmm.py to notes_hmm.cpython-310.pyc[0m
+[187.179s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features/tempo.py to tempo.cpython-310.pyc[0m
+[187.192s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features/beats_hmm.py to beats_hmm.cpython-310.pyc[0m
+[187.211s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features/chords.py to chords.cpython-310.pyc[0m
+[187.215s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features/notes.py to notes.cpython-310.pyc[0m
+[187.222s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/features/onsets.py to onsets.cpython-310.pyc[0m
+[187.237s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/utils/__init__.py to __init__.cpython-310.pyc[0m
+[187.250s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/utils/midi.py to midi.cpython-310.pyc[0m
+[187.277s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/utils/stats.py to stats.cpython-310.pyc[0m
+[187.279s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/evaluation/__init__.py to __init__.cpython-310.pyc[0m
+[187.294s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/evaluation/key.py to key.cpython-310.pyc[0m
+[187.299s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/evaluation/beats.py to beats.cpython-310.pyc[0m
+[187.321s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/evaluation/tempo.py to tempo.cpython-310.pyc[0m
+[187.327s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/evaluation/chords.py to chords.cpython-310.pyc[0m
+[187.345s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/evaluation/notes.py to notes.cpython-310.pyc[0m
+[187.354s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/evaluation/onsets.py to onsets.cpython-310.pyc[0m
+[187.362s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/conftest.py to conftest.cpython-310.pyc[0m
+[187.364s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/models/__init__.py to __init__.cpython-310.pyc[0m
+[187.367s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/audio/__init__.py to __init__.cpython-310.pyc[0m
+[187.369s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/audio/stft.py to stft.cpython-310.pyc[0m
+[187.377s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/audio/signal.py to signal.cpython-310.pyc[0m
+[187.394s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/audio/spectrogram.py to spectrogram.cpython-310.pyc[0m
+[187.419s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/audio/chroma.py to chroma.cpython-310.pyc[0m
+[187.427s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/audio/filters.py to filters.cpython-310.pyc[0m
+[187.453s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/audio/cepstrogram.py to cepstrogram.cpython-310.pyc[0m
+[187.458s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/audio/hpss.py to hpss.cpython-310.pyc[0m
+[187.461s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/io/__init__.py to __init__.cpython-310.pyc[0m
+[187.468s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/io/audio.py to audio.cpython-310.pyc[0m
+[187.479s] [39mbyte-compiling /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom/io/midi.py to midi.cpython-310.pyc[0m
+[187.487s] [39mrunning install_egg_info[0m
+[187.620s] [39mCopying ../build/madmom/madmom.egg-info to /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages/madmom-0.17.dev0-py3.10.egg-info[0m
+[187.631s] [39mrunning install_scripts[0m
+[187.750s] [39mcreating /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin[0m
+[187.752s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/DCChordRecognition -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin[0m
+[187.752s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/TCNBeatTracker -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin[0m
+[187.754s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/BeatTracker -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin[0m
+[187.755s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/CRFBeatDetector -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin[0m
+[187.755s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/MMBeatTracker -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin[0m
+[187.757s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/DBNDownBeatTracker -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin[0m
+[187.758s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/SpectralOnsetDetection -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin[0m
+[187.759s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/LogFiltSpecFlux -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin[0m
+[187.760s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/PickleProcessor -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin[0m
+[187.761s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/GMMPatternTracker -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin[0m
+[187.762s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/KeyRecognition -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin[0m
+[187.763s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/OnsetDetector -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin[0m
+[187.764s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/TempoDetector -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin[0m
+[187.767s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/OnsetDetectorLL -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin[0m
+[187.767s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/evaluate -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin[0m
+[187.768s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/CNNOnsetDetector -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin[0m
+[187.768s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/DBNBeatTracker -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin[0m
+[187.769s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/TCNTempoDetector -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin[0m
+[187.770s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/PianoTranscriptor -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin[0m
+[187.770s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/ComplexFlux -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin[0m
+[187.770s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/CNNChordRecognition -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin[0m
+[187.771s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/BarTracker -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin[0m
+[187.772s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/SuperFlux -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin[0m
+[187.773s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/BeatDetector -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin[0m
+[187.774s] [39mcopying /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build/scripts-3.10/SuperFluxNN -> /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin[0m
+[187.776s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/DCChordRecognition to 775[0m
+[187.777s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/TCNBeatTracker to 775[0m
+[187.778s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/BeatTracker to 775[0m
+[187.778s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/CRFBeatDetector to 775[0m
+[187.779s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/MMBeatTracker to 775[0m
+[187.779s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/DBNDownBeatTracker to 775[0m
+[187.780s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/SpectralOnsetDetection to 775[0m
+[187.780s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/LogFiltSpecFlux to 775[0m
+[187.780s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/PickleProcessor to 775[0m
+[187.781s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/GMMPatternTracker to 775[0m
+[187.781s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/KeyRecognition to 775[0m
+[187.781s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/OnsetDetector to 775[0m
+[187.782s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/TempoDetector to 775[0m
+[187.782s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/OnsetDetectorLL to 775[0m
+[187.783s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/evaluate to 775[0m
+[187.783s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/CNNOnsetDetector to 775[0m
+[187.784s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/DBNBeatTracker to 775[0m
+[187.784s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/TCNTempoDetector to 775[0m
+[187.785s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/PianoTranscriptor to 775[0m
+[187.785s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/ComplexFlux to 775[0m
+[187.785s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/CNNChordRecognition to 775[0m
+[187.786s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/BarTracker to 775[0m
+[187.786s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/SuperFlux to 775[0m
+[187.787s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/BeatDetector to 775[0m
+[187.787s] [39mchanging mode of /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin/SuperFluxNN to 775[0m
+[187.789s] [39mwriting list of installed files to '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/install.log'[0m
+[188.622s] Invoked command in '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/madmom' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/prefix_override:/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/madmom build --build-base /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build install --record /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/install.log --single-version-externally-managed

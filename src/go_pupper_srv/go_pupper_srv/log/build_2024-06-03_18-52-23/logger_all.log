@@ -1,0 +1,133 @@
+[0.813s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.814s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffbc411de0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffbc3c8610>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffbc3c8610>>)
+[1.056s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.057s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.057s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.057s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.057s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.058s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.058s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.154s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[1.155s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'ignore'
+[1.155s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'ignore_ament_install'
+[1.156s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['colcon_pkg']
+[1.156s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'colcon_pkg'
+[1.156s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['colcon_meta']
+[1.156s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'colcon_meta'
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['ros']
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'ros'
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['cmake', 'python']
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'cmake'
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'python'
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['python_setup_py']
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'python_setup_py'
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.160s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.160s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.161s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.161s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.162s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.163s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.163s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.163s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(madmom) by extensions ['ignore', 'ignore_ament_install']
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(madmom) by extension 'ignore'
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(madmom) by extension 'ignore_ament_install'
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(madmom) by extensions ['colcon_pkg']
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(madmom) by extension 'colcon_pkg'
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(madmom) by extensions ['colcon_meta']
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(madmom) by extension 'colcon_meta'
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(madmom) by extensions ['ros']
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(madmom) by extension 'ros'
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(madmom) by extensions ['cmake', 'python']
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(madmom) by extension 'cmake'
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(madmom) by extension 'python'
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(madmom) by extensions ['python_setup_py']
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(madmom) by extension 'python_setup_py'
+[7.588s] DEBUG:colcon.colcon_core.package_identification:Package 'madmom' with type 'python' and name 'madmom'
+[7.588s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[7.588s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[7.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[7.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[7.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[7.683s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[7.683s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[7.701s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 17 installed packages in /home/ubuntu/ros2_ws/install
+[7.712s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 275 installed packages in /opt/ros/humble
+[7.720s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[7.920s] Level 5:colcon.colcon_core.verb:set package 'madmom' build argument 'cmake_args' from command line to 'None'
+[7.921s] Level 5:colcon.colcon_core.verb:set package 'madmom' build argument 'cmake_target' from command line to 'None'
+[7.921s] Level 5:colcon.colcon_core.verb:set package 'madmom' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.921s] Level 5:colcon.colcon_core.verb:set package 'madmom' build argument 'cmake_clean_cache' from command line to 'False'
+[7.921s] Level 5:colcon.colcon_core.verb:set package 'madmom' build argument 'cmake_clean_first' from command line to 'False'
+[7.921s] Level 5:colcon.colcon_core.verb:set package 'madmom' build argument 'cmake_force_configure' from command line to 'False'
+[7.921s] Level 5:colcon.colcon_core.verb:set package 'madmom' build argument 'ament_cmake_args' from command line to 'None'
+[7.921s] Level 5:colcon.colcon_core.verb:set package 'madmom' build argument 'catkin_cmake_args' from command line to 'None'
+[7.922s] Level 5:colcon.colcon_core.verb:set package 'madmom' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.922s] DEBUG:colcon.colcon_core.verb:Building package 'madmom' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/madmom', 'symlink_install': False, 'test_result_base': None}
+[7.922s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[7.926s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[7.927s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/madmom'
+[7.939s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[7.940s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.941s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[23.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/madmom': PYTHONPATH=/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/prefix_override:/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/madmom build --build-base /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build install --record /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/install.log --single-version-externally-managed
+[196.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/madmom' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/prefix_override:/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/madmom build --build-base /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/build install --record /home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/build/madmom/install.log --single-version-externally-managed
+[196.581s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom' for CMake module files
+[196.583s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom' for CMake config files
+[196.595s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib'
+[196.596s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin'
+[196.597s] Level 1:colcon.colcon_core.shell:create_environment_hook('madmom', 'path')
+[196.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/share/madmom/hook/path.ps1'
+[196.601s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/share/madmom/hook/path.dsv'
+[196.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/share/madmom/hook/path.sh'
+[196.607s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/pkgconfig/madmom.pc'
+[196.608s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/lib/python3.10/site-packages'
+[196.608s] Level 1:colcon.colcon_core.shell:create_environment_hook('madmom', 'pythonpath')
+[196.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/share/madmom/hook/pythonpath.ps1'
+[196.611s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/share/madmom/hook/pythonpath.dsv'
+[196.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/share/madmom/hook/pythonpath.sh'
+[196.615s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/bin'
+[196.616s] Level 1:colcon.colcon_core.shell:create_environment_hook('madmom', 'pythonscriptspath')
+[196.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/share/madmom/hook/pythonscriptspath.ps1'
+[196.618s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/share/madmom/hook/pythonscriptspath.dsv'
+[196.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/share/madmom/hook/pythonscriptspath.sh'
+[196.623s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(madmom)
+[196.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/share/madmom/package.ps1'
+[196.629s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/share/madmom/package.dsv'
+[196.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/share/madmom/package.sh'
+[196.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/share/madmom/package.bash'
+[196.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/share/madmom/package.zsh'
+[196.650s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/madmom/share/colcon-core/packages/madmom)
+[196.655s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[196.656s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[196.656s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[196.657s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[196.724s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[196.725s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[196.725s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[196.834s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[196.850s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/local_setup.ps1'
+[196.864s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/_local_setup_util_ps1.py'
+[196.878s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/setup.ps1'
+[196.909s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/local_setup.sh'
+[196.916s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/_local_setup_util_sh.py'
+[196.919s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/setup.sh'
+[196.953s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/local_setup.bash'
+[196.957s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/setup.bash'
+[196.975s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/local_setup.zsh'
+[196.979s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/src/go_pupper_srv/go_pupper_srv/install/setup.zsh'

@@ -1,0 +1,34 @@
+[7.354s] Invoking command in '/home/ubuntu/ros2_ws/src/go_pupper_srv': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/src/install/pupper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/src/install/pupper_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/src/install/pupper_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/src/build/go_pupper_srv/prefix_override:/home/ubuntu/ros2_ws/src/install/go_pupper_srv/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/install/pupper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/go_pupper_srv build --build-base /home/ubuntu/ros2_ws/src/build/go_pupper_srv/build install --record /home/ubuntu/ros2_ws/src/build/go_pupper_srv/install.log --single-version-externally-managed install_data
+[9.587s] running egg_info
+[9.724s] writing ../build/go_pupper_srv/go_pupper_srv.egg-info/PKG-INFO
+[9.730s] writing dependency_links to ../build/go_pupper_srv/go_pupper_srv.egg-info/dependency_links.txt
+[9.732s] writing entry points to ../build/go_pupper_srv/go_pupper_srv.egg-info/entry_points.txt
+[9.734s] writing requirements to ../build/go_pupper_srv/go_pupper_srv.egg-info/requires.txt
+[9.742s] writing top-level names to ../build/go_pupper_srv/go_pupper_srv.egg-info/top_level.txt
+[10.015s] reading manifest file '../build/go_pupper_srv/go_pupper_srv.egg-info/SOURCES.txt'
+[10.019s] adding license file 'LICENSE'
+[10.025s] writing manifest file '../build/go_pupper_srv/go_pupper_srv.egg-info/SOURCES.txt'
+[10.026s] running build
+[10.027s] running build_py
+[10.028s] copying go_pupper_srv/task2.py -> /home/ubuntu/ros2_ws/src/build/go_pupper_srv/build/lib/go_pupper_srv
+[10.030s] copying go_pupper_srv/task3.py -> /home/ubuntu/ros2_ws/src/build/go_pupper_srv/build/lib/go_pupper_srv
+[10.031s] copying go_pupper_srv/task1.py -> /home/ubuntu/ros2_ws/src/build/go_pupper_srv/build/lib/go_pupper_srv
+[10.036s] copying go_pupper_srv/audio.py -> /home/ubuntu/ros2_ws/src/build/go_pupper_srv/build/lib/go_pupper_srv
+[10.037s] copying go_pupper_srv/client_go_pupper.py -> /home/ubuntu/ros2_ws/src/build/go_pupper_srv/build/lib/go_pupper_srv
+[10.046s] running install
+[10.079s] running install_lib
+[10.204s] byte-compiling /home/ubuntu/ros2_ws/src/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv/task2.py to task2.cpython-310.pyc
+[10.207s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (task2.py, line 153)
+[10.209s] running install_data
+[10.209s] running install_egg_info
+[10.334s] removing '/home/ubuntu/ros2_ws/src/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv-0.0.0-py3.10.egg-info' (and everything under it)
+[10.337s] Copying ../build/go_pupper_srv/go_pupper_srv.egg-info to /home/ubuntu/ros2_ws/src/install/go_pupper_srv/lib/python3.10/site-packages/go_pupper_srv-0.0.0-py3.10.egg-info
+[10.353s] running install_scripts
+[11.487s] Installing audio script to /home/ubuntu/ros2_ws/src/install/go_pupper_srv/lib/go_pupper_srv
+[11.489s] Installing client script to /home/ubuntu/ros2_ws/src/install/go_pupper_srv/lib/go_pupper_srv
+[11.491s] Installing salsa script to /home/ubuntu/ros2_ws/src/install/go_pupper_srv/lib/go_pupper_srv
+[11.492s] Installing service script to /home/ubuntu/ros2_ws/src/install/go_pupper_srv/lib/go_pupper_srv
+[11.494s] Installing task1 script to /home/ubuntu/ros2_ws/src/install/go_pupper_srv/lib/go_pupper_srv
+[11.496s] Installing task2 script to /home/ubuntu/ros2_ws/src/install/go_pupper_srv/lib/go_pupper_srv
+[11.500s] writing list of installed files to '/home/ubuntu/ros2_ws/src/build/go_pupper_srv/install.log'
+[11.694s] Invoked command in '/home/ubuntu/ros2_ws/src/go_pupper_srv' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/src/install/pupper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/src/install/pupper_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/src/install/pupper_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/src/build/go_pupper_srv/prefix_override:/home/ubuntu/ros2_ws/src/install/go_pupper_srv/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/install/pupper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/go_pupper_srv build --build-base /home/ubuntu/ros2_ws/src/build/go_pupper_srv/build install --record /home/ubuntu/ros2_ws/src/build/go_pupper_srv/install.log --single-version-externally-managed install_data
