@@ -133,7 +133,7 @@ def main(args=None):
         if not touchValue_Back:
             display_sting += 'move_backward'
             sequence.append('move_backward')
-             disp.show_image(backEyeLoc)
+            disp.show_image(backEyeLoc)
     	    data,rate=sf.read(backSound)
     	    sd.play(data,rate)
         if not touchValue_Right:
