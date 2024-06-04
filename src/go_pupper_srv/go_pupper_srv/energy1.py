@@ -10,11 +10,11 @@ def classify_beat(segment):
     # Placeholder for real classification logic
     energy = np.sum(segment ** 2)
     print(energy)
-    if energy > 7.5:
+    if energy > 60:
         return "kick"
-    elif energy > 4.5:
+    elif energy > 40:
         return "snare"
-    elif energy > 2:
+    elif energy > 20:
         return "clap"
     else:
         return "hi-hat"
@@ -33,9 +33,6 @@ onset_probs = proc(audio_path)
 sr = 22050  # Sample rate of your audio
 frame_rate = 100  # Frames per second used by RNNOnsetProcessor
 
-# Step 2: Convert frame indices to onset times
-# onset_frames = np.arange(len(onset_probs))  # Frame indices
-# onset_times = onset_frames / frame_rate  # Convert frame indices to time in seconds
 threshold = 0.35  # Define an appropriate threshold
 onset_frames = np.where(onset_probs > threshold)[0]  # Frames with high probability
 onset_times = onset_frames / frame_rate 
@@ -43,45 +40,33 @@ onset_times = onset_frames / frame_rate
 # Step 3: Extract and classify segments
 y, sr = librosa.load(audio_path, sr=sr)
 beat_types = []
-window_size = int(0.05 * sr)  # 50ms window
+window_size = int(0.5 * sr)  # 100ms window
 
 onset_frames_librosa = librosa.time_to_frames(onset_times, sr=sr,hop_length=int(sr/frame_rate))
 
+onset1=0
+increment=0.5
+sequence=[]
 for onset in onset_times:
-    start_sample = max(int(onset * sr) - window_size // 2, 0)
-    end_sample = min(int(onset * sr) + window_size // 2, len(y))
-    segment = y[start_sample:end_sample]
-    
-    print(start_sample,end_sample)
-    # Classify the segment
-    beat_type = classify_beat(segment)
-    beat_types.append((onset, beat_type))
-
-# for frame in onset_frames_librosa:
-#     # Calculate the start and end time of the segment
-#     start_time = librosa.frames_to_time(frame, sr=sr, hop_length=int(sr/frame_rate))
-#     end_time = onset_times[frame + 1] if frame + 1 < len(onset_times) else len(y) / sr
-
-#     # Calculate the duration of the sound following the onset
-#     duration = end_time - start_time
-
-#     # Adjust window size based on duration
-#     window_size = int(duration * sr)  # Use the duration to set window size
-
-#     # Extract the segment from the audio
-#     start_sample = max(frame * int(sr / frame_rate) - window_size // 2, 0)
-#     end_sample = min(frame * int(sr / frame_rate) + window_size // 2, len(y))
-#     segment = y[start_sample:end_sample]
-
-#     # Classify the segment (assuming classify_beat is defined elsewhere)
-#     beat_type = classify_beat(segment)
-#     print((librosa.frames_to_time(frame, sr=sr, hop_length=int(sr/frame_rate))))
-#     beat_types.append((librosa.frames_to_time(frame, sr=sr, hop_length=int(sr/frame_rate)), beat_type))
-    
-# Print detected onsets and classified beats
-# print('Detected onsets and classified beats:')
-# for onset, beat_type in beat_types:
-#     print(f'Time: {onset:.2f}s, Type: {beat_type}')
+    # print(onset,"onset")
+    if onset>onset1:
+        start_sample = max(int(onset * sr) - window_size // 2, 0)
+        end_sample = min(int(onset * sr) + window_size // 2, len(y))
+        segment = y[start_sample:end_sample]
+        
+        print(start_sample/sr,end_sample/sr)
+        # Classify the segment
+        beat_type = classify_beat(segment)
+        if beat_type=='kick':
+            sequence.append('move_forward')
+        elif beat_type=='snare':
+            sequence.append('right')
+        elif beat_type=='clap':
+            sequence.append('left')
+        elif beat_type=='hi-hat':
+            sequence.append('move_backward')
+        beat_types.append((onset, beat_type))
+        onset1=onset+increment
 
 # Plot waveform and onsets with classified beat types
 plt.figure(figsize=(14, 5))
@@ -96,6 +81,3 @@ legend_labels = ['Kick', 'Snare', 'Clap', 'Hi-hat']
 legend_handles = [plt.Line2D([0], [0], color=color, linewidth=3, linestyle='--', label=label) for color, label in zip(['r', 'g', 'y', 'b'], legend_labels)]
 plt.legend(handles=legend_handles, labels=legend_labels)
 plt.show()
-
-
-
