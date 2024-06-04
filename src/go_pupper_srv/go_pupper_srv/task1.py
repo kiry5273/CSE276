@@ -30,6 +30,7 @@ import time
 import RPi.GPIO as GPIO
 import sounddevice as sd
 import soundfile as sf
+import random
 
 
 from MangDang.mini_pupper.display import Display, BehaviorState
@@ -94,79 +95,106 @@ class MinimalClientAsync(Node):
 # Purpose: "Constructs a MinimalClientAsync object, sends the request using 
 #           the passed-in command-line arguments, and logs the results."
 #####
+def generate_sequence():
+    moves = ["move_left", "move_right", "move_forward", "move_backward"]
+    random_int = random.choice([0, 1, 2, 3])
+    sequence = []
+    for i in range(16):
+        sequence.append(moves[random_int])
+    return sequence
+
+def move_pupper(move):
+    minimal_client = MinimalClientAsync()
+    
+    disp = Display()
+    leftEyeLoc = "/home/ubuntu/ros2_ws/img/leftRZ.png"
+    frontEyeLoc = "/home/ubuntu/ros2_ws/img/frontRZ.png"
+    backEyeLoc = "/home/ubuntu/ros2_ws/img/backwardRZ.png"
+    rightEyeLoc = "/home/ubuntu/ros2_ws/img/rightRZ.png"
+
+    leftSound = "/home/ubuntu/ros2_ws/sound/left.wav"
+    rightSound = "/home/ubuntu/ros2_ws/sound/right.wav"
+    frontSound = "/home/ubuntu/ros2_ws/sound/forward.wav"
+    backSound = "/home/ubuntu/ros2_ws/sound/backward.wav"
+
+    if move == 'move_forward':
+        disp.show_image(frontEyeLoc)
+        data,rate=sf.read(frontSound)
+        sd.play(data,rate)
+    elif move == 'move_backward':
+        disp.show_image(backEyeLoc)
+        data,rate=sf.read(backSound)
+        sd.play(data,rate)
+    elif move == 'move_left':
+        disp.show_image(leftEyeLoc)
+        data,rate=sf.read(leftSound)
+        sd.play(data,rate)
+    elif move == 'move_right':
+        disp.show_image(rightEyeLoc)
+        data,rate=sf.read(rightSound)
+        sd.play(data,rate)
+    minimal_client.send_move_request(move)
+    print(move)
+
+
 def main(args=None):
     rclpy.init(args=args)
     minimal_client = MinimalClientAsync()
-    sequence = []
-
-    # For testing - we're getting a move command string from the command line
-    #cmd = sys.argv[1]
-    
-    # debug - comment in/our as needed
-    #print("In client, got this command: %s" % cmd)
 
     # Call send move request (which sends cmd to server)
     # minimal_client.send_move_request(cmd)
     disp = Display()
     leftEyeLoc = "/home/ubuntu/ros2_ws/img/leftRZ.png"
-    rightEyeLoc = "/home/ubuntu/ros2_ws/img/rightRZ.png"
     frontEyeLoc = "/home/ubuntu/ros2_ws/img/frontRZ.png"
     backEyeLoc = "/home/ubuntu/ros2_ws/img/backwardRZ.png"
     idleEyeLoc = "/home/ubuntu/ros2_ws/img/idleRZ.png"
-    leftSound = "/home/ubuntu/ros2_ws/sound/left.wav"
-    rightSound = "/home/ubuntu/ros2_ws/sound/right.wav"
-    frontSound = "/home/ubuntu/ros2_ws/sound/forward.wav"
-    backSound = "/home/ubuntu/ros2_ws/sound/backward.wav"
-    while True:
-        touchValue_Front = GPIO.input(touchPin_Front)
-        touchValue_Back  = GPIO.input(touchPin_Back)
-        touchValue_Left  = GPIO.input(touchPin_Left)
-        touchValue_Right = GPIO.input(touchPin_Right)
-        
-        display_sting = ''
-        if not touchValue_Front:
-            display_sting += 'move_forward'
-            sequence.append('move_forward')
-        if not touchValue_Back:
-            display_sting += 'move_backward'
-            sequence.append('move_backward')
-        if not touchValue_Right:
-            display_sting += 'move_right'
-            sequence.append('move_right')
-        if not touchValue_Left:
-            display_sting += 'move_left'
-            sequence.append('move_left')
-        if display_sting == '':
-            disp.show_image(idleEyeLoc)
-       
-        
-        print(display_sting)
-        if len(sequence)>16:
-        	break
+
+    sequence = generate_sequence()
+    engine = pyttsx3.init()
+
+    
+    text = "follow me for the first four moves."
+    engine.say(text)
+    engine.runAndWait()
+    # show the first 4 moves
+    for i in range(0, 4):
+        move_pupper(sequence[i])
         time.sleep(0.8)
-        
-    print("The sequence is: ")
-    print(sequence)
-    for movement in sequence:
-    	if movement == 'move_forward':
-    	    disp.show_image(frontEyeLoc)
-            data,rate=sf.read(frontSound)
-            sd.play(data,rate)
-    	elif movement == 'move_backward':
-    	    disp.show_image(backEyeLoc)
-    	    data,rate=sf.read(backSound)
-    	    sd.play(data,rate)
-    	elif movement == 'move_left':
-    	    disp.show_image(leftEyeLoc)
-    	    data,rate=sf.read(leftSound)
-    	    sd.play(data,rate)
-    	elif movement == 'move_right':
-    	    disp.show_image(rightEyeLoc)
-    	    data,rate=sf.read(rightSound)
-    	    sd.play(data,rate)
-    	minimal_client.send_move_request(movement)
-    	print(movement)
-    	time.sleep(1.0)
+    
+    # show the second 4 moves
+    for i in range(4, 8):
+        move_pupper(sequence[i])
+        time.sleep(0.8)
+
+    # show the first 8 moves
+    for i in range(0, 8):
+        move_pupper(sequence[i])
+        time.sleep(0.8)
+
+    # show the third 4 moves
+    for i in range(8, 12):
+        move_pupper(sequence[i])
+        time.sleep(0.8)
+
+    # show the fourth 4 moves
+    for i in range(12, 16):
+        move_pupper(sequence[i])
+        time.sleep(0.8)
+    
+    # show the second 8 moves
+    for i in range(8, 16):
+        move_pupper(sequence[i])
+        time.sleep(0.8)
+
+    # show all 16 moves
+    for i in range(16):
+        move_pupper(sequence[i])
+        time.sleep(0.8)
+
+    
+
+
+   
 
     # This spins up a client node, checks if it's done, throws an exception of there's an issue
     # (Probably a bit redundant with other code and can be simplified. But right now it works, so ¯\_(ツ)_/¯)
