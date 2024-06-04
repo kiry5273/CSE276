@@ -31,6 +31,7 @@ import RPi.GPIO as GPIO
 import sounddevice as sd
 import soundfile as sf
 import random
+import pyttsx3
 
 
 from MangDang.mini_pupper.display import Display, BehaviorState
